@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "About ArtLoka",
-  description: "Learn how ArtLoka bridges Indian heritage craftsmanship with clean, contemporary design for homes around the world."
-};
+  description: "Learn how ArtLoka bridges Indian heritage craftsmanship with clean contemporary design for homes, designers and gift buyers around the world.",
+  path: "/about"
+});
 
 export default function AboutPage() {
   return (

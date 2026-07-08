@@ -1,7 +1,15 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { ProductCard } from "@/components/product-card";
 import { getAllProducts, getFeaturedProducts } from "@/lib/catalog/load";
+import { absoluteUrl, organizationJsonLd, pageMetadata, websiteJsonLd } from "@/lib/seo";
+
+export const metadata: Metadata = pageMetadata({
+  title: "Handcrafted Indian Lighting and Decor for Modern Homes",
+  description: "Discover ArtLoka artisan-made lighting and decor, designed and made in India for thoughtful homes, designers and gift buyers in the USA, UK and worldwide.",
+  path: "/"
+});
 
 export default function HomePage() {
   const featured = getFeaturedProducts(6);
@@ -9,6 +17,29 @@ export default function HomePage() {
   const hero = products.find((product) => product.sku === "ALK-028") ?? products[0];
   const rooms = [...new Set(products.flatMap((product) => product.rooms))].slice(0, 6);
   const materials = [...new Set(products.flatMap((product) => product.materials))].slice(0, 5);
+
+  const homeJsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      organizationJsonLd(),
+      websiteJsonLd(),
+      {
+        "@type": "CollectionPage",
+        "@id": absoluteUrl("/#home"),
+        url: absoluteUrl("/"),
+        name: "ArtLoka handcrafted lighting and decor",
+        description: "Product-led discovery for artisan-made lighting and decor with Etsy purchase routing and structured enquiries.",
+        mainEntity: featured.map((product) => ({
+          "@type": "Product",
+          name: product.title,
+          sku: product.sku,
+          url: absoluteUrl(`/shop/${product.slug}`),
+          image: absoluteUrl(product.heroImage),
+          brand: { "@type": "Brand", name: "ArtLoka" }
+        }))
+      }
+    ]
+  };
 
   return (
     <>
@@ -94,6 +125,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }} />
     </>
   );
 }

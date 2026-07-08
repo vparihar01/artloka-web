@@ -33,7 +33,8 @@
 Use different values for Preview and Production where appropriate, especially:
 - `CATALOG_MODE`
 - `NEXT_PUBLIC_SITE_URL`
-- `ENQUIRY_TO_EMAIL`
+- `NEXT_PUBLIC_GA_MEASUREMENT_ID`
+- `FORMSPREE_ENQUIRY_ENDPOINT`
 - analytics identifiers
 - deploy hooks
 
@@ -42,4 +43,5 @@ Use different values for Preview and Production where appropriate, especially:
 - Configure DNS.
 - Verify HTTPS and canonical URLs.
 - Submit the sitemap to Search Console.
-- Test Etsy links and enquiries from the live domain.
+- Confirm `favicon.ico`, `favicon-48x48.png`, `icon.png`, `apple-icon.png`, `site.webmanifest` and `llms.txt` resolve on the production domain.
+- Test Etsy links and Formspree enquiries from the live domain.

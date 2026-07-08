@@ -1,0 +1,30 @@
+# ArtLoka
+
+ArtLoka is a premium product-discovery website for handcrafted lighting and decor designed and made in India for contemporary homes, designers, hospitality projects and gifting customers in the USA, UK and worldwide.
+
+ArtLoka does not operate an on-site cart or checkout. Standard purchases continue through the official Etsy listing linked from each product page. Bulk, custom, trade, hospitality and gifting requirements use structured enquiry forms.
+
+## Core Pages
+
+- Homepage: /
+- Full catalogue: /shop
+- Craftsmanship: /craftsmanship
+- About ArtLoka: /about
+- Trade, hospitality and bulk gifting enquiries: /trade
+- Contact and custom enquiries: /contact
+
+## Product Discovery
+
+The catalogue is organized primarily by product type, with rooms, styles and materials as secondary discovery paths. Current public catalogue coverage focuses on handcrafted lighting, including alabaster and brass wall sconces with product specifications, dimensions, finish options, room context and Etsy purchase links.
+
+## Brand Position
+
+Heritage Craftsmanship. Styled for Modern Living.
+
+## Content Boundaries
+
+Use only visible product information from public pages. Do not infer live inventory, shipping timelines, certifications, discounts, reviews, materials or electrical specifications beyond the stated product details. Etsy remains the final source for checkout, current price, taxes, shipping and listing policies.
+
+## Sitemap
+
+- /sitemap.xml

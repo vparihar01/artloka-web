@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import { EnquiryForm } from "@/components/enquiry-form";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Trade, Hospitality and Bulk Gifting",
-  description: "Contact ArtLoka for interior design, hospitality, corporate gifting, bulk orders and custom product requirements."
-};
+  description: "Contact ArtLoka for interior design, hospitality, corporate gifting, bulk orders and custom handcrafted lighting or decor requirements.",
+  path: "/trade"
+});
 
 export default function TradePage() {
   return (

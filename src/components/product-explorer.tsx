@@ -5,8 +5,8 @@ import { filterProducts, uniqueValues } from "@/lib/catalog/filters";
 import type { Product } from "@/lib/catalog/schema";
 import { ProductCard } from "./product-card";
 
-export function ProductExplorer({ products }: { products: Product[] }) {
-  const [query, setQuery] = useState("");
+export function ProductExplorer({ products, initialQuery = "" }: { products: Product[]; initialQuery?: string }) {
+  const [query, setQuery] = useState(initialQuery);
   const [category, setCategory] = useState("");
   const [room, setRoom] = useState("");
   const [style, setStyle] = useState("");

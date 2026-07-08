@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Craftsmanship",
-  description: "Discover ArtLoka's approach to materials, hand-finishing, artisan production and quality review."
-};
+export const metadata: Metadata = pageMetadata({
+  title: "Indian Craftsmanship and Materials",
+  description: "Discover ArtLoka's approach to Indian craftsmanship, material selection, hand-finishing, artisan production and careful product specification review.",
+  path: "/craftsmanship"
+});
 
 export default function CraftsmanshipPage() {
   const steps = [

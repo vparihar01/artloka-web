@@ -3,23 +3,65 @@ import Script from "next/script";
 import "./globals.css";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
-
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
-const gaId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+import { absoluteUrl, siteConfig } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
+  metadataBase: new URL(siteConfig.url),
+  applicationName: "ArtLoka",
+  category: "home decor",
   title: {
     default: "ArtLoka | Heritage Craftsmanship. Styled for Modern Living.",
     template: "%s | ArtLoka"
   },
-  description: "Discover ArtLoka handcrafted lighting and décor, designed and made in India for thoughtful contemporary homes.",
+  description: siteConfig.description,
+  keywords: [
+    "ArtLoka",
+    "handcrafted lighting",
+    "Indian decor",
+    "alabaster wall sconce",
+    "brass wall light",
+    "artisan made home decor",
+    "luxury lighting USA",
+    "luxury lighting UK",
+    "Etsy handcrafted lighting",
+    "heritage craftsmanship"
+  ],
+  alternates: { canonical: "/" },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon-48x48.png", type: "image/png", sizes: "48x48" },
+      { url: "/icon.png", type: "image/png", sizes: "512x512" }
+    ],
+    apple: [{ url: "/apple-icon.png", sizes: "180x180", type: "image/png" }]
+  },
+  manifest: "/site.webmanifest",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    }
+  },
   openGraph: {
     type: "website",
     siteName: "ArtLoka",
     title: "ArtLoka | Heritage Craftsmanship. Styled for Modern Living.",
-    description: "Handcrafted lighting and décor for contemporary global homes.",
-    url: siteUrl
+    description: siteConfig.description,
+    url: siteConfig.url,
+    images: [{ url: absoluteUrl(siteConfig.socialImage), width: 1200, height: 630, alt: "ArtLoka handcrafted lighting and decor" }],
+    locale: "en_US",
+    alternateLocale: ["en_GB"]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ArtLoka | Heritage Craftsmanship. Styled for Modern Living.",
+    description: siteConfig.description,
+    images: [absoluteUrl(siteConfig.socialImage)]
   }
 };
 
@@ -27,17 +69,15 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en" data-scroll-behavior="smooth">
       <body>
-        {gaId ? (
-          <>
-            <Script src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`} strategy="afterInteractive" />
+        <>
+            <Script src={`https://www.googletagmanager.com/gtag/js?id=${siteConfig.gaId}`} strategy="afterInteractive" />
             <Script id="google-analytics" strategy="afterInteractive">{`
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', '${gaId}');
+              gtag('config', '${siteConfig.gaId}');
             `}</Script>
-          </>
-        ) : null}
+        </>
         <a href="#main-content" className="skip-link">Skip to content</a>
         <SiteHeader />
         <main id="main-content">{children}</main>

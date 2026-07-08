@@ -1,0 +1,21 @@
+{
+  "name": "ArtLoka",
+  "short_name": "ArtLoka",
+  "description": "Heritage Craftsmanship. Styled for Modern Living.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f1e8",
+  "theme_color": "#2b2520",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

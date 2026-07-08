@@ -46,11 +46,16 @@ Share the Drive file with the service-account email as Viewer. Never commit the 
 
 ## Enquiry forms
 Configure:
-- `RESEND_API_KEY`
-- `ENQUIRY_TO_EMAIL`
-- `ENQUIRY_FROM_EMAIL`
+- `FORMSPREE_ENQUIRY_ENDPOINT`
 
-Without these values, the form logs submissions only in local development and refuses silently unsafe production delivery.
+The default endpoint is `https://formspree.io/f/xdarvrqq`. Set the environment variable when using a different Formspree form for preview or production.
+
+## Analytics and SEO
+Configure:
+- `NEXT_PUBLIC_SITE_URL`
+- `NEXT_PUBLIC_GA_MEASUREMENT_ID`
+
+The default Google Analytics measurement ID is `G-KCB532YQ7Q`. Set `NEXT_PUBLIC_SITE_URL` to the final public domain before launch so canonical URLs, sitemap entries, structured data and LLM discovery files do not point at a preview URL.
 
 ## Deploy to Vercel
 1. Push the repository to GitHub.

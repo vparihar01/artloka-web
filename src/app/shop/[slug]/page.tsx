@@ -6,6 +6,7 @@ import { EtsyButton } from "@/components/etsy-button";
 import { ProductCard } from "@/components/product-card";
 import { getAllProducts, getProductBySlug } from "@/lib/catalog/load";
 import type { Product } from "@/lib/catalog/schema";
+import { absoluteUrl, organizationJsonLd } from "@/lib/seo";
 
 export function generateStaticParams() {
   return getAllProducts({ includeReview: true }).map((product) => ({ slug: product.slug }));
@@ -15,11 +16,26 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const product = getProductBySlug(slug);
   if (!product) return {};
+  const description = product.metaDescription ?? product.description.slice(0, 155);
   return {
     title: product.title,
-    description: product.metaDescription ?? product.description.slice(0, 155),
+    description,
     alternates: { canonical: `/shop/${product.slug}` },
-    openGraph: { title: product.title, description: product.metaDescription ?? product.description.slice(0, 155), images: [product.heroImage] }
+    openGraph: {
+      type: "website",
+      title: product.title,
+      description,
+      url: absoluteUrl(`/shop/${product.slug}`),
+      images: [{ url: absoluteUrl(product.heroImage), alt: product.heroImageAlt ?? product.title }],
+      locale: "en_US",
+      alternateLocale: ["en_GB"]
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: product.title,
+      description,
+      images: [absoluteUrl(product.heroImage)]
+    }
   };
 }
 
@@ -49,32 +65,40 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
   const productJsonLd = {
     "@context": "https://schema.org",
     "@graph": [
-      {
-        "@type": "Organization",
-        name: "ArtLoka",
-        url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"
-      },
+      organizationJsonLd(),
       {
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Shop", item: "/shop" },
-          { "@type": "ListItem", position: 2, name: product.primaryCategory, item: `/collections/${product.primaryCategory.toLowerCase()}` },
-          { "@type": "ListItem", position: 3, name: product.title, item: `/shop/${product.slug}` }
+          { "@type": "ListItem", position: 1, name: "Shop", item: absoluteUrl("/shop") },
+          { "@type": "ListItem", position: 2, name: product.primaryCategory, item: absoluteUrl(`/collections/${product.primaryCategory.toLowerCase()}`) },
+          { "@type": "ListItem", position: 3, name: product.title, item: absoluteUrl(`/shop/${product.slug}`) }
         ]
       },
       {
         "@type": "Product",
+        "@id": absoluteUrl(`/shop/${product.slug}#product`),
         name: product.title,
         description: product.description,
         sku: product.sku,
         brand: { "@type": "Brand", name: "ArtLoka" },
-        image: gallery.map((image) => image.url),
+        category: product.primaryCategory,
+        image: gallery.map((image) => absoluteUrl(image.url)),
         material: product.materials.join(", "),
+        url: absoluteUrl(`/shop/${product.slug}`),
+        additionalProperty: [
+          product.finishes.length ? { "@type": "PropertyValue", name: "Finishes", value: product.finishes.join(", ") } : null,
+          product.rooms.length ? { "@type": "PropertyValue", name: "Room suitability", value: product.rooms.join(", ") } : null,
+          product.styles.length ? { "@type": "PropertyValue", name: "Design styles", value: product.styles.join(", ") } : null,
+          product.bulbUs ? { "@type": "PropertyValue", name: "US electrical detail", value: product.bulbUs } : null,
+          product.bulbInternational ? { "@type": "PropertyValue", name: "UK/EU electrical detail", value: product.bulbInternational } : null,
+          { "@type": "PropertyValue", name: "Dimensions", value: formatDimensions(product) }
+        ].filter(Boolean),
         offers: product.priceUsd === null ? undefined : {
           "@type": "Offer",
           priceCurrency: "USD",
           price: product.priceUsd,
-          url: product.etsyUrl
+          url: product.etsyUrl,
+          seller: { "@id": `${absoluteUrl("/")}#organization` }
         }
       }
     ]

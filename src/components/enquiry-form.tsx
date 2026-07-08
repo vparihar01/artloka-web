@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useState } from "react";
+import { trackEnquirySubmit } from "@/lib/analytics";
 
 export function EnquiryForm({ defaultType = "General enquiry" }: { defaultType?: string }) {
   const [state, setState] = useState<"idle" | "sending" | "success" | "error">("idle");
@@ -8,9 +9,14 @@ export function EnquiryForm({ defaultType = "General enquiry" }: { defaultType?:
 
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
+    const formElement = event.currentTarget;
     setState("sending");
-    const form = new FormData(event.currentTarget);
-    const payload = Object.fromEntries(form.entries());
+    setMessage("");
+    const form = new FormData(formElement);
+    const payload = {
+      ...Object.fromEntries(form.entries()),
+      sourcePath: window.location.pathname + window.location.search
+    } as Record<string, FormDataEntryValue> & { sourcePath: string };
     const response = await fetch("/api/enquiries", {
       method: "POST",
       headers: { "content-type": "application/json" },
@@ -19,7 +25,13 @@ export function EnquiryForm({ defaultType = "General enquiry" }: { defaultType?:
     const result = await response.json().catch(() => ({ message: "Unable to submit enquiry." }));
     setMessage(result.message ?? "Thank you. We will respond shortly.");
     setState(response.ok ? "success" : "error");
-    if (response.ok) event.currentTarget.reset();
+    if (response.ok) {
+      trackEnquirySubmit({
+        enquiryType: String(payload.enquiryType ?? "General enquiry"),
+        sourcePath: payload.sourcePath
+      });
+      formElement.reset();
+    }
   }
 
   return (

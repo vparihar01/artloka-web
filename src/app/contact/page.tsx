@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import { EnquiryForm } from "@/components/enquiry-form";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Contact ArtLoka",
-  description: "Contact ArtLoka for product questions, customisation, trade, gifting and project enquiries."
-};
+  description: "Contact ArtLoka for handcrafted lighting product questions, customisation, trade, gifting, hospitality and project enquiries.",
+  path: "/contact"
+});
 
 export default function ContactPage() {
   return (

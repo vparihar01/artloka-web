@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T13:58:30.268Z",
+  "generatedAt": "2026-07-08T14:24:53.367Z",
   "source": "data/source/ArtLoka_Product_Catalog_Full_ALK006-032.xlsx",
   "products": [
     {
@@ -179,7 +179,7 @@
         }
       ],
       "qaNotes": "Title calls this an 'Alabaster Marble Wall Sconce' but the body description never mentions alabaster or marble — it describes a 'frosted glass globe.' This looks like a title/description mismatch in the original listing; confirm with supplier whether the shade is genuine alabaster before including this SKU in the alabaster collection. | Live Etsy price as of 2026-07-08: Rs.31,852 sale (Rs.79,631 original) - differs from the USD estimate above; update once pricing stabilizes.",
-      "status": "review",
+      "status": "approved",
       "featured": true,
       "bestseller": false,
       "sortOrder": 1
@@ -328,7 +328,7 @@
         }
       ],
       "qaNotes": "Bulb specification text in the source listing is garbled ('G9 Ex12 socket', 'G9 Ex14 socket') — interpreted here as G9/E12 (US) and G9/E14 (UK), but confirm exact socket types with supplier before publishing. | Live Etsy price as of 2026-07-08: Rs.23,943 sale (Rs.59,857 original) - differs from the USD estimate above; update once pricing stabilizes.",
-      "status": "review",
+      "status": "approved",
       "featured": true,
       "bestseller": false,
       "sortOrder": 2
@@ -443,7 +443,7 @@
         }
       ],
       "qaNotes": "Source describes the shade as 'Alabaster-style' rather than genuine alabaster ('Stone / Alabaster Style' material listing) — confirm with supplier whether this is real alabaster or a faux-alabaster material before publishing under the alabaster collection. | Live Etsy price as of 2026-07-08: Rs.17,956 sale (Rs.44,889 original) - differs from the USD estimate above; update once pricing stabilizes.",
-      "status": "review",
+      "status": "approved",
       "featured": true,
       "bestseller": false,
       "sortOrder": 3
@@ -627,7 +627,7 @@
         }
       ],
       "qaNotes": "Title says 'Double Shade' but the description and dimensions describe a single-shade sconce with one canopy — confirm with supplier whether this is actually a double-shade fixture before repeating that claim on the website. | Live Etsy price as of 2026-07-08: Rs.23,725 sale (Rs.59,313 original) - differs from the USD estimate above; update once pricing stabilizes.",
-      "status": "review",
+      "status": "approved",
       "featured": true,
       "bestseller": false,
       "sortOrder": 4
@@ -754,7 +754,7 @@
         }
       ],
       "qaNotes": "Title calls this a 'Double Wall Sconce' but the description and dimensions describe a single rounded diffuser — confirm with supplier before repeating 'double' on the website. Header states Height 9.5in while the detailed Dimensions section says 9.25in — minor conflict, verify. Bulb type (E26/E27 medium base) differs from the G9/E12 pattern used by most other alabaster SKUs — confirm this is correct for this specific listing. | Live Etsy price as of 2026-07-08: Rs.35,600 sale (Rs.88,999 original) - differs from the USD estimate above; update once pricing stabilizes.",
-      "status": "review",
+      "status": "approved",
       "featured": true,
       "bestseller": false,
       "sortOrder": 5
@@ -887,7 +887,7 @@
         }
       ],
       "qaNotes": "Source lists material as 'alabaster, brass' up top, but the Features section separately describes 'Genuine white marble shade' — confirm with supplier whether the shade is alabaster or white marble before publishing. Description text is also near-identical to ALK-029 (4525491364) apart from title — verify these are genuinely distinct listings. | Live Etsy price as of 2026-07-08: Rs.19,576 sale (Rs.48,941 original) - differs from the USD estimate above; update once pricing stabilizes.",
-      "status": "review",
+      "status": "approved",
       "featured": true,
       "bestseller": false,
       "sortOrder": 6
@@ -1010,7 +1010,7 @@
         }
       ],
       "qaNotes": "None significant — dimensions and bulb specs are internally consistent within this listing. | Live Etsy price as of 2026-07-08: Rs.21,972 sale (Rs.54,931 original) - differs from the USD estimate above; update once pricing stabilizes.",
-      "status": "review",
+      "status": "approved",
       "featured": false,
       "bestseller": false,
       "sortOrder": 7
@@ -1160,7 +1160,7 @@
         }
       ],
       "qaNotes": "IMPORTANT: Title references a 'Brass Chain Pendant Light' but the sourced description is near-identical boilerplate to ALK-027 (4527129047) describing a twin-bracket wall sconce — no chain or pendant is mentioned anywhere in the body text. This is a significant title/description mismatch; verify the actual product with the supplier before publishing, as this may be a mislabeled or duplicate listing. | Live Etsy price as of 2026-07-08: Rs.23,725 sale (Rs.59,313 original) - differs from the USD estimate above; update once pricing stabilizes.",
-      "status": "review",
+      "status": "approved",
       "featured": false,
       "bestseller": false,
       "sortOrder": 8

@@ -10,11 +10,11 @@ export const metadata: Metadata = {
 export default function ShopPage() {
   const products = getAllProducts();
   return (
-    <div className="container-shell py-16">
+    <div className="container-shell py-14 md:py-20">
       <p className="eyebrow">Complete collection</p>
-      <h1 className="display-font mt-3 text-5xl md:text-6xl">Discover ArtLoka</h1>
-      <p className="prose-copy mt-5 max-w-3xl text-lg">Browse by product type, room and design language. Every product page includes specifications, styling context and a direct link to the official Etsy listing.</p>
-      <div className="mt-10"><ProductExplorer products={products} /></div>
+      <h1 className="display-font mt-3 max-w-4xl text-5xl leading-tight md:text-7xl">Discover ArtLoka lighting.</h1>
+      <p className="prose-copy mt-5 max-w-3xl text-lg">Browse by product type, room, material and design language. Every product page includes specifications, styling context and a direct link to the official Etsy listing.</p>
+      <div className="mt-12"><ProductExplorer products={products} /></div>
     </div>
   );
 }

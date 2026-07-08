@@ -10,22 +10,22 @@ const gaId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "ArtLoka | Heritage Craftsmanship for Modern Living",
+    default: "ArtLoka | Heritage Craftsmanship. Styled for Modern Living.",
     template: "%s | ArtLoka"
   },
-  description: "Discover artisan-made Indian décor and lighting, hand-finished for contemporary homes and available through ArtLoka's official Etsy shop.",
+  description: "Discover ArtLoka handcrafted lighting and décor, designed and made in India for thoughtful contemporary homes.",
   openGraph: {
     type: "website",
     siteName: "ArtLoka",
-    title: "ArtLoka | Heritage Craftsmanship for Modern Living",
-    description: "Artisan-made Indian décor and lighting for contemporary global homes.",
+    title: "ArtLoka | Heritage Craftsmanship. Styled for Modern Living.",
+    description: "Handcrafted lighting and décor for contemporary global homes.",
     url: siteUrl
   }
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="en" data-scroll-behavior="smooth">
       <body>
         {gaId ? (
           <>
@@ -38,8 +38,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             `}</Script>
           </>
         ) : null}
+        <a href="#main-content" className="skip-link">Skip to content</a>
         <SiteHeader />
-        <main>{children}</main>
+        <main id="main-content">{children}</main>
         <SiteFooter />
       </body>
     </html>

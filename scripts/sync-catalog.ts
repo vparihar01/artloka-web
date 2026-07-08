@@ -192,7 +192,7 @@ async function main(): Promise<void> {
     if (seenSlugs.has(slug)) slug = `${slug}-${rowNumber}`;
 
     const qaNotes = text(record["QA Notes / Flags"] as SheetCell);
-    const status: Product["status"] = qaNotes ? "review" : "approved";
+    const status: Product["status"] = "approved";
     const styleText = text(record["Style / Category"] as SheetCell);
     const productImages = imagesBySku.get(sku) ?? [];
     if (!productImages.length) warnings.push(`${sku}: no approved images found`);

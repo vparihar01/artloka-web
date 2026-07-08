@@ -1,56 +1,97 @@
+import Image from "next/image";
 import Link from "next/link";
 import { ProductCard } from "@/components/product-card";
-import { getFeaturedProducts } from "@/lib/catalog/load";
+import { getAllProducts, getFeaturedProducts } from "@/lib/catalog/load";
 
 export default function HomePage() {
-  const products = getFeaturedProducts(6);
+  const featured = getFeaturedProducts(6);
+  const products = getAllProducts();
+  const hero = products.find((product) => product.sku === "ALK-028") ?? products[0];
+  const rooms = [...new Set(products.flatMap((product) => product.rooms))].slice(0, 6);
+  const materials = [...new Set(products.flatMap((product) => product.materials))].slice(0, 5);
+
   return (
     <>
-      <section className="border-b border-[var(--border)] bg-[linear-gradient(135deg,#f8f3ea_0%,#e7dac7_100%)]">
-        <div className="container-shell grid min-h-[650px] items-center gap-12 py-20 lg:grid-cols-[1.1fr_.9fr]">
-          <div>
+      <section className="border-b border-[var(--border)]">
+        <div className="container-shell grid min-h-[calc(100vh-76px)] gap-10 py-8 lg:grid-cols-[1.02fr_.98fr] lg:items-end lg:py-12">
+          <div className="pb-6 lg:pb-12">
             <p className="eyebrow">Designed and made in India</p>
-            <h1 className="display-font mt-5 max-w-4xl text-5xl leading-[1.04] md:text-7xl">Heritage craftsmanship. Styled for modern living.</h1>
-            <p className="prose-copy mt-7 max-w-2xl text-lg">Artisan-made décor and lighting that bring the warmth of Indian craft into thoughtful contemporary spaces.</p>
+            <h1 className="display-font mt-5 max-w-4xl text-5xl leading-[1.02] md:text-7xl">Heritage Craftsmanship. Styled for Modern Living.</h1>
+            <p className="prose-copy mt-7 max-w-2xl text-lg">ArtLoka presents handcrafted lighting and decor with the material detail, scale context and calm product information needed for considered interiors.</p>
             <div className="mt-9 flex flex-wrap gap-3">
-              <Link className="button-primary" href="/shop">Explore the collection</Link>
-              <Link className="button-secondary" href="/craftsmanship">Meet the makers</Link>
+              <Link className="button-primary" href="/shop">Explore products</Link>
+              <Link className="button-secondary" href={`/shop/${hero.slug}`}>View signature piece</Link>
             </div>
-            <p className="mt-5 text-sm text-[var(--muted)]">Discover on ArtLoka. Purchase securely through our official Etsy shop.</p>
+            <p className="mt-5 max-w-xl text-sm leading-6 text-[var(--muted)]">Discover and evaluate on ArtLoka. Standard purchases continue through the corresponding official Etsy listing.</p>
           </div>
-          <div className="card relative min-h-[480px] overflow-hidden bg-[#d9c7ae] p-10">
-            <div className="absolute inset-8 rounded-[45%_55%_50%_50%] bg-[#f4eee5] shadow-2xl" />
-            <div className="absolute left-1/2 top-1/2 h-72 w-40 -translate-x-1/2 -translate-y-1/2 rounded-t-full bg-[#8c6a43] shadow-xl" />
-            <div className="absolute left-1/2 top-[36%] h-36 w-36 -translate-x-1/2 rounded-full bg-[#f7f0df] shadow-[0_0_70px_#fff5cc]" />
-            <p className="absolute bottom-8 left-8 right-8 text-center text-sm font-semibold text-[#5c4128]">Product photography placeholder — replace after image QA</p>
+          <div className="relative min-h-[520px] overflow-hidden bg-[var(--color-stone)] lg:min-h-[680px]">
+            <Image src={hero.heroImage} alt={hero.heroImageAlt ?? hero.title} fill priority className="object-cover" sizes="(max-width: 1024px) 100vw, 50vw" />
+            <div className="absolute inset-x-0 bottom-0 bg-[linear-gradient(to_top,rgba(23,19,15,.82),rgba(23,19,15,0))] p-6 pt-32 text-white md:p-8">
+              <p className="text-xs uppercase tracking-[.16em] text-[#d9c3a8]">{hero.sku} · {hero.primaryCategory}</p>
+              <h2 className="display-font mt-2 max-w-xl text-3xl leading-tight md:text-4xl">{hero.title}</h2>
+              <p className="mt-3 max-w-md text-sm leading-6 text-[#f1e7d8]">{hero.materials.slice(0, 2).join(" · ")}</p>
+            </div>
           </div>
         </div>
       </section>
 
-      <section className="container-shell py-20">
+      <section className="container-shell py-20 md:py-24">
         <div className="flex flex-col justify-between gap-5 md:flex-row md:items-end">
-          <div><p className="eyebrow">Featured pieces</p><h2 className="display-font mt-3 text-4xl md:text-5xl">Crafted to become part of your story</h2></div>
-          <Link href="/shop" className="button-secondary">View all products</Link>
+          <div>
+            <p className="eyebrow">Signature pieces</p>
+            <h2 className="display-font mt-3 max-w-3xl text-4xl leading-tight md:text-5xl">Lighting with a hand-finished presence.</h2>
+          </div>
+          <Link href="/shop" className="button-secondary">View full catalogue</Link>
         </div>
-        <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {products.map((product) => <ProductCard key={product.sku} product={product} />)}
-        </div>
-      </section>
-
-      <section className="bg-[#e9dfd1] py-20">
-        <div className="container-shell grid gap-8 md:grid-cols-3">
-          {[
-            ["Human touch", "Every piece is artisan-made or hand-finished rather than produced as anonymous mass décor."],
-            ["Heritage, reinterpreted", "Traditional material intelligence meets clean lines and globally relevant interiors."],
-            ["Made for meaningful spaces", "Choose a personal statement piece, a memorable gift, or a collection for a larger project."]
-          ].map(([title, copy]) => <div key={title} className="card p-7"><h3 className="display-font text-2xl">{title}</h3><p className="prose-copy mt-3">{copy}</p></div>)}
+        <div className="mt-10 grid gap-x-7 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
+          {featured.map((product, index) => <ProductCard key={product.sku} product={product} priority={index < 3} />)}
         </div>
       </section>
 
-      <section className="container-shell py-20">
-        <div className="card grid gap-8 bg-[#3f352c] p-8 text-white md:grid-cols-[1fr_auto] md:items-center md:p-12">
-          <div><p className="eyebrow !text-[#d9bc8f]">For designers, gifting teams and hospitality projects</p><h2 className="display-font mt-3 text-4xl">Need quantity, customisation or project support?</h2><p className="mt-4 max-w-3xl leading-7 text-[#ded4ca]">Share your product interests, quantities, destination and timeline. ArtLoka will review the requirement before beginning a focused conversation.</p></div>
-          <Link className="button-primary !bg-[#f0dfc7] !text-[#3f352c]" href="/trade">Start an enquiry</Link>
+      <section className="border-y border-[var(--border)] bg-[var(--color-stone)] py-18">
+        <div className="container-shell grid gap-10 lg:grid-cols-[.9fr_1.1fr] lg:items-center">
+          <div>
+            <p className="eyebrow">Material confidence</p>
+            <h2 className="display-font mt-3 text-4xl leading-tight md:text-5xl">The decision starts with material, proportion and placement.</h2>
+          </div>
+          <div className="grid gap-4 sm:grid-cols-2">
+            {materials.map((material) => (
+              <div key={material} className="border-t border-[var(--border)] pt-4">
+                <p className="text-lg font-semibold">{material}</p>
+                <p className="prose-copy mt-2 text-sm">Used in current ArtLoka catalogue records.</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="container-shell grid gap-10 py-20 md:py-24 lg:grid-cols-[.8fr_1.2fr]">
+        <div>
+          <p className="eyebrow">Rooms and moods</p>
+          <h2 className="display-font mt-3 text-4xl leading-tight md:text-5xl">Find a piece by where it will live.</h2>
+        </div>
+        <div className="grid gap-3 sm:grid-cols-2">
+          {rooms.map((room) => (
+            <Link key={room} href={`/collections/${room.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`} className="group border border-[var(--border)] bg-[var(--surface)] px-5 py-5 transition hover:border-[var(--accent-dark)]">
+              <span className="text-sm uppercase tracking-[.12em] text-[var(--muted)]">Shop by room</span>
+              <span className="display-font mt-2 block text-2xl capitalize group-hover:text-[var(--accent-dark)]">{room}</span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <section className="bg-[var(--color-ink)] py-20 text-white md:py-24">
+        <div className="container-shell grid gap-10 md:grid-cols-[1fr_.85fr] md:items-center">
+          <div>
+            <p className="eyebrow !text-[#d9bc8f]">Craft and provenance</p>
+            <h2 className="display-font mt-3 max-w-4xl text-4xl leading-tight md:text-5xl">Made in India, presented for contemporary interiors.</h2>
+            <p className="mt-5 max-w-3xl leading-7 text-[#d7cbbc]">ArtLoka’s role is to give each piece the context it deserves: material language, hand-finishing notes, dimensions, placement guidance and a clear path to the official Etsy listing.</p>
+          </div>
+          <div className="border-l border-white/10 pl-6">
+            <p className="text-sm uppercase tracking-[.14em] text-[#d9bc8f]">For designers, gifting and hospitality</p>
+            <p className="mt-4 leading-7 text-[#d7cbbc]">Share product interests, quantities, destination and project context. ArtLoka reviews structured enquiries before starting a focused conversation.</p>
+            <Link className="button-primary mt-6 !border-[#f0dfc7] !bg-[#f0dfc7] !text-[#2b2520]" href="/trade">Start an enquiry</Link>
+          </div>
         </div>
       </section>
     </>

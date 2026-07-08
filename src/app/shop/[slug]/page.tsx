@@ -33,7 +33,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
     name: product.title,
     description: product.description,
     sku: product.sku,
-    image: [product.heroImage],
+    image: [product.heroImage, ...product.galleryImages.map((image) => image.url)],
     material: product.materials.join(", "),
     offers: product.priceUsd === null ? undefined : {
       "@type": "Offer",
@@ -48,7 +48,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
     <div className="container-shell py-12">
       <nav aria-label="Breadcrumb" className="text-sm text-[var(--muted)]"><Link href="/shop">Shop</Link> / <span>{product.primaryCategory}</span></nav>
       <div className="mt-7 grid gap-10 lg:grid-cols-[1.05fr_.95fr]">
-        <div className="card relative aspect-[6/7] overflow-hidden bg-[#eee8de]"><Image src={product.heroImage} alt={product.title} fill className="object-cover" priority /></div>
+        <div className="card relative aspect-[6/7] overflow-hidden bg-[#eee8de]"><Image src={product.heroImage} alt={product.heroImageAlt ?? product.title} fill className="object-cover" priority /></div>
         <div className="lg:py-4">
           <p className="eyebrow">{product.primaryCategory} · {product.sku}</p>
           <h1 className="display-font mt-4 text-4xl leading-tight md:text-5xl">{product.title}</h1>

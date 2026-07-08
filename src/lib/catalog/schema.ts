@@ -30,7 +30,13 @@ export const ProductSchema = z.object({
   seoKeywords: z.array(z.string()),
   imageStatus: z.string().optional(),
   heroImage: z.string().default("/images/product-placeholder.svg"),
-  galleryImages: z.array(z.string()).default([]),
+  heroImageAlt: z.string().optional(),
+  galleryImages: z.array(z.object({
+    url: z.string().min(1),
+    type: z.string().min(1),
+    alt: z.string().min(1),
+    sortOrder: z.number().int().nonnegative()
+  })).default([]),
   qaNotes: z.string().optional(),
   status: ProductStatusSchema,
   featured: z.boolean().default(false),

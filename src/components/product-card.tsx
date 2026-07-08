@@ -7,7 +7,7 @@ export function ProductCard({ product }: { product: Product }) {
     <article className="card overflow-hidden transition hover:-translate-y-1 hover:shadow-lg">
       <Link href={`/shop/${product.slug}`} className="block">
         <div className="relative aspect-[6/7] bg-[#eee8de]">
-          <Image src={product.heroImage} alt={product.title} fill className="object-cover" sizes="(max-width: 768px) 100vw, 33vw" />
+          <Image src={product.heroImage} alt={product.heroImageAlt ?? product.title} fill className="object-cover" sizes="(max-width: 768px) 100vw, 33vw" />
         </div>
         <div className="p-5">
           <p className="eyebrow">{product.primaryCategory}</p>

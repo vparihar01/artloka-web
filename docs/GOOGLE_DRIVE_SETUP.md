@@ -9,7 +9,7 @@ The catalogue source is an Excel Office file stored in Google Drive. It is downl
 4. Create a JSON key for that service account and store it securely.
 5. Share the Excel file with the service-account email as **Viewer**.
 6. In Vercel, add:
-   - `GOOGLE_DRIVE_FILE_ID=19KFR7ypwjZJdiT-3pheHco1xHOWEf-tO`
+   - `GOOGLE_DRIVE_FILE_ID=1L77Mr15E1oEAPIRMt8UzqhryemufLtBE`
    - `GOOGLE_SERVICE_ACCOUNT_EMAIL=<service-account email>`
    - `GOOGLE_SERVICE_ACCOUNT_PRIVATE_KEY=<private key with newline escapes>`
 7. Trigger a preview deployment and confirm the build log reports the expected product count.

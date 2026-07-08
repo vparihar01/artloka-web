@@ -1,0 +1,6 @@
+<svg width="1200" height="1400" viewBox="0 0 1200 1400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1400" fill="#EEE8DE"/>
+  <circle cx="600" cy="580" r="250" fill="#D6C7B2"/>
+  <path d="M450 850H750L690 1080H510L450 850Z" fill="#8B6F47"/>
+  <text x="600" y="1260" text-anchor="middle" fill="#4A4036" font-family="Georgia, serif" font-size="58">ArtLoka</text>
+</svg>

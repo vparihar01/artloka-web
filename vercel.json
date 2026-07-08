@@ -1,0 +1,8 @@
+{
+  "crons": [
+    {
+      "path": "/api/catalog-redeploy",
+      "schedule": "15 2 * * *"
+    }
+  ]
+}

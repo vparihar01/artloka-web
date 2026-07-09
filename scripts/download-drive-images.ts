@@ -47,6 +47,16 @@ function extensionForMimeType(mimeType: string): string {
   return ".jpg";
 }
 
+function redactedEmail(email: string): string {
+  return email.replace(/^(.{4}).*(@.*)$/, "$1...$2");
+}
+
+function isDriveNotFoundError(error: unknown): boolean {
+  if (!error || typeof error !== "object") return false;
+  const maybeError = error as { code?: number; status?: number; message?: string };
+  return maybeError.code === 404 || maybeError.status === 404 || maybeError.message?.includes("File not found") === true;
+}
+
 async function main(): Promise<void> {
   loadEnvConfig(ROOT);
 
@@ -88,11 +98,24 @@ async function main(): Promise<void> {
       continue;
     }
 
-    const metadata = await drive.files.get({
-      fileId,
-      fields: "id,name,mimeType",
-      supportsAllDrives: true
-    });
+    let metadata;
+    try {
+      metadata = await drive.files.get({
+        fileId,
+        fields: "id,name,mimeType",
+        supportsAllDrives: true
+      });
+    } catch (error) {
+      if (isDriveNotFoundError(error)) {
+        throw new Error([
+          `Google Drive file is not visible to the service account for ${sku} image ${sortOrder}.`,
+          `File ID: ${fileId}`,
+          `Service account: ${redactedEmail(email)}`,
+          "Share the source Drive image file or its parent folder with this service-account email as Viewer, then run npm run images:download again."
+        ].join("\n"));
+      }
+      throw error;
+    }
     const extension = extensionForMimeType(metadata.data.mimeType ?? "");
     const skuSegment = safeFileSegment(sku);
     const fileName = `${skuSegment}-${String(sortOrder).padStart(2, "0")}-${safeFileSegment(imageType)}${extension}`;

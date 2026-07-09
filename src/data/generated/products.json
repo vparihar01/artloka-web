@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "generatedAt": "2026-07-09T06:21:20.096Z",
   "source": "data/source/ArtLoka_Product_Catalog_Full_ALK006-032.xlsx",
+=======
+  "generatedAt": "2026-07-09T17:08:05.669Z",
+  "source": "data/source/ArtLoka_Website_Sync.xlsx",
+>>>>>>> f6c09da (new linsting till 13 images added)
   "products": [
     {
       "sku": "ALK-018",
@@ -1328,8 +1333,101 @@
         "artisan alabaster lamp"
       ],
       "imageStatus": "Approved",
-      "heroImage": "/images/product-placeholder.svg",
-      "galleryImages": [],
+      "heroImage": "/assets/products/alk-001/alk-001-01-hero.jpg",
+      "heroImageAlt": "ArtLoka alabaster cone-shade wall sconce close-up, lit, with a softly blurred bathroom and tub in the background",
+      "galleryImages": [
+        {
+          "url": "/assets/products/alk-001/alk-001-01-hero.jpg",
+          "type": "Hero",
+          "alt": "ArtLoka alabaster cone-shade wall sconce close-up, lit, with a softly blurred bathroom and tub in the background",
+          "sortOrder": 1,
+          "aspectRatio": "9 / 16"
+        },
+        {
+          "url": "/assets/products/alk-001/alk-001-02-lifestyle.jpg",
+          "type": "Lifestyle",
+          "alt": "Alabaster cone-shade wall sconce beside a front door in a daylight entryway, next to a round mirror and console table",
+          "sortOrder": 2,
+          "aspectRatio": "2 / 3"
+        },
+        {
+          "url": "/assets/products/alk-001/alk-001-03-lifestyle.jpg",
+          "type": "Lifestyle",
+          "alt": "Alabaster cone-shade wall sconce lighting a dark wood-paneled hallway with a console table and mirror",
+          "sortOrder": 3,
+          "aspectRatio": "3 / 2"
+        },
+        {
+          "url": "/assets/products/alk-001/alk-001-04-comparison.jpg",
+          "type": "Comparison",
+          "alt": "Alabaster cone-shade wall sconce shown across seven finish options: Antique Patina, Raw Brass, Blackened Brass, Antique Black, Polished Chrome, Polished Brass, Brushed Brass",
+          "sortOrder": 4,
+          "aspectRatio": "4 / 3"
+        },
+        {
+          "url": "/assets/products/alk-001/alk-001-05-lifestyle.jpg",
+          "type": "Lifestyle",
+          "alt": "Alabaster cone-shade wall sconce above a wooden nightstand with a potted fern, book, and mug",
+          "sortOrder": 5,
+          "aspectRatio": "16 / 9"
+        },
+        {
+          "url": "/assets/products/alk-001/alk-001-06-lifestyle.jpg",
+          "type": "Lifestyle",
+          "alt": "Pair of alabaster cone-shade wall sconces flanking a bed headboard, glowing warm at night",
+          "sortOrder": 6,
+          "aspectRatio": "16 / 9"
+        },
+        {
+          "url": "/assets/products/alk-001/alk-001-07-lifestyle.jpg",
+          "type": "Lifestyle",
+          "alt": "Alabaster cone-shade wall sconce lit above a rustic wood bed and nightstand with a potted plant",
+          "sortOrder": 7,
+          "aspectRatio": "4 / 3"
+        },
+        {
+          "url": "/assets/products/alk-001/alk-001-08-detail.png",
+          "type": "Detail",
+          "alt": "Close-up of alabaster cone-shade wall sconce showing natural stone veining and brass ball-joint arm, dark bedroom background",
+          "sortOrder": 8,
+          "aspectRatio": "4 / 3"
+        },
+        {
+          "url": "/assets/products/alk-001/alk-001-09-detail.png",
+          "type": "Detail",
+          "alt": "Close-up side view of alabaster cone-shade wall sconce on a plain putty-grey wall",
+          "sortOrder": 9,
+          "aspectRatio": "4 / 5"
+        },
+        {
+          "url": "/assets/products/alk-001/alk-001-10-lifestyle.png",
+          "type": "Lifestyle",
+          "alt": "Alabaster cone-shade wall sconce above a rustic wood headboard with nightstand, plant, and books, daylight",
+          "sortOrder": 10,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-001/alk-001-11-lifestyle.png",
+          "type": "Lifestyle",
+          "alt": "Alabaster cone-shade wall sconce above a rustic wood bed with nightstand, plant, and books",
+          "sortOrder": 11,
+          "aspectRatio": "4 / 3"
+        },
+        {
+          "url": "/assets/products/alk-001/alk-001-12-lifestyle.png",
+          "type": "Lifestyle",
+          "alt": "Alabaster cone-shade wall sconce beside a console table with a vase of greenery in a hallway",
+          "sortOrder": 12,
+          "aspectRatio": "3 / 4"
+        },
+        {
+          "url": "/assets/products/alk-001/alk-001-13-lifestyle.png",
+          "type": "Lifestyle",
+          "alt": "Alabaster cone-shade wall sconce in a hallway beside a dark wood door and framed landscape painting",
+          "sortOrder": 13,
+          "aspectRatio": "16 / 9"
+        }
+      ],
       "qaNotes": "Etsy meta price tag ($499.67) doesn't reconcile cleanly with displayed INR price at ~83 INR/USD — verify live price before publishing. | Live Etsy price as of 2026-07-09: Rs.19,812 sale (Rs.49,531 original) - differs from the USD estimate above; update once pricing stabilizes.",
       "status": "approved",
       "featured": false,
@@ -1403,8 +1501,115 @@
         "vintage brass wall light"
       ],
       "imageStatus": "Approved",
-      "heroImage": "/images/product-placeholder.svg",
-      "galleryImages": [],
+      "heroImage": "/assets/products/alk-030/alk-030-01-hero.jpg",
+      "heroImageAlt": "ArtLoka brass gooseneck wall sconce with scalloped glass shade, lit, on a dark navy wall beside a brass owl figurine",
+      "galleryImages": [
+        {
+          "url": "/assets/products/alk-030/alk-030-01-hero.jpg",
+          "type": "Hero",
+          "alt": "ArtLoka brass gooseneck wall sconce with scalloped glass shade, lit, on a dark navy wall beside a brass owl figurine",
+          "sortOrder": 1,
+          "aspectRatio": "2 / 3"
+        },
+        {
+          "url": "/assets/products/alk-030/alk-030-02-lifestyle.jpg",
+          "type": "Lifestyle",
+          "alt": "Pair of brass gooseneck wall sconces flanking an ornate mirror above a dark-tile bathroom vanity with orchids",
+          "sortOrder": 2,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-030/alk-030-03-lifestyle.jpg",
+          "type": "Lifestyle",
+          "alt": "Brass gooseneck wall sconce lighting a cozy reading nook with a leather armchair, coffee, and books",
+          "sortOrder": 3,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-030/alk-030-04-lifestyle.jpg",
+          "type": "Lifestyle",
+          "alt": "Brass gooseneck wall sconce on an exposed brick wall in a living room with sofa, coat rack, and plant",
+          "sortOrder": 4,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-030/alk-030-05-lifestyle.jpg",
+          "type": "Lifestyle",
+          "alt": "Brass gooseneck wall sconces lighting a staircase hallway lined with framed family photos",
+          "sortOrder": 5,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-030/alk-030-06-lifestyle.jpg",
+          "type": "Lifestyle",
+          "alt": "Brass gooseneck wall sconce on a log cabin porch beside a wooden door, rocking chair, and snowy view",
+          "sortOrder": 6,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-030/alk-030-07-lifestyle.jpg",
+          "type": "Lifestyle",
+          "alt": "Brass gooseneck wall sconce above a dark wood nightstand with a laptop, phone, and book",
+          "sortOrder": 7,
+          "aspectRatio": "2 / 3"
+        },
+        {
+          "url": "/assets/products/alk-030/alk-030-08-lifestyle.jpg",
+          "type": "Lifestyle",
+          "alt": "Brass gooseneck wall sconce lighting a dark hallway corridor with framed art and a console table",
+          "sortOrder": 8,
+          "aspectRatio": "2 / 3"
+        },
+        {
+          "url": "/assets/products/alk-030/alk-030-09-comparison.jpg",
+          "type": "Comparison",
+          "alt": "Brass gooseneck wall sconce with scalloped glass shade shown across seven finish options: Antique Patina, Raw Brass, Blackened Brass, Antique Black, Polished Chrome, Polished Brass, Brushed Brass",
+          "sortOrder": 9,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-030/alk-030-10-lifestyle.jpg",
+          "type": "Lifestyle",
+          "alt": "Brass gooseneck wall sconces lighting a staircase with wooden handrail and a side table",
+          "sortOrder": 10,
+          "aspectRatio": "2 / 3"
+        },
+        {
+          "url": "/assets/products/alk-030/alk-030-11-detail.jpg",
+          "type": "Detail",
+          "alt": "Close-up of brass gooseneck wall sconce with scalloped glass shade on a plain cream-grey wall",
+          "sortOrder": 11,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-030/alk-030-12-detail.jpg",
+          "type": "Detail",
+          "alt": "Close-up of brass gooseneck wall sconce lit in a dark wood-paneled reading room beside a leather armchair",
+          "sortOrder": 12,
+          "aspectRatio": "2 / 3"
+        },
+        {
+          "url": "/assets/products/alk-030/alk-030-13-lifestyle.png",
+          "type": "Lifestyle",
+          "alt": "Brass gooseneck wall sconce in a dark wood-paneled reading room with leather armchair, throw, and snowy window",
+          "sortOrder": 13,
+          "aspectRatio": "5 / 4"
+        },
+        {
+          "url": "/assets/products/alk-030/alk-030-14-lifestyle.png",
+          "type": "Lifestyle",
+          "alt": "Pair of brass gooseneck wall sconces flanking an ornate gold mirror above a dark-tile bathroom vanity",
+          "sortOrder": 14,
+          "aspectRatio": "5 / 4"
+        },
+        {
+          "url": "/assets/products/alk-030/alk-030-15-lifestyle.png",
+          "type": "Lifestyle",
+          "alt": "Brass gooseneck wall sconce on an exposed brick wall beside a mirror, potted plant, and coat rack",
+          "sortOrder": 15,
+          "aspectRatio": "5 / 4"
+        }
+      ],
       "qaNotes": "IMPORTANT: Title says 'Alabaster Shade' but the description explicitly describes 'a beautiful white scalloped glass shade' with French-country styling — no alabaster is mentioned; live listing body text confirms 'Materials: Brass, Glass'. Confirm with supplier whether this SKU actually belongs in the alabaster collection before publishing. | Live Etsy price as of 2026-07-09: Rs.27,668 sale (Rs.69,171 original) - differs from the USD estimate above; update once pricing stabilizes.",
       "status": "approved",
       "featured": false,
@@ -1483,8 +1688,80 @@
         "handmade cylinder sconce"
       ],
       "imageStatus": "Approved",
-      "heroImage": "/images/product-placeholder.svg",
-      "galleryImages": [],
+      "heroImage": "/assets/products/alk-031/alk-031-01-hero.jpg",
+      "heroImageAlt": "ArtLoka solid brass alabaster cylinder sconce, lit, on a dark navy wall beside a brass owl figurine",
+      "galleryImages": [
+        {
+          "url": "/assets/products/alk-031/alk-031-01-hero.jpg",
+          "type": "Hero",
+          "alt": "ArtLoka solid brass alabaster cylinder sconce, lit, on a dark navy wall beside a brass owl figurine",
+          "sortOrder": 1,
+          "aspectRatio": "10 / 11"
+        },
+        {
+          "url": "/assets/products/alk-031/alk-031-02-lifestyle.jpg",
+          "type": "Lifestyle",
+          "alt": "Solid brass alabaster cylinder sconce above a wooden nightstand with laptop, tablet, and phone",
+          "sortOrder": 2,
+          "aspectRatio": "12 / 17"
+        },
+        {
+          "url": "/assets/products/alk-031/alk-031-03-comparison.jpg",
+          "type": "Comparison",
+          "alt": "Solid brass alabaster cylinder sconce shown across seven finish options: Antique Patina, Raw Brass, Blackened Brass, Antique Black, Polished Chrome, Polished Brass, Brushed Brass",
+          "sortOrder": 3,
+          "aspectRatio": "12 / 17"
+        },
+        {
+          "url": "/assets/products/alk-031/alk-031-04-lifestyle.jpg",
+          "type": "Lifestyle",
+          "alt": "Pair of solid brass alabaster cylinder sconces flanking an upholstered bed headboard",
+          "sortOrder": 4,
+          "aspectRatio": "12 / 17"
+        },
+        {
+          "url": "/assets/products/alk-031/alk-031-05-detail.jpg",
+          "type": "Detail",
+          "alt": "Close-up of solid brass alabaster cylinder sconce with ball-drop rod on a plain putty-grey wall",
+          "sortOrder": 5,
+          "aspectRatio": "12 / 17"
+        },
+        {
+          "url": "/assets/products/alk-031/alk-031-06-lifestyle.jpg",
+          "type": "Lifestyle",
+          "alt": "Solid brass alabaster cylinder sconce above a dark wood desk with laptop and phone",
+          "sortOrder": 6,
+          "aspectRatio": "12 / 17"
+        },
+        {
+          "url": "/assets/products/alk-031/alk-031-07-lifestyle.png",
+          "type": "Lifestyle",
+          "alt": "Solid brass alabaster cylinder sconce beside a leather armchair and fireplace in a log cabin living room",
+          "sortOrder": 7,
+          "aspectRatio": "15 / 17"
+        },
+        {
+          "url": "/assets/products/alk-031/alk-031-08-lifestyle.png",
+          "type": "Lifestyle",
+          "alt": "Solid brass alabaster cylinder sconce above a hotel-style desk and shelving with a city skyline view",
+          "sortOrder": 8,
+          "aspectRatio": "6 / 5"
+        },
+        {
+          "url": "/assets/products/alk-031/alk-031-09-lifestyle.png",
+          "type": "Lifestyle",
+          "alt": "Pair of solid brass alabaster cylinder sconces flanking a mirror above a dark green-tile bathroom vanity",
+          "sortOrder": 9,
+          "aspectRatio": "5 / 4"
+        },
+        {
+          "url": "/assets/products/alk-031/alk-031-10-lifestyle.png",
+          "type": "Lifestyle",
+          "alt": "Solid brass alabaster cylinder sconce lighting a wood-paneled staircase hallway lined with portraits",
+          "sortOrder": 10,
+          "aspectRatio": "5 / 4"
+        }
+      ],
       "qaNotes": "None significant — dimensions and finish options are internally consistent within this listing. | Live Etsy price as of 2026-07-09: Rs.25,812 sale (Rs.64,531 original) - differs from the USD estimate above; update once pricing stabilizes.",
       "status": "approved",
       "featured": false,
@@ -1559,8 +1836,59 @@
         "hotel wall lighting fixture"
       ],
       "imageStatus": "Approved",
-      "heroImage": "/images/product-placeholder.svg",
-      "galleryImages": [],
+      "heroImage": "/assets/products/alk-021/alk-021-01-hero.jpg",
+      "heroImageAlt": "ArtLoka alabaster moon-disc wall sconce glowing warm on a dark navy wall beside brass elephant figurines",
+      "galleryImages": [
+        {
+          "url": "/assets/products/alk-021/alk-021-01-hero.jpg",
+          "type": "Hero",
+          "alt": "ArtLoka alabaster moon-disc wall sconce glowing warm on a dark navy wall beside brass elephant figurines",
+          "sortOrder": 1,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-021/alk-021-02-lifestyle.jpg",
+          "type": "Lifestyle",
+          "alt": "Alabaster moon-disc wall sconce beside an olive plant and armchair, above a coffee table with laptop and mug",
+          "sortOrder": 2,
+          "aspectRatio": "4 / 5"
+        },
+        {
+          "url": "/assets/products/alk-021/alk-021-03-lifestyle.jpg",
+          "type": "Lifestyle",
+          "alt": "Alabaster moon-disc wall sconce glowing on a dark staircase hallway wall",
+          "sortOrder": 3,
+          "aspectRatio": "4 / 5"
+        },
+        {
+          "url": "/assets/products/alk-021/alk-021-04-lifestyle.jpg",
+          "type": "Lifestyle",
+          "alt": "Pair of alabaster moon-disc wall sconces glowing above a console table with laptop, mug, and books",
+          "sortOrder": 4,
+          "aspectRatio": "4 / 5"
+        },
+        {
+          "url": "/assets/products/alk-021/alk-021-05-lifestyle.jpg",
+          "type": "Lifestyle",
+          "alt": "Alabaster moon-disc wall sconce glowing beside a bathroom mirror above a dark marble vanity",
+          "sortOrder": 5,
+          "aspectRatio": "4 / 5"
+        },
+        {
+          "url": "/assets/products/alk-021/alk-021-06-detail.jpg",
+          "type": "Detail",
+          "alt": "Close-up of alabaster moon-disc wall sconce showing natural stone veining and brass center knob, plain grey background",
+          "sortOrder": 6,
+          "aspectRatio": "4 / 5"
+        },
+        {
+          "url": "/assets/products/alk-021/alk-021-07-comparison.jpg",
+          "type": "Comparison",
+          "alt": "Alabaster moon-disc wall sconce shown across six available disc sizes, side by side",
+          "sortOrder": 7,
+          "aspectRatio": "2 / 1"
+        }
+      ],
       "qaNotes": "Source lists overall Width/Height as 10\"x10\" while also stating the disc diameter can range from 8\" to 18\" (custom) — clarify which dimension is the standard/default size for this SKU before publishing (the 10\" disc is used here as the default). | Live Etsy price as of 2026-07-09: Rs.23,732 sale (Rs.59,331 original) - differs from the USD estimate above; update once pricing stabilizes.",
       "status": "approved",
       "featured": false,
@@ -1638,8 +1966,94 @@
         "alabaster ambient lighting"
       ],
       "imageStatus": "Approved",
-      "heroImage": "/images/product-placeholder.svg",
-      "galleryImages": [],
+      "heroImage": "/assets/products/alk-002/alk-002-01-lifestyle.jpg",
+      "heroImageAlt": "Pair of ruffled tulip-bell alabaster wall sconces flanking a framed architectural print in a dark wood-paneled study",
+      "galleryImages": [
+        {
+          "url": "/assets/products/alk-002/alk-002-01-lifestyle.jpg",
+          "type": "Lifestyle",
+          "alt": "Pair of ruffled tulip-bell alabaster wall sconces flanking a framed architectural print in a dark wood-paneled study",
+          "sortOrder": 1,
+          "aspectRatio": "3 / 4"
+        },
+        {
+          "url": "/assets/products/alk-002/alk-002-02-lifestyle.jpg",
+          "type": "Lifestyle",
+          "alt": "Ruffled tulip-bell alabaster wall sconce lit beside a bookshelf, velvet armchair, and antique book",
+          "sortOrder": 2,
+          "aspectRatio": "3 / 4"
+        },
+        {
+          "url": "/assets/products/alk-002/alk-002-03-detail.jpg",
+          "type": "Detail",
+          "alt": "Close-up of ruffled tulip-bell alabaster wall sconce on a plain putty-grey wall",
+          "sortOrder": 3,
+          "aspectRatio": "3 / 4"
+        },
+        {
+          "url": "/assets/products/alk-002/alk-002-04-lifestyle.jpg",
+          "type": "Lifestyle",
+          "alt": "Ruffled tulip-bell alabaster wall sconce above a nightstand with laptop and phone, sofa visible beyond",
+          "sortOrder": 4,
+          "aspectRatio": "3 / 4"
+        },
+        {
+          "url": "/assets/products/alk-002/alk-002-05-lifestyle.jpg",
+          "type": "Lifestyle",
+          "alt": "Ruffled tulip-bell alabaster wall sconce above a console table with laptop, books, and phone",
+          "sortOrder": 5,
+          "aspectRatio": "3 / 4"
+        },
+        {
+          "url": "/assets/products/alk-002/alk-002-06-lifestyle.jpg",
+          "type": "Lifestyle",
+          "alt": "Ruffled tulip-bell alabaster wall sconce beside a rustic stone cottage doorway with wellies and a door mat",
+          "sortOrder": 6,
+          "aspectRatio": "3 / 4"
+        },
+        {
+          "url": "/assets/products/alk-002/alk-002-07-lifestyle.jpg",
+          "type": "Lifestyle",
+          "alt": "Ruffled tulip-bell alabaster wall sconce above a wooden side table beside an upholstered armchair",
+          "sortOrder": 7,
+          "aspectRatio": "3 / 4"
+        },
+        {
+          "url": "/assets/products/alk-002/alk-002-08-lifestyle.jpg",
+          "type": "Lifestyle",
+          "alt": "Pair of ruffled tulip-bell alabaster wall sconces flanking a mirror above a rustic stone bathroom vanity",
+          "sortOrder": 8,
+          "aspectRatio": "3 / 4"
+        },
+        {
+          "url": "/assets/products/alk-002/alk-002-09-lifestyle.jpg",
+          "type": "Lifestyle",
+          "alt": "Three ruffled tulip-bell alabaster wall sconces above a fireplace mantle with framed maps",
+          "sortOrder": 9,
+          "aspectRatio": "3 / 4"
+        },
+        {
+          "url": "/assets/products/alk-002/alk-002-10-comparison.jpg",
+          "type": "Comparison",
+          "alt": "Ruffled tulip-bell alabaster wall sconce shown across seven finish options: Antique Patina, Raw Brass, Blackened Brass, Antique Black, Polished Chrome, Polished Brass, Brushed Brass",
+          "sortOrder": 10,
+          "aspectRatio": "3 / 4"
+        },
+        {
+          "url": "/assets/products/alk-002/alk-002-11-hero.jpg",
+          "type": "Hero",
+          "alt": "ArtLoka ruffled tulip-bell alabaster wall sconce glowing warm on a dark wall beside a bonsai tree",
+          "sortOrder": 11,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-002/alk-002-12-lifestyle.jpg",
+          "type": "Lifestyle",
+          "alt": "Ruffled tulip-bell alabaster wall sconce above a study desk with a globe, compass, and stacked books",
+          "sortOrder": 12,
+          "aspectRatio": "3 / 4"
+        }
+      ],
       "qaNotes": "Listing text claims 'Indoor & Outdoor' use — flag for review; natural alabaster is porous and not typically weather-rated, recommend confirming before repeating this claim. Also: source Etsy title says 'Modern Minimalist' but the actual reference photo shows a ruffled/scalloped tulip-bell shade, not a plain minimalist silhouette — website description above matches the photo, not the original Etsy title. | Live Etsy price as of 2026-07-09: Rs.19,732 sale (Rs.49,331 original) - differs from the USD estimate above; update once pricing stabilizes.",
       "status": "approved",
       "featured": false,
@@ -1647,68 +2061,5 @@
       "sortOrder": 13
     }
   ],
-  "warnings": [
-    "ALK-001: approved image 1 is not available in public/assets/products",
-    "ALK-001: approved image 2 is not available in public/assets/products",
-    "ALK-001: approved image 3 is not available in public/assets/products",
-    "ALK-001: approved image 4 is not available in public/assets/products",
-    "ALK-001: approved image 5 is not available in public/assets/products",
-    "ALK-001: approved image 6 is not available in public/assets/products",
-    "ALK-001: approved image 7 is not available in public/assets/products",
-    "ALK-001: approved image 8 is not available in public/assets/products",
-    "ALK-001: approved image 9 is not available in public/assets/products",
-    "ALK-001: approved image 10 is not available in public/assets/products",
-    "ALK-001: approved image 11 is not available in public/assets/products",
-    "ALK-001: approved image 12 is not available in public/assets/products",
-    "ALK-001: approved image 13 is not available in public/assets/products",
-    "ALK-030: approved image 1 is not available in public/assets/products",
-    "ALK-030: approved image 2 is not available in public/assets/products",
-    "ALK-030: approved image 3 is not available in public/assets/products",
-    "ALK-030: approved image 4 is not available in public/assets/products",
-    "ALK-030: approved image 5 is not available in public/assets/products",
-    "ALK-030: approved image 6 is not available in public/assets/products",
-    "ALK-030: approved image 7 is not available in public/assets/products",
-    "ALK-030: approved image 8 is not available in public/assets/products",
-    "ALK-030: approved image 9 is not available in public/assets/products",
-    "ALK-030: approved image 10 is not available in public/assets/products",
-    "ALK-030: approved image 11 is not available in public/assets/products",
-    "ALK-030: approved image 12 is not available in public/assets/products",
-    "ALK-030: approved image 13 is not available in public/assets/products",
-    "ALK-030: approved image 14 is not available in public/assets/products",
-    "ALK-030: approved image 15 is not available in public/assets/products",
-    "ALK-031: approved image 1 is not available in public/assets/products",
-    "ALK-031: approved image 2 is not available in public/assets/products",
-    "ALK-031: approved image 3 is not available in public/assets/products",
-    "ALK-031: approved image 4 is not available in public/assets/products",
-    "ALK-031: approved image 5 is not available in public/assets/products",
-    "ALK-031: approved image 6 is not available in public/assets/products",
-    "ALK-031: approved image 7 is not available in public/assets/products",
-    "ALK-031: approved image 8 is not available in public/assets/products",
-    "ALK-031: approved image 9 is not available in public/assets/products",
-    "ALK-031: approved image 10 is not available in public/assets/products",
-    "ALK-021: approved image 1 is not available in public/assets/products",
-    "ALK-021: approved image 2 is not available in public/assets/products",
-    "ALK-021: approved image 3 is not available in public/assets/products",
-    "ALK-021: approved image 4 is not available in public/assets/products",
-    "ALK-021: approved image 5 is not available in public/assets/products",
-    "ALK-021: approved image 6 is not available in public/assets/products",
-    "ALK-021: approved image 7 is not available in public/assets/products",
-    "ALK-002: approved image 1 is not available in public/assets/products",
-    "ALK-002: approved image 2 is not available in public/assets/products",
-    "ALK-002: approved image 3 is not available in public/assets/products",
-    "ALK-002: approved image 4 is not available in public/assets/products",
-    "ALK-002: approved image 5 is not available in public/assets/products",
-    "ALK-002: approved image 6 is not available in public/assets/products",
-    "ALK-002: approved image 7 is not available in public/assets/products",
-    "ALK-002: approved image 8 is not available in public/assets/products",
-    "ALK-002: approved image 9 is not available in public/assets/products",
-    "ALK-002: approved image 10 is not available in public/assets/products",
-    "ALK-002: approved image 11 is not available in public/assets/products",
-    "ALK-002: approved image 12 is not available in public/assets/products",
-    "ALK-001: no approved images found",
-    "ALK-030: no approved images found",
-    "ALK-031: no approved images found",
-    "ALK-021: no approved images found",
-    "ALK-002: no approved images found"
-  ]
+  "warnings": []
 }

@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
   "generatedAt": "2026-07-09T06:21:20.096Z",
   "source": "data/source/ArtLoka_Product_Catalog_Full_ALK006-032.xlsx",
-=======
-  "generatedAt": "2026-07-09T17:08:05.669Z",
-  "source": "data/source/ArtLoka_Website_Sync.xlsx",
->>>>>>> f6c09da (new linsting till 13 images added)
   "products": [
     {
       "sku": "ALK-018",

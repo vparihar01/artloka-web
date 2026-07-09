@@ -79,103 +79,120 @@
           "url": "/assets/products/alk-018/alk-018-01-hero.webp",
           "type": "Hero",
           "alt": "ArtLoka alabaster disc wall sconce with brass ball drop, lit, on a dark charcoal accent wall with brass elephant figurines",
-          "sortOrder": 1
+          "sortOrder": 1,
+          "aspectRatio": "1 / 1"
         },
         {
           "url": "/assets/products/alk-018/alk-018-02-comparison.webp",
           "type": "Comparison",
           "alt": "Alabaster disc wall sconce shown across seven finish options: Antique Patina, Raw Brass, Blackened Brass, Antique Black, Polished Chrome, Polished Brass, Brushed Brass",
-          "sortOrder": 2
+          "sortOrder": 2,
+          "aspectRatio": "1 / 1"
         },
         {
           "url": "/assets/products/alk-018/alk-018-03-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Alabaster disc wall sconce mounted on a textured concrete wall in a modern living room",
-          "sortOrder": 3
+          "sortOrder": 3,
+          "aspectRatio": "1 / 1"
         },
         {
           "url": "/assets/products/alk-018/alk-018-04-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Three alabaster disc wall sconces lighting a staircase wall at dusk",
-          "sortOrder": 4
+          "sortOrder": 4,
+          "aspectRatio": "1 / 1"
         },
         {
           "url": "/assets/products/alk-018/alk-018-05-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Three alabaster disc wall sconces along a stucco stairway wall with warm ambient glow",
-          "sortOrder": 5
+          "sortOrder": 5,
+          "aspectRatio": "1 / 1"
         },
         {
           "url": "/assets/products/alk-018/alk-018-06-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Alabaster disc wall sconce on a concrete wall beside a potted fig tree",
-          "sortOrder": 6
+          "sortOrder": 6,
+          "aspectRatio": "1 / 1"
         },
         {
           "url": "/assets/products/alk-018/alk-018-07-detail.webp",
           "type": "Detail",
           "alt": "Close-up of alabaster disc wall sconce switched off, showing natural stone veining and brass ball drop",
-          "sortOrder": 7
+          "sortOrder": 7,
+          "aspectRatio": "1 / 1"
         },
         {
           "url": "/assets/products/alk-018/alk-018-08-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Alabaster disc wall sconce glowing warm on a dark wall beside a vintage candle holder and books",
-          "sortOrder": 8
+          "sortOrder": 8,
+          "aspectRatio": "1 / 1"
         },
         {
           "url": "/assets/products/alk-018/alk-018-09-detail.webp",
           "type": "Detail",
           "alt": "Alabaster disc wall sconce close-up on a neutral putty-grey wall",
-          "sortOrder": 9
+          "sortOrder": 9,
+          "aspectRatio": "1 / 1"
         },
         {
           "url": "/assets/products/alk-018/alk-018-10-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Pair of alabaster disc wall sconces lighting a dark stairwell at night",
-          "sortOrder": 10
+          "sortOrder": 10,
+          "aspectRatio": "1 / 1"
         },
         {
           "url": "/assets/products/alk-018/alk-018-11-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Alabaster disc wall sconce mounted on walnut wood paneling beside a mustard sofa and fiddle-leaf fig",
-          "sortOrder": 11
+          "sortOrder": 11,
+          "aspectRatio": "3 / 4"
         },
         {
           "url": "/assets/products/alk-018/alk-018-12-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Alabaster disc wall sconce beside a round brass-framed mirror in a bedroom",
-          "sortOrder": 12
+          "sortOrder": 12,
+          "aspectRatio": "3 / 4"
         },
         {
           "url": "/assets/products/alk-018/alk-018-13-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Alabaster disc wall sconce above a wooden entryway bench with a woven basket of eucalyptus",
-          "sortOrder": 13
+          "sortOrder": 13,
+          "aspectRatio": "3 / 4"
         },
         {
           "url": "/assets/products/alk-018/alk-018-14-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Alabaster disc wall sconce mounted beside a bathroom mirror and vanity",
-          "sortOrder": 14
+          "sortOrder": 14,
+          "aspectRatio": "3 / 4"
         },
         {
           "url": "/assets/products/alk-018/alk-018-15-comparison.webp",
           "type": "Comparison",
           "alt": "Alabaster disc wall sconce shown in polished brass and polished chrome finishes side by side",
-          "sortOrder": 15
+          "sortOrder": 15,
+          "aspectRatio": "1 / 1"
         },
         {
           "url": "/assets/products/alk-018/alk-018-16-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Alabaster disc wall sconce lighting a sage-green staircase landing",
-          "sortOrder": 16
+          "sortOrder": 16,
+          "aspectRatio": "3 / 4"
         },
         {
           "url": "/assets/products/alk-018/alk-018-17-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Alabaster disc wall sconce mounted above a marble bathroom vanity with a folded white towel",
-          "sortOrder": 17
+          "sortOrder": 17,
+          "aspectRatio": "3 / 4"
         }
       ],
       "qaNotes": "Title calls this an 'Alabaster Marble Wall Sconce' but the body description never mentions alabaster or marble — it describes a 'frosted glass globe.' This looks like a title/description mismatch in the original listing; confirm with supplier whether the shade is genuine alabaster before including this SKU in the alabaster collection. | Live Etsy price as of 2026-07-08: Rs.31,852 sale (Rs.79,631 original) - differs from the USD estimate above; update once pricing stabilizes.",
@@ -264,67 +281,78 @@
           "url": "/assets/products/alk-022/alk-022-01-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Pair of fluted alabaster double-globe wall sconces flanking a bathroom vanity mirror",
-          "sortOrder": 1
+          "sortOrder": 1,
+          "aspectRatio": "5 / 4"
         },
         {
           "url": "/assets/products/alk-022/alk-022-02-comparison.webp",
           "type": "Comparison",
           "alt": "Alabaster double-globe wall sconce shown across seven finish options: Antique Patina, Raw Brass, Blackened Brass, Antique Black, Polished Chrome, Polished Brass, Brushed Brass",
-          "sortOrder": 2
+          "sortOrder": 2,
+          "aspectRatio": "2 / 1"
         },
         {
           "url": "/assets/products/alk-022/alk-022-03-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Fluted alabaster double-globe wall sconce beside a bed with linen pillows",
-          "sortOrder": 3
+          "sortOrder": 3,
+          "aspectRatio": "4 / 5"
         },
         {
           "url": "/assets/products/alk-022/alk-022-04-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Fluted alabaster double-globe wall sconce glowing on a dark wood-paneled wall beside a nightstand and laptop",
-          "sortOrder": 4
+          "sortOrder": 4,
+          "aspectRatio": "4 / 5"
         },
         {
           "url": "/assets/products/alk-022/alk-022-05-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Fluted alabaster double-globe wall sconce mounted beside a bathroom mirror and vanity",
-          "sortOrder": 5
+          "sortOrder": 5,
+          "aspectRatio": "4 / 3"
         },
         {
           "url": "/assets/products/alk-022/alk-022-06-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Fluted alabaster double-globe wall sconce lighting a warm hallway at dusk",
-          "sortOrder": 6
+          "sortOrder": 6,
+          "aspectRatio": "4 / 5"
         },
         {
           "url": "/assets/products/alk-022/alk-022-07-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Fluted alabaster double-globe wall sconce glowing against a dark charcoal wall",
-          "sortOrder": 7
+          "sortOrder": 7,
+          "aspectRatio": "4 / 5"
         },
         {
           "url": "/assets/products/alk-022/alk-022-08-comparison.webp",
           "type": "Comparison",
           "alt": "Fluted alabaster double-globe wall sconce shown across seven finish options in a horizontal layout",
-          "sortOrder": 8
+          "sortOrder": 8,
+          "aspectRatio": "1 / 1"
         },
         {
           "url": "/assets/products/alk-022/alk-022-09-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Fluted alabaster double-globe wall sconce beside a bathroom mirror with reflected vanity",
-          "sortOrder": 9
+          "sortOrder": 9,
+          "aspectRatio": "4 / 3"
         },
         {
           "url": "/assets/products/alk-022/alk-022-10-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Pair of fluted alabaster double-globe wall sconces flanking a bathroom mirror with reflection",
-          "sortOrder": 10
+          "sortOrder": 10,
+          "aspectRatio": "4 / 3"
         },
         {
           "url": "/assets/products/alk-022/alk-022-11-hero.webp",
           "type": "Hero",
           "alt": "Fluted alabaster double-globe wall sconce, warm lit, on a plain neutral wall",
-          "sortOrder": 11
+          "sortOrder": 11,
+          "aspectRatio": "1 / 1"
         }
       ],
       "qaNotes": "Bulb specification text in the source listing is garbled ('G9 Ex12 socket', 'G9 Ex14 socket') — interpreted here as G9/E12 (US) and G9/E14 (UK), but confirm exact socket types with supplier before publishing. | Live Etsy price as of 2026-07-08: Rs.23,943 sale (Rs.59,857 original) - differs from the USD estimate above; update once pricing stabilizes.",
@@ -409,37 +437,43 @@
           "url": "/assets/products/alk-023/alk-023-01-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Gooseneck alabaster cylinder wall sconce beside a bedroom nightstand with books and a coffee cup",
-          "sortOrder": 1
+          "sortOrder": 1,
+          "aspectRatio": "9 / 8"
         },
         {
           "url": "/assets/products/alk-023/alk-023-02-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Gooseneck alabaster cylinder wall sconce lighting a wood-paneled home office with bookshelves",
-          "sortOrder": 2
+          "sortOrder": 2,
+          "aspectRatio": "9 / 8"
         },
         {
           "url": "/assets/products/alk-023/alk-023-03-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Gooseneck alabaster cylinder wall sconce glowing against a dark charcoal wall",
-          "sortOrder": 3
+          "sortOrder": 3,
+          "aspectRatio": "9 / 8"
         },
         {
           "url": "/assets/products/alk-023/alk-023-04-comparison.webp",
           "type": "Comparison",
           "alt": "Gooseneck alabaster cylinder wall sconce shown across seven finish options on a wood-plank wall",
-          "sortOrder": 4
+          "sortOrder": 4,
+          "aspectRatio": "9 / 8"
         },
         {
           "url": "/assets/products/alk-023/alk-023-05-hero.webp",
           "type": "Hero",
           "alt": "Gooseneck alabaster cylinder wall sconce, warm lit, on a plain neutral wall",
-          "sortOrder": 5
+          "sortOrder": 5,
+          "aspectRatio": "9 / 8"
         },
         {
           "url": "/assets/products/alk-023/alk-023-06-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Gooseneck alabaster cylinder wall sconce lighting a teal dining room wall beside a set table",
-          "sortOrder": 6
+          "sortOrder": 6,
+          "aspectRatio": "9 / 8"
         }
       ],
       "qaNotes": "Source describes the shade as 'Alabaster-style' rather than genuine alabaster ('Stone / Alabaster Style' material listing) — confirm with supplier whether this is real alabaster or a faux-alabaster material before publishing under the alabaster collection. | Live Etsy price as of 2026-07-08: Rs.17,956 sale (Rs.44,889 original) - differs from the USD estimate above; update once pricing stabilizes.",
@@ -527,103 +561,120 @@
           "url": "/assets/products/alk-025/alk-025-01-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Double-goblet alabaster wall sconce lighting a bright living room seating area",
-          "sortOrder": 1
+          "sortOrder": 1,
+          "aspectRatio": "4 / 5"
         },
         {
           "url": "/assets/products/alk-025/alk-025-02-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Double-goblet alabaster wall sconce glowing beside a bathroom mirror at night",
-          "sortOrder": 2
+          "sortOrder": 2,
+          "aspectRatio": "4 / 5"
         },
         {
           "url": "/assets/products/alk-025/alk-025-03-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Double-goblet alabaster wall sconce glowing against a dark charcoal wall",
-          "sortOrder": 3
+          "sortOrder": 3,
+          "aspectRatio": "4 / 5"
         },
         {
           "url": "/assets/products/alk-025/alk-025-04-comparison.webp",
           "type": "Comparison",
           "alt": "Double-goblet alabaster wall sconce shown across seven finish options",
-          "sortOrder": 4
+          "sortOrder": 4,
+          "aspectRatio": "4 / 5"
         },
         {
           "url": "/assets/products/alk-025/alk-025-05-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Pair of double-goblet alabaster wall sconces flanking a console table in a living room",
-          "sortOrder": 5
+          "sortOrder": 5,
+          "aspectRatio": "5 / 4"
         },
         {
           "url": "/assets/products/alk-025/alk-025-06-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Double-goblet alabaster wall sconce beside a bed with a nightstand plant",
-          "sortOrder": 6
+          "sortOrder": 6,
+          "aspectRatio": "4 / 5"
         },
         {
           "url": "/assets/products/alk-025/alk-025-07-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Pair of double-goblet alabaster wall sconces flanking a framed painting in a navy hallway",
-          "sortOrder": 7
+          "sortOrder": 7,
+          "aspectRatio": "5 / 4"
         },
         {
           "url": "/assets/products/alk-025/alk-025-08-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Double-goblet alabaster wall sconce beside a bathroom mirror and marble vanity",
-          "sortOrder": 8
+          "sortOrder": 8,
+          "aspectRatio": "4 / 3"
         },
         {
           "url": "/assets/products/alk-025/alk-025-09-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Double-goblet alabaster wall sconce glowing warm against a dark wall",
-          "sortOrder": 9
+          "sortOrder": 9,
+          "aspectRatio": "5 / 4"
         },
         {
           "url": "/assets/products/alk-025/alk-025-10-comparison.webp",
           "type": "Comparison",
           "alt": "Double-goblet alabaster wall sconce finish options on a grey wall from Antique Patina to Brushed Brass",
-          "sortOrder": 10
+          "sortOrder": 10,
+          "aspectRatio": "3 / 2"
         },
         {
           "url": "/assets/products/alk-025/alk-025-11-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Pair of double-goblet alabaster wall sconces flanking a framed landscape painting",
-          "sortOrder": 11
+          "sortOrder": 11,
+          "aspectRatio": "5 / 4"
         },
         {
           "url": "/assets/products/alk-025/alk-025-12-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Pair of double-goblet alabaster wall sconces flanking an upholstered bed headboard",
-          "sortOrder": 12
+          "sortOrder": 12,
+          "aspectRatio": "5 / 4"
         },
         {
           "url": "/assets/products/alk-025/alk-025-13-hero.webp",
           "type": "Hero",
           "alt": "Double-goblet alabaster wall sconce in brushed brass finish on a plain neutral wall",
-          "sortOrder": 13
+          "sortOrder": 13,
+          "aspectRatio": "4 / 5"
         },
         {
           "url": "/assets/products/alk-025/alk-025-14-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Double-goblet alabaster wall sconce beside a living room window",
-          "sortOrder": 14
+          "sortOrder": 14,
+          "aspectRatio": "4 / 5"
         },
         {
           "url": "/assets/products/alk-025/alk-025-15-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Double-goblet alabaster wall sconce glowing beside a dark bathroom mirror",
-          "sortOrder": 15
+          "sortOrder": 15,
+          "aspectRatio": "4 / 5"
         },
         {
           "url": "/assets/products/alk-025/alk-025-16-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Double-goblet alabaster wall sconce glowing warm against a dark charcoal wall",
-          "sortOrder": 16
+          "sortOrder": 16,
+          "aspectRatio": "4 / 5"
         },
         {
           "url": "/assets/products/alk-025/alk-025-17-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Pair of double-goblet alabaster wall sconces flanking a console table with laptop and books",
-          "sortOrder": 17
+          "sortOrder": 17,
+          "aspectRatio": "4 / 5"
         }
       ],
       "qaNotes": "Title says 'Double Shade' but the description and dimensions describe a single-shade sconce with one canopy — confirm with supplier whether this is actually a double-shade fixture before repeating that claim on the website. | Live Etsy price as of 2026-07-08: Rs.23,725 sale (Rs.59,313 original) - differs from the USD estimate above; update once pricing stabilizes.",
@@ -702,55 +753,64 @@
           "url": "/assets/products/alk-026/alk-026-01-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Twin-arm alabaster bell-shade vanity sconce above a console table with a vase and bowl",
-          "sortOrder": 1
+          "sortOrder": 1,
+          "aspectRatio": "5 / 4"
         },
         {
           "url": "/assets/products/alk-026/alk-026-02-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Twin-arm alabaster bell-shade wall sconce above a stack of books and a potted fern",
-          "sortOrder": 2
+          "sortOrder": 2,
+          "aspectRatio": "1 / 1"
         },
         {
           "url": "/assets/products/alk-026/alk-026-03-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Twin-arm alabaster bell-shade wall sconce glowing against a dark charcoal wall",
-          "sortOrder": 3
+          "sortOrder": 3,
+          "aspectRatio": "1 / 1"
         },
         {
           "url": "/assets/products/alk-026/alk-026-04-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Twin-arm alabaster bell-shade wall sconce lighting a dining room table setting",
-          "sortOrder": 4
+          "sortOrder": 4,
+          "aspectRatio": "1 / 1"
         },
         {
           "url": "/assets/products/alk-026/alk-026-05-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Twin-arm alabaster bell-shade wall sconce above a console table with dried flower arrangements",
-          "sortOrder": 5
+          "sortOrder": 5,
+          "aspectRatio": "1 / 1"
         },
         {
           "url": "/assets/products/alk-026/alk-026-06-hero.webp",
           "type": "Hero",
           "alt": "Twin-arm alabaster bell-shade wall sconce in aged brass finish on a plain neutral wall",
-          "sortOrder": 6
+          "sortOrder": 6,
+          "aspectRatio": "1 / 1"
         },
         {
           "url": "/assets/products/alk-026/alk-026-07-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Twin-arm alabaster bell-shade wall sconce lighting a hallway console table",
-          "sortOrder": 7
+          "sortOrder": 7,
+          "aspectRatio": "1 / 1"
         },
         {
           "url": "/assets/products/alk-026/alk-026-08-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Twin-arm alabaster bell-shade wall sconce above a framed painting in a wood-paneled home office",
-          "sortOrder": 8
+          "sortOrder": 8,
+          "aspectRatio": "4 / 5"
         },
         {
           "url": "/assets/products/alk-026/alk-026-09-comparison.webp",
           "type": "Comparison",
           "alt": "Twin-arm alabaster bell-shade wall sconce shown across seven finish options",
-          "sortOrder": 9
+          "sortOrder": 9,
+          "aspectRatio": "3 / 2"
         }
       ],
       "qaNotes": "Title calls this a 'Double Wall Sconce' but the description and dimensions describe a single rounded diffuser — confirm with supplier before repeating 'double' on the website. Header states Height 9.5in while the detailed Dimensions section says 9.25in — minor conflict, verify. Bulb type (E26/E27 medium base) differs from the G9/E12 pattern used by most other alabaster SKUs — confirm this is correct for this specific listing. | Live Etsy price as of 2026-07-08: Rs.35,600 sale (Rs.88,999 original) - differs from the USD estimate above; update once pricing stabilizes.",
@@ -835,55 +895,64 @@
           "url": "/assets/products/alk-027/alk-027-01-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Alabaster ball-and-cylinder pillar wall sconce glowing on a dark bedroom wall beside a nightstand",
-          "sortOrder": 1
+          "sortOrder": 1,
+          "aspectRatio": "3 / 4"
         },
         {
           "url": "/assets/products/alk-027/alk-027-02-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Alabaster ball-and-cylinder pillar wall sconce above a shelf with a brass owl figurine",
-          "sortOrder": 2
+          "sortOrder": 2,
+          "aspectRatio": "10 / 11"
         },
         {
           "url": "/assets/products/alk-027/alk-027-03-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Alabaster ball-and-cylinder pillar wall sconces lighting a hallway at night",
-          "sortOrder": 3
+          "sortOrder": 3,
+          "aspectRatio": "3 / 4"
         },
         {
           "url": "/assets/products/alk-027/alk-027-04-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Pair of alabaster ball-and-cylinder pillar wall sconces flanking a bed headboard",
-          "sortOrder": 4
+          "sortOrder": 4,
+          "aspectRatio": "3 / 4"
         },
         {
           "url": "/assets/products/alk-027/alk-027-05-hero.webp",
           "type": "Hero",
           "alt": "Alabaster ball-and-cylinder pillar wall sconce in aged brass finish on a plain neutral wall",
-          "sortOrder": 5
+          "sortOrder": 5,
+          "aspectRatio": "3 / 4"
         },
         {
           "url": "/assets/products/alk-027/alk-027-06-detail.webp",
           "type": "Detail",
           "alt": "Close-up of alabaster ball-and-cylinder pillar wall sconce on a linen-textured wall",
-          "sortOrder": 6
+          "sortOrder": 6,
+          "aspectRatio": "3 / 4"
         },
         {
           "url": "/assets/products/alk-027/alk-027-07-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Alabaster ball-and-cylinder pillar wall sconce beside an armchair and side table",
-          "sortOrder": 7
+          "sortOrder": 7,
+          "aspectRatio": "3 / 4"
         },
         {
           "url": "/assets/products/alk-027/alk-027-08-comparison.webp",
           "type": "Comparison",
           "alt": "Alabaster ball-and-cylinder pillar wall sconce shown across seven finish options",
-          "sortOrder": 8
+          "sortOrder": 8,
+          "aspectRatio": "3 / 2"
         },
         {
           "url": "/assets/products/alk-027/alk-027-09-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Pair of alabaster ball-and-cylinder pillar wall sconces flanking framed artwork in a home office",
-          "sortOrder": 9
+          "sortOrder": 9,
+          "aspectRatio": "5 / 4"
         }
       ],
       "qaNotes": "Source lists material as 'alabaster, brass' up top, but the Features section separately describes 'Genuine white marble shade' — confirm with supplier whether the shade is alabaster or white marble before publishing. Description text is also near-identical to ALK-029 (4525491364) apart from title — verify these are genuinely distinct listings. | Live Etsy price as of 2026-07-08: Rs.19,576 sale (Rs.48,941 original) - differs from the USD estimate above; update once pricing stabilizes.",
@@ -964,49 +1033,57 @@
           "url": "/assets/products/alk-028/alk-028-01-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Ball-finial alabaster cone-shade wall sconce beside a bathroom mirror and marble vanity",
-          "sortOrder": 1
+          "sortOrder": 1,
+          "aspectRatio": "2 / 3"
         },
         {
           "url": "/assets/products/alk-028/alk-028-02-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Ball-finial alabaster cone-shade wall sconce beside a bed with a laptop and notebook on the nightstand",
-          "sortOrder": 2
+          "sortOrder": 2,
+          "aspectRatio": "2 / 3"
         },
         {
           "url": "/assets/products/alk-028/alk-028-03-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Ball-finial alabaster cone-shade wall sconce glowing on a dark wall beside a brass antelope figurine",
-          "sortOrder": 3
+          "sortOrder": 3,
+          "aspectRatio": "1 / 1"
         },
         {
           "url": "/assets/products/alk-028/alk-028-04-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Pair of ball-finial alabaster cone-shade wall sconces flanking framed art in a wood-paneled office",
-          "sortOrder": 4
+          "sortOrder": 4,
+          "aspectRatio": "2 / 3"
         },
         {
           "url": "/assets/products/alk-028/alk-028-05-hero.webp",
           "type": "Hero",
           "alt": "Ball-finial alabaster cone-shade wall sconce in brushed brass finish on a plain neutral wall",
-          "sortOrder": 5
+          "sortOrder": 5,
+          "aspectRatio": "2 / 3"
         },
         {
           "url": "/assets/products/alk-028/alk-028-06-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Ball-finial alabaster cone-shade wall sconce above a console table with a laptop",
-          "sortOrder": 6
+          "sortOrder": 6,
+          "aspectRatio": "2 / 3"
         },
         {
           "url": "/assets/products/alk-028/alk-028-07-comparison.webp",
           "type": "Comparison",
           "alt": "Ball-finial alabaster cone-shade wall sconce shown across seven finish options",
-          "sortOrder": 7
+          "sortOrder": 7,
+          "aspectRatio": "3 / 2"
         },
         {
           "url": "/assets/products/alk-028/alk-028-08-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Ball-finial alabaster cone-shade wall sconce beside a curtained window and a vase of greenery",
-          "sortOrder": 8
+          "sortOrder": 8,
+          "aspectRatio": "4 / 5"
         }
       ],
       "qaNotes": "None significant — dimensions and bulb specs are internally consistent within this listing. | Live Etsy price as of 2026-07-08: Rs.21,972 sale (Rs.54,931 original) - differs from the USD estimate above; update once pricing stabilizes.",
@@ -1090,73 +1167,85 @@
           "url": "/assets/products/alk-029/alk-029-01-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Pair of bell-jar alabaster wall sconces flanking a round mirror above a subway-tile bathroom vanity",
-          "sortOrder": 1
+          "sortOrder": 1,
+          "aspectRatio": "2 / 3"
         },
         {
           "url": "/assets/products/alk-029/alk-029-02-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Bell-jar alabaster wall sconce glowing beside a leather armchair and stone fireplace",
-          "sortOrder": 2
+          "sortOrder": 2,
+          "aspectRatio": "2 / 3"
         },
         {
           "url": "/assets/products/alk-029/alk-029-03-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Pair of bell-jar alabaster wall sconces flanking a gilt mirror in a wood-paneled hallway",
-          "sortOrder": 3
+          "sortOrder": 3,
+          "aspectRatio": "2 / 3"
         },
         {
           "url": "/assets/products/alk-029/alk-029-04-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Bell-jar alabaster wall sconces lighting a curved staircase gallery wall",
-          "sortOrder": 4
+          "sortOrder": 4,
+          "aspectRatio": "2 / 3"
         },
         {
           "url": "/assets/products/alk-029/alk-029-05-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Bell-jar alabaster wall sconce lighting an exterior cottage doorway with wisteria",
-          "sortOrder": 5
+          "sortOrder": 5,
+          "aspectRatio": "2 / 3"
         },
         {
           "url": "/assets/products/alk-029/alk-029-06-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Bell-jar alabaster wall sconce beside a round mirror above a wooden desk with a laptop",
-          "sortOrder": 6
+          "sortOrder": 6,
+          "aspectRatio": "4 / 5"
         },
         {
           "url": "/assets/products/alk-029/alk-029-07-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Bell-jar alabaster wall sconce above a console table with a phone and tablet",
-          "sortOrder": 7
+          "sortOrder": 7,
+          "aspectRatio": "4 / 5"
         },
         {
           "url": "/assets/products/alk-029/alk-029-08-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Bell-jar alabaster wall sconce glowing on a dark wall beside a carved stone sculpture",
-          "sortOrder": 8
+          "sortOrder": 8,
+          "aspectRatio": "1 / 1"
         },
         {
           "url": "/assets/products/alk-029/alk-029-09-comparison.webp",
           "type": "Comparison",
           "alt": "Bell-jar alabaster wall sconce shown across seven finish options",
-          "sortOrder": 9
+          "sortOrder": 9,
+          "aspectRatio": "2 / 3"
         },
         {
           "url": "/assets/products/alk-029/alk-029-10-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Row of bell-jar alabaster wall sconces lighting a hallway at night",
-          "sortOrder": 10
+          "sortOrder": 10,
+          "aspectRatio": "4 / 5"
         },
         {
           "url": "/assets/products/alk-029/alk-029-11-hero.webp",
           "type": "Hero",
           "alt": "Bell-jar alabaster wall sconce in aged brass finish, glowing warm against a plain dark wall",
-          "sortOrder": 11
+          "sortOrder": 11,
+          "aspectRatio": "2 / 3"
         },
         {
           "url": "/assets/products/alk-029/alk-029-12-lifestyle.webp",
           "type": "Lifestyle",
           "alt": "Bell-jar alabaster wall sconce beside an armchair and side table with books",
-          "sortOrder": 12
+          "sortOrder": 12,
+          "aspectRatio": "4 / 5"
         }
       ],
       "qaNotes": "IMPORTANT: Title references a 'Brass Chain Pendant Light' but the sourced description is near-identical boilerplate to ALK-027 (4527129047) describing a twin-bracket wall sconce — no chain or pendant is mentioned anywhere in the body text. This is a significant title/description mismatch; verify the actual product with the supplier before publishing, as this may be a mislabeled or duplicate listing. | Live Etsy price as of 2026-07-08: Rs.23,725 sale (Rs.59,313 original) - differs from the USD estimate above; update once pricing stabilizes.",
@@ -1164,7 +1253,462 @@
       "featured": false,
       "bestseller": false,
       "sortOrder": 8
+    },
+    {
+      "sku": "ALK-001",
+      "slug": "alabaster-and-brass-wall-sconce-art-deco-vanity-light-alk-001",
+      "title": "Alabaster & Brass Wall Sconce | Art Deco Vanity Light – ArtLoka",
+      "originalTitle": "Genuine Alabaster Stone Brass Wall Sconce | Art Deco Vanity Light, Luxury Home Lighting",
+      "metaDescription": "Handcrafted alabaster & brass wall sconce with an Art Deco silhouette. Genuine stone veining and a warm ambient glow, artisan-made in India.",
+      "description": "At ArtLoka, this Art Deco-inspired wall sconce pairs genuine alabaster stone with solid, heavy-duty brass for a fixture that feels as luxurious as it looks. Each stone shade is hand-selected and hand-finished by our artisans, so the natural veining running through the alabaster is never quite the same twice. Mounted, it casts a soft, warm, diffused glow that works beautifully as bedside lighting, a hallway accent, or a statement piece in a dining room or entryway. Unlike lacquered or brass-coated alternatives, we use unlacquered solid brass so the finish only deepens with age. Available in seven brass finishes to match your existing hardware, from raw brass to blackened brass and polished chrome.",
+      "etsyUrl": "https://www.etsy.com/in-en/listing/4534999887/alabaster-stone-brass-wall-sconce-art",
+      "priceUsd": 499.67,
+      "materials": [
+        "Genuine alabaster stone",
+        "solid brass"
+      ],
+      "dimensions": {
+        "widthIn": 5,
+        "heightIn": 10,
+        "depthIn": 6,
+        "canopy": "Round backplate, 5\" dia. (approx.)"
+      },
+      "finishes": [
+        "Raw brass",
+        "Polished brass",
+        "Antique patina",
+        "Brushed chrome",
+        "Polished chrome",
+        "Blackened brass",
+        "Black matte"
+      ],
+      "bulbUs": "1 x G9 bi-pin, 120V (bulb not included)",
+      "bulbInternational": "1 x G9 bi-pin, 240V (bulb not included)",
+      "primaryCategory": "Lighting",
+      "styles": [
+        "Art Deco",
+        "Luxury",
+        "Vanity"
+      ],
+      "rooms": [
+        "Bedroom",
+        "living room",
+        "hallway",
+        "dining room",
+        "hotel/hospitality interiors"
+      ],
+      "features": [
+        "UL-listed components",
+        "all mounting hardware included",
+        "hand-finished natural stone (slight variation is normal)"
+      ],
+      "handmadeNote": "Handmade & hand-finished by ArtLoka artisans in India",
+      "tags": [
+        "alabaster sconce",
+        "brass wall sconce",
+        "art deco light",
+        "luxury sconce",
+        "bedside wall lamp",
+        "handmade brass lamp",
+        "antique brass sconce",
+        "marble wall light",
+        "luxury home light",
+        "hotel wall sconce",
+        "alabaster lamp",
+        "unlacquered brass"
+      ],
+      "seoKeywords": [
+        "alabaster wall sconce",
+        "brass wall sconce",
+        "art deco wall light",
+        "genuine alabaster lighting",
+        "handmade brass wall light",
+        "luxury vanity sconce",
+        "unlacquered brass sconce",
+        "artisan alabaster lamp"
+      ],
+      "imageStatus": "Approved",
+      "heroImage": "/images/product-placeholder.svg",
+      "galleryImages": [],
+      "qaNotes": "Etsy meta price tag ($499.67) doesn't reconcile cleanly with displayed INR price at ~83 INR/USD — verify live price before publishing. | Live Etsy price as of 2026-07-09: Rs.19,812 sale (Rs.49,531 original) - differs from the USD estimate above; update once pricing stabilizes.",
+      "status": "approved",
+      "featured": false,
+      "bestseller": false,
+      "sortOrder": 9
+    },
+    {
+      "sku": "ALK-030",
+      "slug": "french-country-brass-wall-sconce-scalloped-glass-alk-030",
+      "title": "French Country Brass Wall Sconce | Scalloped Glass – ArtLoka",
+      "originalTitle": "Handmade Brass Wall Sconce with Alabaster Shade – Mid Century Lighting",
+      "metaDescription": "Handcrafted antique brass wall sconce with scalloped glass shade. French country styling for bedrooms and reading nooks. Made in India.",
+      "description": "Inspired by French country and vintage European design, this handcrafted sconce pairs a graceful curved arm in antique brass with a delicate, flower-inspired scalloped glass shade. It creates a warm, inviting glow suited to bedrooms, hallways, bathrooms, reading nooks, and cottage-style living spaces. As with every ArtLoka piece, it's handmade and hand-finished for lasting character.",
+      "etsyUrl": "https://www.etsy.com/in-en/listing/4534964188/handmade-brass-wall-sconce-with",
+      "priceUsd": 541.65,
+      "materials": [
+        "Brass",
+        "scalloped glass shade"
+      ],
+      "dimensions": {
+        "widthIn": 5.5,
+        "heightIn": 9,
+        "depthIn": 9.4,
+        "canopy": "Not specified — confirm with supplier"
+      },
+      "finishes": [
+        "Antique brass"
+      ],
+      "bulbUs": "1 x E26/E27 (bulb not included)",
+      "bulbInternational": "1 x E26/E27 (bulb not included)",
+      "primaryCategory": "Lighting",
+      "styles": [
+        "French Country",
+        "Farmhouse",
+        "Traditional"
+      ],
+      "rooms": [
+        "Bedroom",
+        "hallway",
+        "bathroom",
+        "reading nook",
+        "living room"
+      ],
+      "features": [
+        "Curved decorative arm",
+        "scalloped glass shade",
+        "hardwired installation",
+        "suitable for cottage/farmhouse interiors"
+      ],
+      "handmadeNote": "Handmade & hand-finished by ArtLoka artisans in India",
+      "tags": [
+        "country wall sconce",
+        "antique brass light",
+        "scalloped glass",
+        "farmhouse wall lamp",
+        "cottage wall light",
+        "vintage european",
+        "reading nook lamp",
+        "bedroom wall sconce",
+        "hallway wall light",
+        "handmade brass",
+        "traditional lamp",
+        "curved arm sconce",
+        "luxury bedroom light"
+      ],
+      "seoKeywords": [
+        "french country wall sconce USA",
+        "antique brass scalloped light UK",
+        "farmhouse bedroom lamp",
+        "cottage wall sconce",
+        "vintage brass wall light"
+      ],
+      "imageStatus": "Approved",
+      "heroImage": "/images/product-placeholder.svg",
+      "galleryImages": [],
+      "qaNotes": "IMPORTANT: Title says 'Alabaster Shade' but the description explicitly describes 'a beautiful white scalloped glass shade' with French-country styling — no alabaster is mentioned; live listing body text confirms 'Materials: Brass, Glass'. Confirm with supplier whether this SKU actually belongs in the alabaster collection before publishing. | Live Etsy price as of 2026-07-09: Rs.27,668 sale (Rs.69,171 original) - differs from the USD estimate above; update once pricing stabilizes.",
+      "status": "approved",
+      "featured": false,
+      "bestseller": false,
+      "sortOrder": 10
+    },
+    {
+      "sku": "ALK-031",
+      "slug": "solid-brass-alabaster-cylinder-wall-sconce-alk-031",
+      "title": "Solid Brass Alabaster Cylinder Wall Sconce | ArtLoka",
+      "originalTitle": "Solid Brass Alabaster Cylinder Sconce, Mid Century Modern Wall Light Fixture",
+      "metaDescription": "Tall solid brass alabaster cylinder sconce, seven finishes. Warm ambient glow for bedrooms, hallways and hotel interiors. Made in India.",
+      "description": "A tall cylinder sconce in heavy, premium brass showcases a genuine alabaster shade with its own unique natural veining, creating a warm, ambient glow with sculptural presence. It's built for bedrooms, hallways, living rooms, entryways, bathrooms, and hotel interiors, and offered across seven brass finishes to suit any existing hardware. UL and CE-approved components throughout, and, as always, fully handmade and hand-finished.",
+      "etsyUrl": "https://www.etsy.com/in-en/listing/4534971738/solid-brass-alabaster-cylinder-sconce",
+      "priceUsd": 502.86,
+      "materials": [
+        "Alabaster",
+        "pure brass"
+      ],
+      "dimensions": {
+        "widthIn": 5,
+        "heightIn": 16,
+        "depthIn": 7,
+        "canopy": "5\" diameter"
+      },
+      "finishes": [
+        "Polished brass",
+        "Brushed brass",
+        "Polished chrome",
+        "Antique black",
+        "Raw brass",
+        "Blackened brass",
+        "Antique patina"
+      ],
+      "bulbUs": "1 x E12, 120V (bulb not included)",
+      "bulbInternational": "1 x G9, 240V (bulb not included)",
+      "primaryCategory": "Lighting",
+      "styles": [
+        "Mid-Century Modern"
+      ],
+      "rooms": [
+        "Bedroom",
+        "living room",
+        "hallway",
+        "entryway",
+        "bathroom",
+        "hotel interiors"
+      ],
+      "features": [
+        "UL approved (US)",
+        "CE certified (Europe)",
+        "free customization available (size/finish/design)",
+        "tall cylinder silhouette"
+      ],
+      "handmadeNote": "Handmade & hand-finished by ArtLoka artisans in India",
+      "tags": [
+        "alabaster cylinder",
+        "solid brass light",
+        "century wall lamp",
+        "tall wall sconce",
+        "handmade brass",
+        "luxury wall light",
+        "hallway wall lamp",
+        "bedroom wall sconce",
+        "hotel wall lighting",
+        "UL listed sconce",
+        "CE certified light",
+        "artisan alabaster",
+        "seven finish sconce"
+      ],
+      "seoKeywords": [
+        "solid brass alabaster cylinder sconce USA",
+        "tall wall sconce UK",
+        "mid century brass wall lamp",
+        "hotel wall lighting fixture",
+        "handmade cylinder sconce"
+      ],
+      "imageStatus": "Approved",
+      "heroImage": "/images/product-placeholder.svg",
+      "galleryImages": [],
+      "qaNotes": "None significant — dimensions and finish options are internally consistent within this listing. | Live Etsy price as of 2026-07-09: Rs.25,812 sale (Rs.64,531 original) - differs from the USD estimate above; update once pricing stabilizes.",
+      "status": "approved",
+      "featured": false,
+      "bestseller": false,
+      "sortOrder": 11
+    },
+    {
+      "sku": "ALK-021",
+      "slug": "alabaster-sphere-wall-sconce-mid-century-brushed-brass-alk-021",
+      "title": "Alabaster Sphere Wall Sconce | Mid-Century Brushed Brass – ArtLoka",
+      "originalTitle": "Alabaster Stone Wall Sconce, Natural Marble Light, Mid Century Modern Brass Lamp",
+      "metaDescription": "Alabaster sphere wall sconce in brushed brass, custom sphere sizes 8-18in. Soft glow for bedrooms, bathrooms and hotel interiors.",
+      "description": "A softly glowing alabaster sphere is the centerpiece of this minimalist wall sconce, mounted on a brushed brass base for a clean, modern finish. It's designed for bedrooms, hallways, living rooms, bathrooms, and hotel-style interiors, and the sphere is offered in a range of sizes from 8 to 18 inches so you can scale the fixture to your wall. As with all our stone pieces, each sphere is genuinely one of a kind.",
+      "etsyUrl": "https://www.etsy.com/in-en/listing/4534973463/alabaster-stone-wall-sconce-natural",
+      "priceUsd": 464.23,
+      "materials": [
+        "Solid brass",
+        "alabaster"
+      ],
+      "dimensions": {
+        "widthIn": 10,
+        "heightIn": 10,
+        "depthIn": 4,
+        "canopy": "5\" diameter"
+      },
+      "finishes": [
+        "Antique",
+        "Polished",
+        "Matte black (customizable on request)"
+      ],
+      "bulbUs": "1 x E26/E27 (bulb not included)",
+      "bulbInternational": "1 x E26/E27 (bulb not included)",
+      "primaryCategory": "Lighting",
+      "styles": [
+        "Modern",
+        "Minimalist",
+        "Contemporary"
+      ],
+      "rooms": [
+        "Bedroom",
+        "hallway",
+        "living room",
+        "bathroom",
+        "hotel interiors"
+      ],
+      "features": [
+        "Sphere shade available in 8\"-18\" diameters",
+        "custom sizing and finishes on request",
+        "hardwired installation"
+      ],
+      "handmadeNote": "Handmade & hand-finished by ArtLoka artisans in India",
+      "tags": [
+        "alabaster sphere",
+        "natural marble light",
+        "brushed brass sconce",
+        "century wall lamp",
+        "bathroom vanity",
+        "custom size sconce",
+        "luxury wall light",
+        "hallway wall sconce",
+        "hotel wall lighting",
+        "modern globe sconce",
+        "handmade brass lamp",
+        "contemporary light",
+        "sphere wall lamp"
+      ],
+      "seoKeywords": [
+        "alabaster sphere wall sconce USA",
+        "brushed brass globe light UK",
+        "custom size alabaster sconce",
+        "mid century sphere lamp",
+        "hotel wall lighting fixture"
+      ],
+      "imageStatus": "Approved",
+      "heroImage": "/images/product-placeholder.svg",
+      "galleryImages": [],
+      "qaNotes": "Source lists overall Width/Height as 10\"x10\" while also stating the disc diameter can range from 8\" to 18\" (custom) — clarify which dimension is the standard/default size for this SKU before publishing (the 10\" disc is used here as the default). | Live Etsy price as of 2026-07-09: Rs.23,732 sale (Rs.59,331 original) - differs from the USD estimate above; update once pricing stabilizes.",
+      "status": "approved",
+      "featured": false,
+      "bestseller": false,
+      "sortOrder": 12
+    },
+    {
+      "sku": "ALK-002",
+      "slug": "handmade-alabaster-and-brass-wall-sconce-modern-minimalist-alk-002",
+      "title": "Handmade Alabaster & Brass Wall Sconce | Modern Minimalist – ArtLoka",
+      "originalTitle": "Handmade Alabaster Brass Wall Sconce | Modern Minimalist Ambient Lighting",
+      "metaDescription": "Ruffled tulip-bell alabaster wall sconce with hand-finished brass hardware. A soft ambient glow for bedrooms, hallways & living rooms.",
+      "description": "This ruffled tulip-bell sconce brings a softer, more organic silhouette to ArtLoka's alabaster collection — a scalloped, flower-like shade that catches the light along every petal-like edge. Genuine alabaster is paired with pure, heavy-duty brass on a compact ball-joint stem, so the fixture holds its finish and character for years. It works well as bedside reading light, along a hallway run, or as a softly lit accent on a living room wall. Every piece is handmade and hand-finished, and pairs well with a dimmable bulb for full control over the ambience. Choose from seven brass finishes, including antique patina and brushed chrome, to match the rest of your fittings.",
+      "etsyUrl": "https://www.etsy.com/in-en/listing/4535005962/handmade-alabaster-brass-wall-sconce",
+      "priceUsd": 499.78,
+      "materials": [
+        "Alabaster",
+        "brass (listing highlights also reference marble)"
+      ],
+      "dimensions": {
+        "widthIn": 5,
+        "heightIn": 8,
+        "depthIn": 8,
+        "canopy": "5\" diameter canopy"
+      },
+      "finishes": [
+        "Raw brass",
+        "Polished brass",
+        "Antique patina",
+        "Brushed brass",
+        "Brushed chrome",
+        "Polished chrome",
+        "Blackened brass",
+        "Black matte"
+      ],
+      "bulbUs": "1 x E12, 120V (bulb not included)",
+      "bulbInternational": "1 x G9, 240V (bulb not included)",
+      "primaryCategory": "Lighting",
+      "styles": [
+        "Modern",
+        "Minimalist"
+      ],
+      "rooms": [
+        "Bedroom",
+        "hallway",
+        "living room",
+        "bedside"
+      ],
+      "features": [
+        "Compatible with dimmer switches",
+        "UL-listed components",
+        "easy install with included hardware"
+      ],
+      "handmadeNote": "Handmade by skilled ArtLoka artisans",
+      "tags": [
+        "alabaster sconce",
+        "brass wall light",
+        "tulip bell sconce",
+        "handmade wall lamp",
+        "ruffled alabaster",
+        "bedside brass light",
+        "hallway wall sconce",
+        "ambient wall light",
+        "brass bedroom lamp",
+        "alabaster lighting",
+        "brushed brass sconce",
+        "small wall sconce",
+        "scalloped light"
+      ],
+      "seoKeywords": [
+        "modern alabaster wall sconce",
+        "minimalist brass wall light",
+        "handmade dimmable sconce",
+        "brass bedside lamp",
+        "alabaster ambient lighting"
+      ],
+      "imageStatus": "Approved",
+      "heroImage": "/images/product-placeholder.svg",
+      "galleryImages": [],
+      "qaNotes": "Listing text claims 'Indoor & Outdoor' use — flag for review; natural alabaster is porous and not typically weather-rated, recommend confirming before repeating this claim. Also: source Etsy title says 'Modern Minimalist' but the actual reference photo shows a ruffled/scalloped tulip-bell shade, not a plain minimalist silhouette — website description above matches the photo, not the original Etsy title. | Live Etsy price as of 2026-07-09: Rs.19,732 sale (Rs.49,331 original) - differs from the USD estimate above; update once pricing stabilizes.",
+      "status": "approved",
+      "featured": false,
+      "bestseller": false,
+      "sortOrder": 13
     }
   ],
-  "warnings": []
+  "warnings": [
+    "ALK-001: approved image 1 is not available in public/assets/products",
+    "ALK-001: approved image 2 is not available in public/assets/products",
+    "ALK-001: approved image 3 is not available in public/assets/products",
+    "ALK-001: approved image 4 is not available in public/assets/products",
+    "ALK-001: approved image 5 is not available in public/assets/products",
+    "ALK-001: approved image 6 is not available in public/assets/products",
+    "ALK-001: approved image 7 is not available in public/assets/products",
+    "ALK-001: approved image 8 is not available in public/assets/products",
+    "ALK-001: approved image 9 is not available in public/assets/products",
+    "ALK-001: approved image 10 is not available in public/assets/products",
+    "ALK-001: approved image 11 is not available in public/assets/products",
+    "ALK-001: approved image 12 is not available in public/assets/products",
+    "ALK-001: approved image 13 is not available in public/assets/products",
+    "ALK-030: approved image 1 is not available in public/assets/products",
+    "ALK-030: approved image 2 is not available in public/assets/products",
+    "ALK-030: approved image 3 is not available in public/assets/products",
+    "ALK-030: approved image 4 is not available in public/assets/products",
+    "ALK-030: approved image 5 is not available in public/assets/products",
+    "ALK-030: approved image 6 is not available in public/assets/products",
+    "ALK-030: approved image 7 is not available in public/assets/products",
+    "ALK-030: approved image 8 is not available in public/assets/products",
+    "ALK-030: approved image 9 is not available in public/assets/products",
+    "ALK-030: approved image 10 is not available in public/assets/products",
+    "ALK-030: approved image 11 is not available in public/assets/products",
+    "ALK-030: approved image 12 is not available in public/assets/products",
+    "ALK-030: approved image 13 is not available in public/assets/products",
+    "ALK-030: approved image 14 is not available in public/assets/products",
+    "ALK-030: approved image 15 is not available in public/assets/products",
+    "ALK-031: approved image 1 is not available in public/assets/products",
+    "ALK-031: approved image 2 is not available in public/assets/products",
+    "ALK-031: approved image 3 is not available in public/assets/products",
+    "ALK-031: approved image 4 is not available in public/assets/products",
+    "ALK-031: approved image 5 is not available in public/assets/products",
+    "ALK-031: approved image 6 is not available in public/assets/products",
+    "ALK-031: approved image 7 is not available in public/assets/products",
+    "ALK-031: approved image 8 is not available in public/assets/products",
+    "ALK-031: approved image 9 is not available in public/assets/products",
+    "ALK-031: approved image 10 is not available in public/assets/products",
+    "ALK-021: approved image 1 is not available in public/assets/products",
+    "ALK-021: approved image 2 is not available in public/assets/products",
+    "ALK-021: approved image 3 is not available in public/assets/products",
+    "ALK-021: approved image 4 is not available in public/assets/products",
+    "ALK-021: approved image 5 is not available in public/assets/products",
+    "ALK-021: approved image 6 is not available in public/assets/products",
+    "ALK-021: approved image 7 is not available in public/assets/products",
+    "ALK-002: approved image 1 is not available in public/assets/products",
+    "ALK-002: approved image 2 is not available in public/assets/products",
+    "ALK-002: approved image 3 is not available in public/assets/products",
+    "ALK-002: approved image 4 is not available in public/assets/products",
+    "ALK-002: approved image 5 is not available in public/assets/products",
+    "ALK-002: approved image 6 is not available in public/assets/products",
+    "ALK-002: approved image 7 is not available in public/assets/products",
+    "ALK-002: approved image 8 is not available in public/assets/products",
+    "ALK-002: approved image 9 is not available in public/assets/products",
+    "ALK-002: approved image 10 is not available in public/assets/products",
+    "ALK-002: approved image 11 is not available in public/assets/products",
+    "ALK-002: approved image 12 is not available in public/assets/products",
+    "ALK-001: no approved images found",
+    "ALK-030: no approved images found",
+    "ALK-031: no approved images found",
+    "ALK-021: no approved images found",
+    "ALK-002: no approved images found"
+  ]
 }

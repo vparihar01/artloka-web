@@ -50,6 +50,19 @@ Configure:
 
 The default endpoint is `https://formspree.io/f/xdarvrqq`. Set the environment variable when using a different Formspree form for preview or production.
 
+## Product image sync
+When the workbook `Images` sheet contains new Google Drive image links, configure:
+- `GOOGLE_SERVICE_ACCOUNT_EMAIL`
+- `GOOGLE_SERVICE_ACCOUNT_PRIVATE_KEY`
+
+Then run:
+```bash
+npm run images:download
+npm run catalog:sync
+```
+
+The downloader saves approved, not-yet-listed image rows into `public/assets/products/<sku>/` using the filename pattern expected by the catalogue sync.
+
 ## Analytics and SEO
 Configure:
 - `NEXT_PUBLIC_SITE_URL`

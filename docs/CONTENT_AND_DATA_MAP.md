@@ -25,12 +25,12 @@
 | Website SEO Keywords | Metadata/search/content planning | Never render as visible keyword list. |
 | Image Status | Internal/QA status | Document as launch risk; do not expose as final customer copy. |
 | QA Notes / Flags | Internal QA | Keep out of final strict customer experience; may be visible in preview/admin-style notices only. |
-| Images worksheet | Product gallery and alt text | Use approved local image derivatives under `public/assets/products`. |
+| Images worksheet | Product gallery, alt text and aspect ratios | Use approved local image derivatives under `public/assets/products`; use `Aspect Ratio` to avoid forced crops. |
 
 ## Current Catalogue Coverage
-- Products: 8
+- Products: 13
 - Product type coverage: Lighting only
-- Approved local images: 89
+- Approved local images: 89 existing local files; 57 new image rows currently require local assets
 - Generated product image references: local assets only
 - Decor/sculpture representative: blocked until the catalogue contains a real SKU
 

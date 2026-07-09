@@ -1,7 +1,7 @@
 import { readSheet } from "read-excel-file/node";
 import { google } from "googleapis";
 import { existsSync } from "node:fs";
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
 import { CatalogSchema, ProductSchema, type Product } from "../src/lib/catalog/schema";
@@ -9,7 +9,10 @@ import { CatalogSchema, ProductSchema, type Product } from "../src/lib/catalog/s
 type SheetCell = string | number | boolean | Date | null;
 
 const ROOT = process.cwd();
-const LOCAL_SOURCE = path.join(ROOT, "data/source/ArtLoka_Product_Catalog_Full_ALK006-032.xlsx");
+const LOCAL_SOURCE_CANDIDATES = [
+  path.join(ROOT, "data/source/ArtLoka_Website_Sync.xlsx"),
+  path.join(ROOT, "data/source/ArtLoka_Product_Catalog_Full_ALK006-032.xlsx")
+];
 const OUTPUT = path.join(ROOT, "src/data/generated/products.json");
 const PUBLIC_PRODUCTS = path.join(ROOT, "public/assets/products");
 const PRODUCT_SHEETS = ["Products", "Website Catalog"];
@@ -34,6 +37,41 @@ function numberOrNull(value: unknown): number | null {
   if (!cleaned) return null;
   const parsed = Number(cleaned);
   return Number.isFinite(parsed) ? parsed : null;
+}
+
+function normalizeStatus(value: unknown): string {
+  return text(value as SheetCell).toLowerCase();
+}
+
+function shouldSkipProduct(record: Record<string, string | number | boolean | Date | null>): boolean {
+  return normalizeStatus(record["Listing Status"]) === "done";
+}
+
+function shouldSkipImage(record: Record<string, string | number | boolean | Date | null>): boolean {
+  return normalizeStatus(record["Listing Status"]) === "listed";
+}
+
+function parseAspectRatio(value: SheetCell | undefined): string | undefined {
+  let raw = text(value);
+  if (value instanceof Date) raw = `${value.getUTCHours()}:${value.getUTCMinutes()}`;
+  const match = raw.match(/^(\d+(?:\.\d+)?)\s*[:/]\s*(\d+(?:\.\d+)?)$/);
+  if (!match) return undefined;
+
+  const width = Number(match[1]);
+  const height = Number(match[2]);
+  if (!Number.isFinite(width) || !Number.isFinite(height) || width <= 0 || height <= 0) return undefined;
+
+  return `${width} / ${height}`;
+}
+
+async function loadExistingProducts(): Promise<Product[]> {
+  if (!existsSync(OUTPUT)) return [];
+  try {
+    const existing = CatalogSchema.parse(JSON.parse(await readFile(OUTPUT, "utf8")));
+    return existing.products;
+  } catch {
+    return [];
+  }
 }
 
 function safeFileSegment(value: string): string {
@@ -130,11 +168,14 @@ async function loadRows(): Promise<{ rows: SheetCell[][]; imageRows: SheetCell[]
     };
   }
 
-  const productSheet = await readFirstAvailableSheet(LOCAL_SOURCE, PRODUCT_SHEETS);
+  const localSource = LOCAL_SOURCE_CANDIDATES.find((candidate) => existsSync(candidate));
+  if (!localSource) throw new Error(`No local catalogue source found. Tried ${LOCAL_SOURCE_CANDIDATES.map((candidate) => path.relative(ROOT, candidate)).join(", ")}.`);
+
+  const productSheet = await readFirstAvailableSheet(localSource, PRODUCT_SHEETS);
   return {
     rows: productSheet.rows,
-    imageRows: await readOptionalSheet(LOCAL_SOURCE, IMAGES_SHEET),
-    source: path.relative(ROOT, LOCAL_SOURCE),
+    imageRows: await readOptionalSheet(localSource, IMAGES_SHEET),
+    source: path.relative(ROOT, localSource),
     productSheet: productSheet.sheetName
   };
 }
@@ -146,16 +187,20 @@ async function main(): Promise<void> {
   const header = rows[0].map((value) => text(value));
   const imageHeader = imageRows[0]?.map((value) => text(value)) ?? [];
   const imageWarnings: string[] = [];
-  const imagesBySku = new Map<string, Array<{ url: string; type: string; alt: string; sortOrder: number }>>();
+  const imageAspectBySkuAndOrder = new Map<string, string>();
+  const imagesBySku = new Map<string, Array<{ url: string; type: string; alt: string; sortOrder: number; aspectRatio?: string }>>();
   if (imageRows.length) {
     imageRows.slice(1).forEach((row, index) => {
       const record = rowToRecord(imageHeader, row);
       const sku = text(record["SKU"] as SheetCell);
+      const sortOrder = numberOrNull(record["Sort Order"]) ?? index + 1;
+      const aspectRatio = parseAspectRatio(record["Aspect Ratio"] as SheetCell);
+      if (sku && aspectRatio) imageAspectBySkuAndOrder.set(`${sku}:${sortOrder}`, aspectRatio);
+      if (shouldSkipImage(record)) return;
       const imageUrl = text(record["Image URL"] as SheetCell);
       const approved = text(record["Approved"] as SheetCell).toLowerCase();
       if (!sku || !imageUrl || !["yes", "true", "approved", "1"].includes(approved)) return;
       const type = text(record["Image Type"] as SheetCell) || "Product";
-      const sortOrder = numberOrNull(record["Sort Order"]) ?? index + 1;
       const localUrl = localImageUrl(sku, type, sortOrder);
       if (!localUrl) {
         imageWarnings.push(`${sku}: approved image ${sortOrder} is not available in public/assets/products`);
@@ -165,7 +210,8 @@ async function main(): Promise<void> {
         url: localUrl,
         type,
         alt: text(record["Alt Text"] as SheetCell) || `${sku} product image`,
-        sortOrder
+        sortOrder,
+        aspectRatio
       };
       const images = imagesBySku.get(sku) ?? [];
       images.push(image);
@@ -176,16 +222,45 @@ async function main(): Promise<void> {
     }
   }
 
+  const existingProducts = await loadExistingProducts();
+  const existingBySku = new Map(existingProducts.map((product) => [product.sku, product]));
   const products: Product[] = [];
   const warnings: string[] = [...imageWarnings];
   const seenSlugs = new Set<string>();
   const seenSkus = new Set<string>();
+  const doneSkus = new Set(
+    rows.slice(1)
+      .map((row) => rowToRecord(header, row))
+      .filter((record) => shouldSkipProduct(record))
+      .map((record) => text(record["SKU (ArtLoka)"] as SheetCell))
+      .filter(Boolean)
+  );
+
+  for (const product of existingProducts) {
+    if (!doneSkus.has(product.sku)) continue;
+    const galleryImages = product.galleryImages.map((image) => ({
+      ...image,
+      aspectRatio: image.aspectRatio ?? imageAspectBySkuAndOrder.get(`${product.sku}:${image.sortOrder}`)
+    }));
+    const preservedProduct = {
+      ...product,
+      heroImageAlt: galleryImages[0]?.alt ?? product.heroImageAlt,
+      galleryImages
+    };
+    seenSkus.add(preservedProduct.sku);
+    seenSlugs.add(preservedProduct.slug);
+    products.push(preservedProduct);
+  }
 
   rows.slice(1).forEach((row, index) => {
     const rowNumber = index + 2;
     const record = rowToRecord(header, row);
     const sku = text(record["SKU (ArtLoka)"] as SheetCell);
     if (!sku) return;
+    if (shouldSkipProduct(record)) {
+      if (!existingBySku.has(sku)) warnings.push(`${sku}: Listing Status is Done but no existing generated product was found to preserve`);
+      return;
+    }
 
     const title = text((record["SEO Website Title"] || record["Original Etsy Title"] || sku) as SheetCell);
     let slug = slugify(`${title.replace(/\s*[–—|-]\s*ArtLoka\s*$/i, "")} ${sku}`);

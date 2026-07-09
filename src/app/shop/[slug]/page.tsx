@@ -6,7 +6,7 @@ import { EtsyButton } from "@/components/etsy-button";
 import { ProductCard } from "@/components/product-card";
 import { getAllProducts, getProductBySlug } from "@/lib/catalog/load";
 import type { Product } from "@/lib/catalog/schema";
-import { absoluteUrl, organizationJsonLd } from "@/lib/seo";
+import { absoluteUrl, organizationJsonLd, siteConfig } from "@/lib/seo";
 
 export function generateStaticParams() {
   return getAllProducts({ includeReview: true }).map((product) => ({ slug: product.slug }));
@@ -17,6 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const product = getProductBySlug(slug);
   if (!product) return {};
   const description = product.metaDescription ?? product.description.slice(0, 155);
+  const shareImage = product.galleryImages[0]?.url ?? siteConfig.socialImage;
   return {
     title: product.title,
     description,
@@ -26,7 +27,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       title: product.title,
       description,
       url: absoluteUrl(`/shop/${product.slug}`),
-      images: [{ url: absoluteUrl(product.heroImage), alt: product.heroImageAlt ?? product.title }],
+      images: [{ url: absoluteUrl(shareImage), alt: product.galleryImages[0]?.alt ?? `${product.title} by ArtLoka` }],
       locale: "en_US",
       alternateLocale: ["en_GB"]
     },
@@ -34,7 +35,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       card: "summary_large_image",
       title: product.title,
       description,
-      images: [absoluteUrl(product.heroImage)]
+      images: [absoluteUrl(shareImage)]
     }
   };
 }
@@ -60,7 +61,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
   if (!product) notFound();
   const related = getAllProducts().filter((item) => item.primaryCategory === product.primaryCategory && item.sku !== product.sku).slice(0, 3);
   const price = formatPrice(product.priceUsd);
-  const gallery = product.galleryImages.length ? product.galleryImages : [{ url: product.heroImage, alt: product.heroImageAlt ?? product.title, type: "Hero", sortOrder: 1 }];
+  const gallery = product.galleryImages.length ? product.galleryImages : [{ url: product.heroImage, alt: product.heroImageAlt ?? product.title, type: "Hero", sortOrder: 1, aspectRatio: "4 / 5" }];
   const supportingImages = gallery.slice(1, 5);
   const productJsonLd = {
     "@context": "https://schema.org",
@@ -82,7 +83,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
         sku: product.sku,
         brand: { "@type": "Brand", name: "ArtLoka" },
         category: product.primaryCategory,
-        image: gallery.map((image) => absoluteUrl(image.url)),
+        image: product.galleryImages.length ? product.galleryImages.map((image) => absoluteUrl(image.url)) : undefined,
         material: product.materials.join(", "),
         url: absoluteUrl(`/shop/${product.slug}`),
         additionalProperty: [
@@ -116,14 +117,14 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
 
       <div className="mt-8 grid gap-10 lg:grid-cols-[minmax(0,1.15fr)_minmax(360px,.85fr)] lg:items-start">
         <div className="order-2 grid gap-4 lg:order-1">
-          <div className="relative aspect-[4/5] overflow-hidden bg-[var(--color-stone)] md:aspect-[5/6]">
-            <Image src={gallery[0].url} alt={gallery[0].alt} fill className="object-cover" priority sizes="(max-width: 1024px) 100vw, 58vw" />
+          <div className="relative overflow-hidden bg-[var(--color-stone)]" style={{ aspectRatio: gallery[0].aspectRatio ?? "4 / 5" }}>
+            <Image src={gallery[0].url} alt={gallery[0].alt} fill className="object-contain" priority sizes="(max-width: 1024px) 100vw, 58vw" />
           </div>
           {supportingImages.length ? (
             <div className="grid grid-cols-2 gap-4">
               {supportingImages.map((image) => (
-                <div key={`${image.url}-${image.sortOrder}`} className="relative aspect-[4/5] overflow-hidden bg-[var(--color-stone)]">
-                  <Image src={image.url} alt={image.alt} fill className="object-cover" sizes="(max-width: 768px) 50vw, 28vw" />
+                <div key={`${image.url}-${image.sortOrder}`} className="relative overflow-hidden bg-[var(--color-stone)]" style={{ aspectRatio: image.aspectRatio ?? "4 / 5" }}>
+                  <Image src={image.url} alt={image.alt} fill className="object-contain" sizes="(max-width: 768px) 50vw, 28vw" />
                 </div>
               ))}
             </div>

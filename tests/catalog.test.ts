@@ -35,3 +35,11 @@ test("query filter searches title and materials", () => {
   const filtered = filterProducts(catalog.products, { query: term });
   assert.ok(filtered.some((product) => product.sku === first.sku));
 });
+
+test("gallery image aspect ratios are valid CSS ratios", () => {
+  const images = catalog.products.flatMap((product) => product.galleryImages);
+  assert.ok(images.some((image) => image.aspectRatio));
+  for (const image of images) {
+    if (image.aspectRatio) assert.match(image.aspectRatio, /^\d+(\.\d+)?\s*\/\s*\d+(\.\d+)?$/);
+  }
+});

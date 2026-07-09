@@ -15,6 +15,7 @@ export default function HomePage() {
   const featured = getFeaturedProducts(6);
   const products = getAllProducts();
   const hero = products.find((product) => product.sku === "ALK-028") ?? products[0];
+  const heroAspectRatio = hero.galleryImages[0]?.aspectRatio ?? "4 / 5";
   const rooms = [...new Set(products.flatMap((product) => product.rooms))].slice(0, 6);
   const materials = [...new Set(products.flatMap((product) => product.materials))].slice(0, 5);
 
@@ -55,8 +56,8 @@ export default function HomePage() {
             </div>
             <p className="mt-5 max-w-xl text-sm leading-6 text-[var(--muted)]">Discover and evaluate on ArtLoka. Standard purchases continue through the corresponding official Etsy listing.</p>
           </div>
-          <div className="relative min-h-[520px] overflow-hidden bg-[var(--color-stone)] lg:min-h-[680px]">
-            <Image src={hero.heroImage} alt={hero.heroImageAlt ?? hero.title} fill priority className="object-cover" sizes="(max-width: 1024px) 100vw, 50vw" />
+          <div className="relative overflow-hidden bg-[var(--color-stone)] lg:min-h-[680px]" style={{ aspectRatio: heroAspectRatio }}>
+            <Image src={hero.heroImage} alt={hero.heroImageAlt ?? hero.title} fill priority className="object-contain" sizes="(max-width: 1024px) 100vw, 50vw" />
             <div className="absolute inset-x-0 bottom-0 bg-[linear-gradient(to_top,rgba(23,19,15,.82),rgba(23,19,15,0))] p-6 pt-32 text-white md:p-8">
               <p className="text-xs uppercase tracking-[.16em] text-[#d9c3a8]">{hero.sku} · {hero.primaryCategory}</p>
               <h2 className="display-font mt-2 max-w-xl text-3xl leading-tight md:text-4xl">{hero.title}</h2>

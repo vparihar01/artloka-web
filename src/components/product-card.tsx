@@ -7,7 +7,7 @@ export function ProductCard({ product, priority = false }: { product: Product; p
     <article className="group border-t border-[var(--border)] pt-4">
       <Link href={`/shop/${product.slug}`} className="block">
         <div className="relative aspect-[4/5] overflow-hidden bg-[var(--color-stone)]">
-          <Image src={product.heroImage} alt={product.heroImageAlt ?? product.title} fill priority={priority} className="object-cover transition duration-500 group-hover:scale-[1.025]" sizes="(max-width: 768px) 100vw, 33vw" />
+          <Image src={product.heroImage} alt={product.heroImageAlt ?? product.title} fill priority={priority} className="object-contain transition duration-500 group-hover:scale-[1.025]" sizes="(max-width: 768px) 100vw, 33vw" />
         </div>
         <div className="pt-4">
           <div className="flex items-center justify-between gap-4 text-xs uppercase tracking-[.12em] text-[var(--muted)]">

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ProductCard } from "@/components/product-card";
 import { getAllProducts } from "@/lib/catalog/load";
-import { absoluteUrl, pageMetadata } from "@/lib/seo";
+import { absoluteUrl, pageMetadata, siteConfig } from "@/lib/seo";
 
 function collectionLabel(collection: string): string {
   return decodeURIComponent(collection).replace(/-/g, " ");
@@ -13,11 +13,12 @@ export async function generateMetadata({ params }: { params: Promise<{ collectio
   const label = collectionLabel(collection);
   const products = getAllProducts().filter((product) => product.primaryCategory.toLowerCase() === label.toLowerCase() || product.styles.some((style) => style.toLowerCase() === label.toLowerCase()) || product.rooms.some((room) => room.toLowerCase() === label.toLowerCase()));
   if (!products.length) return {};
+  const shareImage = products.find((product) => product.galleryImages.length)?.heroImage ?? siteConfig.socialImage;
   return pageMetadata({
     title: `${label.replace(/\b\w/g, (letter) => letter.toUpperCase())} Collection`,
     description: `Explore ArtLoka ${label} pieces with handcrafted materials, product specifications, styling context and official Etsy purchase links.`,
     path: `/collections/${collection}`,
-    image: products[0].heroImage
+    image: shareImage
   });
 }
 

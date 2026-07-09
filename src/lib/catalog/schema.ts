@@ -35,7 +35,8 @@ export const ProductSchema = z.object({
     url: z.string().min(1),
     type: z.string().min(1),
     alt: z.string().min(1),
-    sortOrder: z.number().int().nonnegative()
+    sortOrder: z.number().int().nonnegative(),
+    aspectRatio: z.string().regex(/^\d+(\.\d+)?\s*\/\s*\d+(\.\d+)?$/).optional()
   })).default([]),
   qaNotes: z.string().optional(),
   status: ProductStatusSchema,

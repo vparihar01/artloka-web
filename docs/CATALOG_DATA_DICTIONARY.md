@@ -26,6 +26,7 @@
 | Website SEO Keywords | `seoKeywords[]` | Editorial input, not keyword stuffing |
 | Image Status | `imageStatus` | Blocks final launch when unresolved |
 | QA Notes / Flags | `qaNotes` | Internal review signal |
+| Listing Status | sync behavior | `Done` rows preserve the previously generated product and are not reparsed as new listings |
 
 ## Fields to add to the workbook
 - Publish Status: Draft / Review / Approved / Published / Archived
@@ -47,7 +48,9 @@
 - Approved By
 
 ## Recommended Images worksheet
-| SKU | Image URL | Image Type | Alt Text | Sort Order | Approved |
-|---|---|---|---|---:|---|
+| SKU | Image URL | Image Type | Alt Text | Sort Order | Approved | Listing Status | Aspect Ratio |
+|---|---|---|---|---:|---|---|---|
 
 Do not put multiple image records into one unstructured cell once the image workflow begins.
+
+Rows marked `Listed` are not reprocessed as new image files, but their `Aspect Ratio` values may be used to enrich already-generated gallery metadata. Aspect ratios should use `width:height` or `width/height`, for example `4:5`, `1:1`, `16:9`.

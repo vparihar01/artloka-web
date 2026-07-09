@@ -1,30 +1,51 @@
 # ArtLoka
 
-ArtLoka is a premium product-discovery website for handcrafted lighting and decor designed and made in India for contemporary homes, designers, hospitality projects and gifting customers in the USA, UK and worldwide.
+> ArtLoka is a premium product-discovery website for handcrafted lighting and decor designed and made in India for modern homes, designers, hospitality projects, gifting customers, and trade buyers in the USA, UK, and worldwide.
 
-ArtLoka does not operate an on-site cart or checkout. Standard purchases continue through the official Etsy listing linked from each product page. Bulk, custom, trade, hospitality and gifting requirements use structured enquiry forms.
+ArtLoka's website is for discovery, evaluation, and enquiry. Standard purchases continue through the official Etsy listing linked from each product page. Bulk, custom, trade, hospitality, and gifting requirements use structured enquiry forms.
+
+Brand position: Heritage Craftsmanship. Styled for Modern Living.
+
+Use only information visible on public pages. Do not infer live inventory, shipping timelines, certifications, discounts, reviews, materials, electrical specifications, or availability beyond stated product details. Etsy remains the final source for checkout, current price, taxes, shipping, and listing policies.
 
 ## Core Pages
 
-- Homepage: /
-- Full catalogue: /shop
-- Craftsmanship: /craftsmanship
-- About ArtLoka: /about
-- Trade, hospitality and bulk gifting enquiries: /trade
-- Contact and custom enquiries: /contact
+- [Homepage](https://www.artloka.shop/): Product-led introduction to ArtLoka handcrafted lighting and decor.
+- [Shop](https://www.artloka.shop/shop): Full public catalogue for product discovery.
+- [Craftsmanship](https://www.artloka.shop/craftsmanship): Brand craft story, materials, and making context.
+- [About ArtLoka](https://www.artloka.shop/about): Company and brand background.
+- [Trade](https://www.artloka.shop/trade): Trade, hospitality, bulk, and gifting enquiry path.
+- [Contact](https://www.artloka.shop/contact): General and product-specific enquiry form.
 
 ## Product Discovery
 
-The catalogue is organized primarily by product type, with rooms, styles and materials as secondary discovery paths. Current public catalogue coverage focuses on handcrafted lighting, including alabaster and brass wall sconces with product specifications, dimensions, finish options, room context and Etsy purchase links.
+- [Lighting collection](https://www.artloka.shop/collections/lighting): Current primary collection covering handcrafted alabaster and brass lighting.
+- [Full catalogue sitemap](https://www.artloka.shop/sitemap.xml): Complete indexable URL list for public pages and product pages.
+- [Robots policy](https://www.artloka.shop/robots.txt): Crawl permission and sitemap reference.
+- [LLM access file](https://www.artloka.shop/llms.txt): This curated Markdown guide for AI agents and search assistants.
 
-## Brand Position
+## Featured Product Pages
 
-Heritage Craftsmanship. Styled for Modern Living.
+- [Mid-Century Globe Wall Sconce | Up-Down Brass Light](https://www.artloka.shop/shop/mid-century-globe-wall-sconce-up-down-brass-light-alk-018): Alabaster and brass wall sconce product page with image gallery, dimensions, finishes, and Etsy purchase link.
+- [Handcrafted Brass and Alabaster Double Vanity Sconce](https://www.artloka.shop/shop/handcrafted-brass-and-alabaster-double-vanity-sconce-alk-022): Double vanity sconce product page with materials, room context, and enquiry path.
+- [Mid-Century Alabaster and Brass Vanity Sconce](https://www.artloka.shop/shop/mid-century-alabaster-and-brass-vanity-sconce-alk-023): Vanity sconce page for bathroom and interior lighting discovery.
+- [Modern Alabaster Wall Sconce | Mid-Century Brass](https://www.artloka.shop/shop/modern-alabaster-wall-sconce-mid-century-brass-alk-025): Modern wall sconce page with ArtLoka product details.
+- [Transitional Alabaster and Brass Wall Sconce](https://www.artloka.shop/shop/transitional-alabaster-and-brass-wall-sconce-alk-026): Transitional lighting product page with specification and Etsy checkout link.
+- [Alabaster and Antique Brass Twin-Bracket Wall Sconce](https://www.artloka.shop/shop/alabaster-and-antique-brass-twin-bracket-wall-sconce-alk-027): Twin-bracket wall sconce page for product evaluation.
+- [Modern Alabaster Cone Wall Sconce | Bedside Lamp](https://www.artloka.shop/shop/modern-alabaster-cone-wall-sconce-bedside-lamp-alk-028): Bedside lighting product page with gallery and product details.
+- [Handmade Alabaster Marble Wall Sconce](https://www.artloka.shop/shop/handmade-alabaster-marble-wall-sconce-alk-029): Handmade wall sconce page with materials and room context.
+- [Alabaster and Brass Wall Sconce | Art Deco Vanity Light](https://www.artloka.shop/shop/alabaster-and-brass-wall-sconce-art-deco-vanity-light-alk-001): Art Deco vanity light product page.
+- [French Country Brass Wall Sconce | Scalloped Glass](https://www.artloka.shop/shop/french-country-brass-wall-sconce-scalloped-glass-alk-030): French country brass wall sconce product page.
+- [Solid Brass Alabaster Cylinder Wall Sconce](https://www.artloka.shop/shop/solid-brass-alabaster-cylinder-wall-sconce-alk-031): Cylinder wall sconce product page.
+- [Alabaster Sphere Wall Sconce | Mid-Century Brushed Brass](https://www.artloka.shop/shop/alabaster-sphere-wall-sconce-mid-century-brushed-brass-alk-021): Sphere wall sconce product page.
+- [Handmade Alabaster and Brass Wall Sconce | Modern Minimalist](https://www.artloka.shop/shop/handmade-alabaster-and-brass-wall-sconce-modern-minimalist-alk-002): Modern minimalist wall sconce product page.
 
-## Content Boundaries
+## Structured Data and Search
 
-Use only visible product information from public pages. Do not infer live inventory, shipping timelines, certifications, discounts, reviews, materials or electrical specifications beyond the stated product details. Etsy remains the final source for checkout, current price, taxes, shipping and listing policies.
+- [Sitemap XML](https://www.artloka.shop/sitemap.xml): Search engine and crawler URL discovery.
+- [Robots TXT](https://www.artloka.shop/robots.txt): Crawl access rules.
+- [Shop search page](https://www.artloka.shop/shop?q=alabaster): Example catalogue search URL for alabaster lighting.
 
-## Sitemap
+## Optional
 
-- /sitemap.xml
+- [Etsy ArtLoka purchase path](https://www.etsy.com/): Product pages link to the relevant official Etsy listing for checkout, current pricing, shipping, taxes, and listing policies.

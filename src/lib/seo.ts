@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 const fallbackSiteUrl = process.env.VERCEL_PROJECT_PRODUCTION_URL
   ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
-  : "http://localhost:3000";
+  : "https://www.artloka.shop";
 
 export const siteConfig = {
   name: "ArtLoka",
@@ -96,4 +96,3 @@ export function websiteJsonLd() {
     }
   };
 }
-

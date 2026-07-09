@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { EtsyButton } from "@/components/etsy-button";
+import { ProductGallery } from "@/components/product-gallery";
 import { ProductCard } from "@/components/product-card";
 import { getAllProducts, getProductBySlug } from "@/lib/catalog/load";
 import type { Product } from "@/lib/catalog/schema";
@@ -62,7 +62,6 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
   const related = getAllProducts().filter((item) => item.primaryCategory === product.primaryCategory && item.sku !== product.sku).slice(0, 3);
   const price = formatPrice(product.priceUsd);
   const gallery = product.galleryImages.length ? product.galleryImages : [{ url: product.heroImage, alt: product.heroImageAlt ?? product.title, type: "Hero", sortOrder: 1, aspectRatio: "4 / 5" }];
-  const supportingImages = gallery.slice(1, 5);
   const productJsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -116,19 +115,8 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
       </nav>
 
       <div className="mt-8 grid gap-10 lg:grid-cols-[minmax(0,1.15fr)_minmax(360px,.85fr)] lg:items-start">
-        <div className="order-2 grid gap-4 lg:order-1">
-          <div className="relative overflow-hidden bg-[var(--color-stone)]" style={{ aspectRatio: gallery[0].aspectRatio ?? "4 / 5" }}>
-            <Image src={gallery[0].url} alt={gallery[0].alt} fill className="object-contain" priority sizes="(max-width: 1024px) 100vw, 58vw" />
-          </div>
-          {supportingImages.length ? (
-            <div className="grid grid-cols-2 gap-4">
-              {supportingImages.map((image) => (
-                <div key={`${image.url}-${image.sortOrder}`} className="relative overflow-hidden bg-[var(--color-stone)]" style={{ aspectRatio: image.aspectRatio ?? "4 / 5" }}>
-                  <Image src={image.url} alt={image.alt} fill className="object-contain" sizes="(max-width: 768px) 50vw, 28vw" />
-                </div>
-              ))}
-            </div>
-          ) : null}
+        <div className="order-2 lg:order-1">
+          <ProductGallery images={gallery} />
         </div>
 
         <aside className="order-1 lg:sticky lg:top-28 lg:order-2">

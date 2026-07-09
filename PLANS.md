@@ -52,3 +52,5 @@ Update the website catalogue from the new workbook while preserving previously s
 - Remaining sync warnings: 57 new image rows for `ALK-001`, `ALK-030`, `ALK-031`, `ALK-021` and `ALK-002` do not yet have matching local files in `public/assets/products`, causing 5 `no approved images found` warnings.
 - Follow-up fix: product cards now use a uniform 4:5 image frame with `object-contain` so the grid remains aligned.
 - Added `npm run images:download`; current local run is blocked because `GOOGLE_SERVICE_ACCOUNT_EMAIL` is empty in `.env.local`.
+- Product detail pages now show one hero image with a horizontal thumbnail selector for every gallery image instead of limiting display to the first five images.
+- Product gallery follow-up: desktop now uses an Etsy-style left thumbnail scroller with a stable main image frame to prevent page jumps while switching images.

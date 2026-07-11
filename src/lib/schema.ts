@@ -44,6 +44,19 @@ export function breadcrumbSchema(items: Array<{ name: string; path: string }>): 
   };
 }
 
+export function itemListSchema(items: Array<{ name: string; path: string }>, name?: string): JsonLd {
+  return {
+    "@type": "ItemList",
+    name,
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      url: absoluteUrl(item.path)
+    }))
+  };
+}
+
 function dimensions(product: Product): string | undefined {
   const values = [
     product.dimensions.widthIn === null ? null : `${product.dimensions.widthIn} in W`,

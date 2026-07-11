@@ -4,7 +4,7 @@ import Link from "next/link";
 import { ProductCard } from "@/components/product-card";
 import { getAllProducts, getFeaturedProducts } from "@/lib/catalog/load";
 import { absoluteUrl, pageMetadata } from "@/lib/seo";
-import { graphSchema, organizationSchema, serializeJsonLd, websiteSchema } from "@/lib/schema";
+import { graphSchema, itemListSchema, organizationSchema, serializeJsonLd, websiteSchema } from "@/lib/schema";
 
 export const metadata: Metadata = pageMetadata({
   title: "Handcrafted Indian Lighting and Decor for Modern Homes",
@@ -29,14 +29,10 @@ export default function HomePage() {
         url: absoluteUrl("/"),
         name: "ArtLoka handcrafted lighting and decor",
         description: "Product-led discovery for artisan-made lighting and decor with Etsy purchase routing and structured enquiries.",
-        mainEntity: featured.map((product) => ({
-          "@type": "Product",
-          name: product.title,
-          sku: product.sku,
-          url: absoluteUrl(`/shop/${product.slug}`),
-          image: absoluteUrl(product.heroImage),
-          brand: { "@type": "Brand", name: "ArtLoka" }
-        }))
+        mainEntity: itemListSchema(
+          featured.map((product) => ({ name: product.title, path: `/shop/${product.slug}` })),
+          "Featured ArtLoka products"
+        )
       }
     ]);
 

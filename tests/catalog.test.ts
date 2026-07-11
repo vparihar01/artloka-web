@@ -4,7 +4,7 @@ import catalogJson from "../src/data/generated/products.json";
 import { CatalogSchema } from "../src/lib/catalog/schema";
 import { filterProducts } from "../src/lib/catalog/filters";
 import { etsyUrlWithTracking, productMetadata } from "../src/lib/seo";
-import { productSchema } from "../src/lib/schema";
+import { itemListSchema, productSchema } from "../src/lib/schema";
 
 const catalog = CatalogSchema.parse(catalogJson);
 
@@ -68,4 +68,14 @@ test("every public product can produce Product and Offer schema", () => {
     assert.ok(Array.isArray(schema.image));
     if (product.priceUsd !== null) assert.equal((schema.offers as { "@type": string })["@type"], "Offer");
   }
+});
+
+test("product discovery lists do not create incomplete Product rich-result entities", () => {
+  const list = itemListSchema(catalog.products.slice(0, 3).map((product) => ({
+    name: product.title,
+    path: `/shop/${product.slug}`
+  })));
+  assert.equal(list["@type"], "ItemList");
+  const items = list.itemListElement as Array<{ "@type": string }>;
+  assert.ok(items.every((item) => item["@type"] === "ListItem"));
 });

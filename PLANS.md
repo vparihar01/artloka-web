@@ -36,3 +36,4 @@ Ship the first Mountain Loop PR: reliable App Router metadata, crawl controls, m
 - ESLint and TypeScript passed.
 - 7 tests passed, including canonical/UTM and Product/Offer schema coverage.
 - Next.js production build generated 29 routes/pages, including all 13 product routes and every new machine-readable endpoint.
+- Search Console follow-up: homepage discovery summaries now use `ItemList`/`ListItem` instead of incomplete `Product` entities; full product entities remain exclusive to detail pages with verified `Offer` data.

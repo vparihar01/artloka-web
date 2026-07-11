@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import type { Product } from "@/lib/catalog/schema";
 
 const fallbackSiteUrl = process.env.VERCEL_PROJECT_PRODUCTION_URL
   ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
@@ -13,6 +14,12 @@ export const siteConfig = {
   logo: "/images/artloka-logo-bg-sq.png",
   socialImage: "/images/artloka-logo-bg-w.png"
 };
+
+export const productPath = (product: Pick<Product, "slug">) => `/shop/${product.slug}`;
+
+export function cleanProductTitle(title: string): string {
+  return title.replace(/\s*[–—|-]\s*ArtLoka\s*$/i, "").trim();
+}
 
 export function absoluteUrl(path = ""): string {
   if (path.startsWith("http")) return path;
@@ -51,6 +58,39 @@ export function pageMetadata({
       images: [absoluteUrl(image)]
     }
   };
+}
+
+export function productMetadata(product: Product): Metadata {
+  const title = cleanProductTitle(product.title);
+  const description = product.metaDescription?.trim() || product.description.slice(0, 157).trim();
+  const path = productPath(product);
+  const image = product.galleryImages[0];
+
+  return {
+    ...pageMetadata({ title, description, path, image: image?.url ?? product.heroImage }),
+    openGraph: {
+      type: "website",
+      siteName: siteConfig.name,
+      title,
+      description,
+      url: absoluteUrl(path),
+      images: [{
+        url: absoluteUrl(image?.url ?? product.heroImage),
+        alt: image?.alt ?? product.heroImageAlt ?? `${title} by ArtLoka`
+      }],
+      locale: "en_US",
+      alternateLocale: ["en_GB"]
+    }
+  };
+}
+
+export function etsyUrlWithTracking(etsyUrl: string, sku: string): string {
+  const url = new URL(etsyUrl);
+  url.searchParams.set("utm_source", "artloka.shop");
+  url.searchParams.set("utm_medium", "website");
+  url.searchParams.set("utm_campaign", "product_discovery");
+  url.searchParams.set("utm_content", sku.toLowerCase());
+  return url.toString();
 }
 
 export function organizationJsonLd() {

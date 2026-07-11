@@ -3,7 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { ProductCard } from "@/components/product-card";
 import { getAllProducts, getFeaturedProducts } from "@/lib/catalog/load";
-import { absoluteUrl, organizationJsonLd, pageMetadata, websiteJsonLd } from "@/lib/seo";
+import { absoluteUrl, pageMetadata } from "@/lib/seo";
+import { graphSchema, organizationSchema, serializeJsonLd, websiteSchema } from "@/lib/schema";
 
 export const metadata: Metadata = pageMetadata({
   title: "Handcrafted Indian Lighting and Decor for Modern Homes",
@@ -19,11 +20,9 @@ export default function HomePage() {
   const rooms = [...new Set(products.flatMap((product) => product.rooms))].slice(0, 6);
   const materials = [...new Set(products.flatMap((product) => product.materials))].slice(0, 5);
 
-  const homeJsonLd = {
-    "@context": "https://schema.org",
-    "@graph": [
-      organizationJsonLd(),
-      websiteJsonLd(),
+  const homeJsonLd = graphSchema([
+      organizationSchema(),
+      websiteSchema(),
       {
         "@type": "CollectionPage",
         "@id": absoluteUrl("/#home"),
@@ -39,8 +38,7 @@ export default function HomePage() {
           brand: { "@type": "Brand", name: "ArtLoka" }
         }))
       }
-    ]
-  };
+    ]);
 
   return (
     <>
@@ -126,7 +124,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(homeJsonLd) }} />
     </>
   );
 }

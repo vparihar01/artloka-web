@@ -3,6 +3,8 @@ import test from "node:test";
 import catalogJson from "../src/data/generated/products.json";
 import { CatalogSchema } from "../src/lib/catalog/schema";
 import { filterProducts } from "../src/lib/catalog/filters";
+import { etsyUrlWithTracking, productMetadata } from "../src/lib/seo";
+import { productSchema } from "../src/lib/schema";
 
 const catalog = CatalogSchema.parse(catalogJson);
 
@@ -41,5 +43,29 @@ test("gallery image aspect ratios are valid CSS ratios", () => {
   assert.ok(images.some((image) => image.aspectRatio));
   for (const image of images) {
     if (image.aspectRatio) assert.match(image.aspectRatio, /^\d+(\.\d+)?\s*\/\s*\d+(\.\d+)?$/);
+  }
+});
+
+test("product SEO uses a canonical URL and SKU-level Etsy attribution", () => {
+  const product = catalog.products[0];
+  assert.ok(product);
+  const metadata = productMetadata(product);
+  assert.equal(metadata.alternates?.canonical, `/shop/${product.slug}`);
+  assert.ok(!String(metadata.title).match(/ArtLoka.*ArtLoka/i));
+
+  const tracked = new URL(etsyUrlWithTracking(product.etsyUrl, product.sku));
+  assert.equal(tracked.searchParams.get("utm_source"), "artloka.shop");
+  assert.equal(tracked.searchParams.get("utm_medium"), "website");
+  assert.equal(tracked.searchParams.get("utm_campaign"), "product_discovery");
+  assert.equal(tracked.searchParams.get("utm_content"), product.sku.toLowerCase());
+});
+
+test("every public product can produce Product and Offer schema", () => {
+  for (const product of catalog.products) {
+    const schema = productSchema(product);
+    assert.equal(schema["@type"], "Product");
+    assert.equal(schema.sku, product.sku);
+    assert.ok(Array.isArray(schema.image));
+    if (product.priceUsd !== null) assert.equal((schema.offers as { "@type": string })["@type"], "Offer");
   }
 });

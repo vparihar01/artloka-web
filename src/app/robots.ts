@@ -3,5 +3,13 @@ import { siteConfig } from "@/lib/seo";
 
 export default function robots(): MetadataRoute.Robots {
   const base = siteConfig.url;
-  return { rules: { userAgent: "*", allow: "/" }, sitemap: `${base}/sitemap.xml` };
+  return {
+    rules: {
+      userAgent: "*",
+      allow: "/",
+      disallow: ["/api/"]
+    },
+    sitemap: `${base}/sitemap.xml`,
+    host: base
+  };
 }

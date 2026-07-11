@@ -6,7 +6,8 @@ import { ProductGallery } from "@/components/product-gallery";
 import { ProductCard } from "@/components/product-card";
 import { getAllProducts, getProductBySlug } from "@/lib/catalog/load";
 import type { Product } from "@/lib/catalog/schema";
-import { absoluteUrl, organizationJsonLd, siteConfig } from "@/lib/seo";
+import { etsyUrlWithTracking, productMetadata } from "@/lib/seo";
+import { breadcrumbSchema, graphSchema, organizationSchema, productSchema, serializeJsonLd } from "@/lib/schema";
 
 export function generateStaticParams() {
   return getAllProducts({ includeReview: true }).map((product) => ({ slug: product.slug }));
@@ -16,28 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const product = getProductBySlug(slug);
   if (!product) return {};
-  const description = product.metaDescription ?? product.description.slice(0, 155);
-  const shareImage = product.galleryImages[0]?.url ?? siteConfig.socialImage;
-  return {
-    title: product.title,
-    description,
-    alternates: { canonical: `/shop/${product.slug}` },
-    openGraph: {
-      type: "website",
-      title: product.title,
-      description,
-      url: absoluteUrl(`/shop/${product.slug}`),
-      images: [{ url: absoluteUrl(shareImage), alt: product.galleryImages[0]?.alt ?? `${product.title} by ArtLoka` }],
-      locale: "en_US",
-      alternateLocale: ["en_GB"]
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: product.title,
-      description,
-      images: [absoluteUrl(shareImage)]
-    }
-  };
+  return productMetadata(product);
 }
 
 function formatPrice(value: number | null): string | null {
@@ -62,47 +42,15 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
   const related = getAllProducts().filter((item) => item.primaryCategory === product.primaryCategory && item.sku !== product.sku).slice(0, 3);
   const price = formatPrice(product.priceUsd);
   const gallery = product.galleryImages.length ? product.galleryImages : [{ url: product.heroImage, alt: product.heroImageAlt ?? product.title, type: "Hero", sortOrder: 1, aspectRatio: "4 / 5" }];
-  const productJsonLd = {
-    "@context": "https://schema.org",
-    "@graph": [
-      organizationJsonLd(),
-      {
-        "@type": "BreadcrumbList",
-        itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Shop", item: absoluteUrl("/shop") },
-          { "@type": "ListItem", position: 2, name: product.primaryCategory, item: absoluteUrl(`/collections/${product.primaryCategory.toLowerCase()}`) },
-          { "@type": "ListItem", position: 3, name: product.title, item: absoluteUrl(`/shop/${product.slug}`) }
-        ]
-      },
-      {
-        "@type": "Product",
-        "@id": absoluteUrl(`/shop/${product.slug}#product`),
-        name: product.title,
-        description: product.description,
-        sku: product.sku,
-        brand: { "@type": "Brand", name: "ArtLoka" },
-        category: product.primaryCategory,
-        image: product.galleryImages.length ? product.galleryImages.map((image) => absoluteUrl(image.url)) : undefined,
-        material: product.materials.join(", "),
-        url: absoluteUrl(`/shop/${product.slug}`),
-        additionalProperty: [
-          product.finishes.length ? { "@type": "PropertyValue", name: "Finishes", value: product.finishes.join(", ") } : null,
-          product.rooms.length ? { "@type": "PropertyValue", name: "Room suitability", value: product.rooms.join(", ") } : null,
-          product.styles.length ? { "@type": "PropertyValue", name: "Design styles", value: product.styles.join(", ") } : null,
-          product.bulbUs ? { "@type": "PropertyValue", name: "US electrical detail", value: product.bulbUs } : null,
-          product.bulbInternational ? { "@type": "PropertyValue", name: "UK/EU electrical detail", value: product.bulbInternational } : null,
-          { "@type": "PropertyValue", name: "Dimensions", value: formatDimensions(product) }
-        ].filter(Boolean),
-        offers: product.priceUsd === null ? undefined : {
-          "@type": "Offer",
-          priceCurrency: "USD",
-          price: product.priceUsd,
-          url: product.etsyUrl,
-          seller: { "@id": `${absoluteUrl("/")}#organization` }
-        }
-      }
-    ]
-  };
+  const productJsonLd = graphSchema([
+    organizationSchema(),
+    breadcrumbSchema([
+      { name: "Home", path: "/" },
+      { name: "Shop", path: "/shop" },
+      { name: product.title, path: `/shop/${product.slug}` }
+    ]),
+    productSchema(product)
+  ]);
 
   return (
     <div className="container-shell py-10 md:py-14">
@@ -128,7 +76,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
           </div>
           <p className="mt-6 text-sm uppercase tracking-[.12em] text-[var(--muted)]">{product.materials.slice(0, 2).join(" · ")}</p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <EtsyButton href={product.etsyUrl} sku={product.sku} title={product.title} label="Purchase on Etsy" />
+            <EtsyButton href={etsyUrlWithTracking(product.etsyUrl, product.sku)} sku={product.sku} title={product.title} label="Purchase on Etsy" />
             <Link className="button-secondary" href={`/contact?product=${encodeURIComponent(product.sku)}`}>Ask about this piece</Link>
           </div>
           <p className="mt-4 text-sm leading-6 text-[var(--muted)]">The Etsy listing opens in a new tab for checkout, current pricing, shipping, taxes and listing policies.</p>
@@ -184,7 +132,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
           <div className="mt-8 grid gap-x-7 gap-y-12 md:grid-cols-3">{related.map((item) => <ProductCard key={item.sku} product={item} />)}</div>
         </section>
       ) : null}
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(productJsonLd) }} />
     </div>
   );
 }

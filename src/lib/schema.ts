@@ -12,7 +12,27 @@ export function organizationSchema(): JsonLd {
     logo: { "@type": "ImageObject", url: absoluteUrl(siteConfig.logo) },
     slogan: siteConfig.tagline,
     description: siteConfig.description,
-    areaServed: ["United States", "United Kingdom", "India"].map((name) => ({ "@type": "Country", name }))
+    areaServed: [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "Germany",
+      "France",
+      "Netherlands",
+      "Italy",
+      "Spain",
+      "India"
+    ].map((name) => ({ "@type": "Country", name })),
+    knowsAbout: [
+      "Indian craftsmanship",
+      "handcrafted lighting",
+      "alabaster wall sconces",
+      "brass lighting",
+      "artisan-made decor",
+      "interior design lighting",
+      "corporate gifting",
+      "hospitality decor"
+    ]
   };
 }
 

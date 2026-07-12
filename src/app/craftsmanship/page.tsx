@@ -3,8 +3,9 @@ import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
   title: "Indian Craftsmanship and Materials",
-  description: "Discover ArtLoka's approach to Indian craftsmanship, material selection, hand-finishing, artisan production and careful product specification review.",
-  path: "/craftsmanship"
+  description: "Discover ArtLoka's approach to Indian craftsmanship, material selection, hand-finishing, artisan production and specification review for premium lighting and decor.",
+  path: "/craftsmanship",
+  keywords: ["Indian craftsmanship", "hand-finished lighting", "artisan production India", "premium decor materials"]
 });
 
 export default function CraftsmanshipPage() {

@@ -4,8 +4,9 @@ import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
   title: "Contact ArtLoka",
-  description: "Contact ArtLoka for handcrafted lighting product questions, customisation, trade, gifting, hospitality and project enquiries.",
-  path: "/contact"
+  description: "Contact ArtLoka for handcrafted lighting questions, customisation, gifting, trade, hospitality and project enquiries across the USA, Canada, UK and Europe.",
+  path: "/contact",
+  keywords: ["ArtLoka contact", "custom handcrafted lighting", "lighting enquiry USA", "decor gifting enquiries"]
 });
 
 export default function ContactPage() {

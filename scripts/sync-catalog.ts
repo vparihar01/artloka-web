@@ -10,8 +10,8 @@ type SheetCell = string | number | boolean | Date | null;
 
 const ROOT = process.cwd();
 const LOCAL_SOURCE_CANDIDATES = [
-  path.join(ROOT, "data/source/ArtLoka_Website_Sync.xlsx"),
-  path.join(ROOT, "data/source/ArtLoka_Product_Catalog_Full_ALK006-032.xlsx")
+  path.join(ROOT, "data/source/ArtLoka_Product_Catalog_Full_ALK006-032.xlsx"),
+  path.join(ROOT, "data/source/ArtLoka_Website_Sync.xlsx")
 ];
 const OUTPUT = path.join(ROOT, "src/data/generated/products.json");
 const PUBLIC_PRODUCTS = path.join(ROOT, "public/assets/products");
@@ -37,18 +37,6 @@ function numberOrNull(value: unknown): number | null {
   if (!cleaned) return null;
   const parsed = Number(cleaned);
   return Number.isFinite(parsed) ? parsed : null;
-}
-
-function normalizeStatus(value: unknown): string {
-  return text(value as SheetCell).toLowerCase();
-}
-
-function shouldSkipProduct(record: Record<string, string | number | boolean | Date | null>): boolean {
-  return normalizeStatus(record["Listing Status"]) === "done";
-}
-
-function shouldSkipImage(record: Record<string, string | number | boolean | Date | null>): boolean {
-  return normalizeStatus(record["Listing Status"]) === "listed";
 }
 
 function parseAspectRatio(value: SheetCell | undefined): string | undefined {
@@ -187,7 +175,6 @@ async function main(): Promise<void> {
   const header = rows[0].map((value) => text(value));
   const imageHeader = imageRows[0]?.map((value) => text(value)) ?? [];
   const imageWarnings: string[] = [];
-  const imageAspectBySkuAndOrder = new Map<string, string>();
   const imagesBySku = new Map<string, Array<{ url: string; type: string; alt: string; sortOrder: number; aspectRatio?: string }>>();
   if (imageRows.length) {
     imageRows.slice(1).forEach((row, index) => {
@@ -195,8 +182,6 @@ async function main(): Promise<void> {
       const sku = text(record["SKU"] as SheetCell);
       const sortOrder = numberOrNull(record["Sort Order"]) ?? index + 1;
       const aspectRatio = parseAspectRatio(record["Aspect Ratio"] as SheetCell);
-      if (sku && aspectRatio) imageAspectBySkuAndOrder.set(`${sku}:${sortOrder}`, aspectRatio);
-      if (shouldSkipImage(record)) return;
       const imageUrl = text(record["Image URL"] as SheetCell);
       const approved = text(record["Approved"] as SheetCell).toLowerCase();
       if (!sku || !imageUrl || !["yes", "true", "approved", "1"].includes(approved)) return;
@@ -223,44 +208,17 @@ async function main(): Promise<void> {
   }
 
   const existingProducts = await loadExistingProducts();
-  const existingBySku = new Map(existingProducts.map((product) => [product.sku, product]));
   const products: Product[] = [];
   const warnings: string[] = [...imageWarnings];
   const seenSlugs = new Set<string>();
   const seenSkus = new Set<string>();
-  const doneSkus = new Set(
-    rows.slice(1)
-      .map((row) => rowToRecord(header, row))
-      .filter((record) => shouldSkipProduct(record))
-      .map((record) => text(record["SKU (ArtLoka)"] as SheetCell))
-      .filter(Boolean)
-  );
-
-  for (const product of existingProducts) {
-    if (!doneSkus.has(product.sku)) continue;
-    const galleryImages = product.galleryImages.map((image) => ({
-      ...image,
-      aspectRatio: image.aspectRatio ?? imageAspectBySkuAndOrder.get(`${product.sku}:${image.sortOrder}`)
-    }));
-    const preservedProduct = {
-      ...product,
-      heroImageAlt: galleryImages[0]?.alt ?? product.heroImageAlt,
-      galleryImages
-    };
-    seenSkus.add(preservedProduct.sku);
-    seenSlugs.add(preservedProduct.slug);
-    products.push(preservedProduct);
-  }
+  const existingBySku = new Map(existingProducts.map((product) => [product.sku, product]));
 
   rows.slice(1).forEach((row, index) => {
     const rowNumber = index + 2;
     const record = rowToRecord(header, row);
     const sku = text(record["SKU (ArtLoka)"] as SheetCell);
     if (!sku) return;
-    if (shouldSkipProduct(record)) {
-      if (!existingBySku.has(sku)) warnings.push(`${sku}: Listing Status is Done but no existing generated product was found to preserve`);
-      return;
-    }
 
     const title = text((record["SEO Website Title"] || record["Original Etsy Title"] || sku) as SheetCell);
     let slug = slugify(`${title.replace(/\s*[–—|-]\s*ArtLoka\s*$/i, "")} ${sku}`);
@@ -269,7 +227,7 @@ async function main(): Promise<void> {
     const qaNotes = text(record["QA Notes / Flags"] as SheetCell);
     const status: Product["status"] = "approved";
     const styleText = text(record["Style / Category"] as SheetCell);
-    const productImages = imagesBySku.get(sku) ?? [];
+    const productImages = imagesBySku.get(sku) ?? existingBySku.get(sku)?.galleryImages ?? [];
     if (!productImages.length) warnings.push(`${sku}: no approved images found`);
 
     const candidate = {

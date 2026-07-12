@@ -16,15 +16,23 @@ export const metadata: Metadata = {
     template: "%s | ArtLoka"
   },
   description: siteConfig.description,
+  creator: "ArtLoka",
+  publisher: "ArtLoka",
+  authors: [{ name: "ArtLoka" }],
   keywords: [
     "ArtLoka",
-    "handcrafted lighting",
-    "Indian decor",
+    "handcrafted Indian lighting",
+    "luxury Indian decor",
     "alabaster wall sconce",
     "brass wall light",
     "artisan made home decor",
     "luxury lighting USA",
+    "luxury lighting Canada",
     "luxury lighting UK",
+    "luxury lighting Europe",
+    "handmade wall sconces",
+    "boutique hospitality lighting",
+    "interior designer lighting",
     "Etsy handcrafted lighting",
     "heritage craftsmanship"
   ],
@@ -57,7 +65,7 @@ export const metadata: Metadata = {
     url: siteConfig.url,
     images: [{ url: absoluteUrl(siteConfig.socialImage), width: 1200, height: 630, alt: "ArtLoka handcrafted lighting and decor" }],
     locale: "en_US",
-    alternateLocale: ["en_GB"]
+    alternateLocale: ["en_GB", "en_CA"]
   },
   twitter: {
     card: "summary_large_image",

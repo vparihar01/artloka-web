@@ -5,8 +5,16 @@ import { absoluteUrl, pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
   title: "Shop Handcrafted Lighting and Decor",
-  description: "Explore ArtLoka handcrafted lighting by product type, room, material and style. Review specifications on ArtLoka, then purchase through the official Etsy listing.",
-  path: "/shop"
+  description: "Explore ArtLoka handcrafted Indian lighting by product type, room, material and style for homes, designers, gifting and boutique hospitality across the USA, Canada, UK and Europe.",
+  path: "/shop",
+  keywords: [
+    "shop handcrafted lighting",
+    "Indian wall sconces",
+    "alabaster brass wall lights",
+    "luxury lighting USA",
+    "designer lighting Canada",
+    "handmade lighting Europe"
+  ]
 });
 
 export default async function ShopPage({ searchParams }: { searchParams?: Promise<{ q?: string }> }) {

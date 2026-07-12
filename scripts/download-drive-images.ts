@@ -10,7 +10,7 @@ import { pipeline } from "node:stream/promises";
 type SheetCell = string | number | boolean | Date | null;
 
 const ROOT = process.cwd();
-const SOURCE = path.join(ROOT, "data/source/ArtLoka_Website_Sync.xlsx");
+const SOURCE = path.join(ROOT, "data/source/ArtLoka_Product_Catalog_Full_ALK006-032.xlsx");
 const PUBLIC_PRODUCTS = path.join(ROOT, "public/assets/products");
 
 function text(value: SheetCell | undefined): string {

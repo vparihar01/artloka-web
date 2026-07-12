@@ -10,7 +10,7 @@ export const siteConfig = {
   url: (process.env.NEXT_PUBLIC_SITE_URL || fallbackSiteUrl).replace(/\/$/, ""),
   gaId: process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || "G-KCB532YQ7Q",
   tagline: "Heritage Craftsmanship. Styled for Modern Living.",
-  description: "Discover ArtLoka handcrafted lighting and decor, designed and made in India for thoughtful contemporary homes in the USA, UK and worldwide.",
+  description: "Discover ArtLoka handcrafted Indian lighting and decor for considered homes, designers, gifting buyers and boutique hospitality projects across the USA, Canada, UK and Europe.",
   logo: "/images/artloka-logo-bg-sq.png",
   socialImage: "/images/artloka-logo-bg-w.png"
 };
@@ -30,16 +30,19 @@ export function pageMetadata({
   title,
   description,
   path,
-  image = siteConfig.socialImage
+  image = siteConfig.socialImage,
+  keywords = []
 }: {
   title: string;
   description: string;
   path: string;
   image?: string;
+  keywords?: string[];
 }): Metadata {
   return {
     title,
     description,
+    keywords,
     alternates: { canonical: path },
     openGraph: {
       type: "website",
@@ -49,7 +52,7 @@ export function pageMetadata({
       url: absoluteUrl(path),
       images: [{ url: absoluteUrl(image), width: 1200, height: 630, alt: `${siteConfig.name} handcrafted decor and lighting` }],
       locale: "en_US",
-      alternateLocale: ["en_GB"]
+      alternateLocale: ["en_GB", "en_CA"]
     },
     twitter: {
       card: "summary_large_image",
@@ -65,9 +68,18 @@ export function productMetadata(product: Product): Metadata {
   const description = product.metaDescription?.trim() || product.description.slice(0, 157).trim();
   const path = productPath(product);
   const image = product.galleryImages[0];
+  const keywords = [
+    title,
+    product.sku,
+    product.primaryCategory,
+    ...product.materials,
+    ...product.styles,
+    ...product.rooms,
+    ...product.seoKeywords
+  ].filter(Boolean).slice(0, 24);
 
   return {
-    ...pageMetadata({ title, description, path, image: image?.url ?? product.heroImage }),
+    ...pageMetadata({ title, description, path, image: image?.url ?? product.heroImage, keywords }),
     openGraph: {
       type: "website",
       siteName: siteConfig.name,
@@ -79,7 +91,7 @@ export function productMetadata(product: Product): Metadata {
         alt: image?.alt ?? product.heroImageAlt ?? `${title} by ArtLoka`
       }],
       locale: "en_US",
-      alternateLocale: ["en_GB"]
+      alternateLocale: ["en_GB", "en_CA"]
     }
   };
 }
@@ -105,7 +117,14 @@ export function organizationJsonLd() {
     description: siteConfig.description,
     areaServed: [
       { "@type": "Country", name: "United States" },
-      { "@type": "Country", name: "United Kingdom" }
+      { "@type": "Country", name: "Canada" },
+      { "@type": "Country", name: "United Kingdom" },
+      { "@type": "Country", name: "Germany" },
+      { "@type": "Country", name: "France" },
+      { "@type": "Country", name: "Netherlands" },
+      { "@type": "Country", name: "Italy" },
+      { "@type": "Country", name: "Spain" },
+      { "@type": "Continent", name: "Europe" }
     ],
     knowsAbout: [
       "Indian craftsmanship",
@@ -113,6 +132,8 @@ export function organizationJsonLd() {
       "alabaster wall sconces",
       "brass lighting",
       "artisan-made decor",
+      "luxury home lighting",
+      "modern Indian decor",
       "interior design lighting",
       "corporate gifting",
       "hospitality decor"

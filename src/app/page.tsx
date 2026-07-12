@@ -8,8 +8,16 @@ import { graphSchema, itemListSchema, organizationSchema, serializeJsonLd, websi
 
 export const metadata: Metadata = pageMetadata({
   title: "Handcrafted Indian Lighting and Decor for Modern Homes",
-  description: "Discover ArtLoka artisan-made lighting and decor, designed and made in India for thoughtful homes, designers and gift buyers in the USA, UK and worldwide.",
-  path: "/"
+  description: "Discover ArtLoka handcrafted Indian lighting and decor for modern homes, interior designers, gifting buyers and boutique hospitality projects across the USA, Canada, UK and Europe.",
+  path: "/",
+  keywords: [
+    "handcrafted Indian lighting",
+    "luxury Indian decor",
+    "artisan lighting USA",
+    "artisan lighting Canada",
+    "handmade wall sconces UK",
+    "heritage craftsmanship decor"
+  ]
 });
 
 export default function HomePage() {

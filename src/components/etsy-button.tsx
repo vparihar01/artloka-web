@@ -1,6 +1,7 @@
 "use client";
 
 import { trackEtsyClick } from "@/lib/analytics";
+import { EtsyMark } from "./etsy-mark";
 
 export function EtsyButton({ href, sku, title, location = "product-page", label = "Buy on Etsy" }: {
   href: string;
@@ -14,9 +15,10 @@ export function EtsyButton({ href, sku, title, location = "product-page", label 
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="button-primary"
+      className="button-primary gap-2"
       onClick={() => trackEtsyClick({ sku, title, location })}
     >
+      <EtsyMark />
       {label}
     </a>
   );

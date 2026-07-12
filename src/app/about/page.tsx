@@ -4,8 +4,9 @@ import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
   title: "About ArtLoka",
-  description: "Learn how ArtLoka bridges Indian heritage craftsmanship with clean contemporary design for homes, designers and gift buyers around the world.",
-  path: "/about"
+  description: "Learn how ArtLoka bridges Indian heritage craftsmanship with contemporary design for global homeowners, interior designers, gifting buyers and boutique hospitality spaces.",
+  path: "/about",
+  keywords: ["ArtLoka story", "Indian heritage craftsmanship", "modern Indian decor", "artisan made decor"]
 });
 
 export default function AboutPage() {

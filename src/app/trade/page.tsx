@@ -4,8 +4,9 @@ import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
   title: "Trade, Hospitality and Bulk Gifting",
-  description: "Contact ArtLoka for interior design, hospitality, corporate gifting, bulk orders and custom handcrafted lighting or decor requirements.",
-  path: "/trade"
+  description: "Contact ArtLoka for interior design, boutique hospitality, corporate gifting, bulk orders and custom handcrafted lighting or decor requirements.",
+  path: "/trade",
+  keywords: ["trade handcrafted lighting", "hospitality decor India", "corporate gifting decor", "interior designer lighting"]
 });
 
 export default function TradePage() {

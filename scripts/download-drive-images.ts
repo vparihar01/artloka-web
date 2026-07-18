@@ -81,9 +81,8 @@ async function main(): Promise<void> {
 
   for (const row of rows.slice(1)) {
     const record = rowToRecord(header, row);
-    const listingStatus = text(record["Listing Status"]).toLowerCase();
     const approved = text(record["Approved"]).toLowerCase();
-    if (listingStatus === "listed" || !["yes", "true", "approved", "1"].includes(approved)) {
+    if (!["yes", "true", "approved", "1"].includes(approved)) {
       skipped += 1;
       continue;
     }

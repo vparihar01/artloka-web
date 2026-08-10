@@ -1,3 +1,4 @@
+import { loadEnvConfig } from "@next/env";
 import { readSheet } from "read-excel-file/node";
 import { google } from "googleapis";
 import { existsSync } from "node:fs";
@@ -18,6 +19,8 @@ const PUBLIC_PRODUCTS = path.join(ROOT, "public/assets/products");
 const PRODUCT_SHEETS = ["Products", "Website Catalog"];
 const IMAGES_SHEET = "Images";
 const LOCAL_IMAGE_EXTENSIONS = [".webp", ".jpg", ".jpeg", ".png"];
+const GOOGLE_SHEETS_MIME_TYPE = "application/vnd.google-apps.spreadsheet";
+const EXCEL_EXPORT_MIME_TYPE = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
 
 function text(value: SheetCell | undefined): string {
   if (value === null || value === undefined) return "";
@@ -134,6 +137,8 @@ async function readOptionalSheet(source: Buffer | string, sheetName: string): Pr
 }
 
 async function loadRows(): Promise<{ rows: SheetCell[][]; imageRows: SheetCell[][]; source: string; productSheet: string }> {
+  loadEnvConfig(ROOT);
+
   const fileId = process.env.GOOGLE_DRIVE_FILE_ID;
   const email = process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL;
   const privateKey = process.env.GOOGLE_SERVICE_ACCOUNT_PRIVATE_KEY?.replace(/\\n/g, "\n");
@@ -145,7 +150,20 @@ async function loadRows(): Promise<{ rows: SheetCell[][]; imageRows: SheetCell[]
       scopes: ["https://www.googleapis.com/auth/drive.readonly"]
     });
     const drive = google.drive({ version: "v3", auth });
-    const response = await drive.files.get({ fileId, alt: "media" }, { responseType: "arraybuffer" });
+    const metadata = await drive.files.get({
+      fileId,
+      fields: "id,name,mimeType",
+      supportsAllDrives: true
+    });
+    const response = metadata.data.mimeType === GOOGLE_SHEETS_MIME_TYPE
+      ? await drive.files.export(
+        { fileId, mimeType: EXCEL_EXPORT_MIME_TYPE },
+        { responseType: "arraybuffer" }
+      )
+      : await drive.files.get(
+        { fileId, alt: "media", supportsAllDrives: true },
+        { responseType: "arraybuffer" }
+      );
     const buffer = Buffer.from(response.data as ArrayBuffer);
     const productSheet = await readFirstAvailableSheet(buffer, PRODUCT_SHEETS);
     return {

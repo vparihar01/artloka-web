@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-18T15:10:35.783Z",
-  "source": "data/source/ArtLoka_Product_Catalog_Full_ALK006-032.xlsx",
+  "generatedAt": "2026-08-10T05:08:52.571Z",
+  "source": "google-drive:1M3MY-yQjqG5HCcKuC9O4o3i1weMt0JQj",
   "products": [
     {
       "sku": "ALK-018",
@@ -2124,7 +2124,7 @@
         "luxury alabaster lighting",
         "made-to-order wall sconce"
       ],
-      "imageStatus": "Pending — new lifestyle images to be generated",
+      "imageStatus": "Approved",
       "heroImage": "/assets/products/alk-003/alk-003-01-hero.jpg",
       "heroImageAlt": "ArtLoka Modern Alabaster Wall Light, Brass Bedside Sconce (ALK-003) - image 1",
       "galleryImages": [
@@ -2262,7 +2262,7 @@
         "bathroom alabaster sconce",
         "brass sphere wall lamp"
       ],
-      "imageStatus": "Pending — new lifestyle images to be generated",
+      "imageStatus": "Approved",
       "heroImage": "/assets/products/alk-004/alk-004-01-hero.jpg",
       "heroImageAlt": "ArtLoka Alabaster Double Wall Sconce, Antique Brass Modern Lamp (ALK-004) - image 1",
       "galleryImages": [
@@ -2390,7 +2390,7 @@
         "minimalist double wall lamp",
         "quiet luxury lighting"
       ],
-      "imageStatus": "Pending — new lifestyle images to be generated",
+      "imageStatus": "Approved",
       "heroImage": "/assets/products/alk-005/alk-005-01-hero.jpg",
       "heroImageAlt": "ArtLoka Handmade Brass Double Sconce with Alabaster Shades (ALK-005) - image 1",
       "galleryImages": [
@@ -2528,7 +2528,7 @@
         "handmade brass cylinder light",
         "small alabaster wall sconce"
       ],
-      "imageStatus": "Pending — new lifestyle images to be generated",
+      "imageStatus": "Approved",
       "heroImage": "/assets/products/alk-006/alk-006-01-hero.jpg",
       "heroImageAlt": "ArtLoka Modern Alabaster Cylinder Sconce | Solid Brass Vanity Light, Minimalist Marble L (ALK-006) - image 1",
       "galleryImages": [
@@ -2695,7 +2695,7 @@
         "artisan alabaster lighting",
         "brass wall sconce with stone shade"
       ],
-      "imageStatus": "Pending — new lifestyle images to be generated",
+      "imageStatus": "Approved",
       "heroImage": "/assets/products/alk-008/alk-008-01-hero.jpg",
       "heroImageAlt": "ArtLoka Handcrafted Alabaster Marble Sconce | Antique Brass Wall Light, Modern Vanity La (ALK-008) - image 1",
       "galleryImages": [
@@ -2853,7 +2853,7 @@
         "alabaster wall light USA",
         "artisan minimalist sconce"
       ],
-      "imageStatus": "Pending — new lifestyle images to be generated",
+      "imageStatus": "Approved",
       "heroImage": "/assets/products/alk-009/alk-009-01-hero.jpg",
       "heroImageAlt": "ArtLoka Handcrafted Brass Alabaster Wall Sconce | Modern Minimalist Cylinder Light (ALK-009) - image 1",
       "galleryImages": [
@@ -3017,7 +3017,7 @@
         "artisan brass sconce",
         "hallway wall light fixture"
       ],
-      "imageStatus": "Pending — new lifestyle images to be generated",
+      "imageStatus": "Approved",
       "heroImage": "/assets/products/alk-010/alk-010-01-hero.jpg",
       "heroImageAlt": "ArtLoka Handmade Alabaster Marble Brass Wall Sconce | Mid Century Modern Lamp Ligthing (ALK-010) - image 1",
       "galleryImages": [
@@ -3183,7 +3183,7 @@
         "handmade bathroom vanity light",
         "artisan brass wall fixture"
       ],
-      "imageStatus": "Pending — new lifestyle images to be generated",
+      "imageStatus": "Approved",
       "heroImage": "/assets/products/alk-012/alk-012-01-hero.jpg",
       "heroImageAlt": "ArtLoka Handmade Alabaster Marble Sconce – Solid Brass Modern Wall Light Fixture (ALK-012) - image 1",
       "galleryImages": [
@@ -3365,7 +3365,7 @@
         "marble sphere wall sconce",
         "downward glow bedroom light"
       ],
-      "imageStatus": "Pending — new lifestyle images to be generated",
+      "imageStatus": "Approved",
       "heroImage": "/assets/products/alk-013/alk-013-01-hero.jpg",
       "heroImageAlt": "ArtLoka Modern Brass Alabaster Wall Sconce – Luxury Bathroom Vanity Light, Elegant Bedro (ALK-013) - image 1",
       "galleryImages": [
@@ -3532,7 +3532,7 @@
         "directional accent lighting",
         "modern minimalist spotlight"
       ],
-      "imageStatus": "Pending — new lifestyle images to be generated",
+      "imageStatus": "Approved",
       "heroImage": "/assets/products/alk-011/alk-011-01-hero.jpg",
       "heroImageAlt": "ArtLoka Modern Brass Ceiling Spotlight with Alabaster Shade | Adjustable Luxury Light Fi (ALK-011) - image 1",
       "galleryImages": [
@@ -3683,7 +3683,7 @@
         "customizable alabaster lighting",
         "quiet luxury bedroom sconce"
       ],
-      "imageStatus": "Pending — new lifestyle images to be generated",
+      "imageStatus": "Approved",
       "heroImage": "/assets/products/alk-014/alk-014-01-hero.jpg",
       "heroImageAlt": "ArtLoka Mid Century Brass Wall Sconce – Handmade Alabaster Shade Lamp, Modern Bedroom Wa (ALK-014) - image 1",
       "galleryImages": [
@@ -3856,7 +3856,7 @@
         "upscale hospitality wall light",
         "contemporary brass sconce"
       ],
-      "imageStatus": "Pending — new lifestyle images to be generated",
+      "imageStatus": "Approved",
       "heroImage": "/assets/products/alk-015/alk-015-01-hero.jpg",
       "heroImageAlt": "ArtLoka Luxury Alabaster Brass Wall Sconce | Modern Swing Arm Lamp, Bathroom Vanity Ligh (ALK-015) - image 1",
       "galleryImages": [
@@ -4027,7 +4027,7 @@
         "luxury alabaster fixture",
         "statement wall sconce"
       ],
-      "imageStatus": "Pending — new lifestyle images to be generated",
+      "imageStatus": "Approved",
       "heroImage": "/assets/products/alk-016/alk-016-01-hero.jpg",
       "heroImageAlt": "ArtLoka Handcrafted Alabaster Stone Brass Wall Sconce | Modern Luxury Ambient Lighting F (ALK-016) - image 1",
       "galleryImages": [
@@ -4203,7 +4203,7 @@
         "directional accent lighting",
         "modern brass ceiling fixture"
       ],
-      "imageStatus": "Pending — new lifestyle images to be generated",
+      "imageStatus": "Approved",
       "heroImage": "/assets/products/alk-032/alk-032-01-hero.jpg",
       "heroImageAlt": "ArtLoka Modern Brass Spotlight with Marble Shade – Adjustable Semi Flush Mount Lamp (ALK-032) - image 1",
       "galleryImages": [
@@ -4368,7 +4368,7 @@
         "stone wall light",
         "brass wall light"
       ],
-      "imageStatus": "Ready (Etsy live)",
+      "imageStatus": "Approved",
       "heroImage": "/assets/products/alk-033/alk-033-01-hero.jpg",
       "heroImageAlt": "ArtLoka Modern Alabaster Brass Walnut Wall Sconce | Mid Century Scandinavian Light (ALK-033) - image 1",
       "galleryImages": [
@@ -4547,7 +4547,7 @@
         "brass wall light",
         "globe vanity light"
       ],
-      "imageStatus": "Ready (Etsy live)",
+      "imageStatus": "Approved",
       "heroImage": "/assets/products/alk-034/alk-034-01-hero.png",
       "heroImageAlt": "ArtLoka Modern Alabaster Brass Wall Sconce | Minimalist Globe Light, Bathroom Vanity Lam (ALK-034) - image 1",
       "galleryImages": [
@@ -4732,7 +4732,7 @@
         "bathroom vanity",
         "triple light lamp"
       ],
-      "imageStatus": "Ready (Etsy live)",
+      "imageStatus": "Approved",
       "heroImage": "/assets/products/alk-035/alk-035-01-hero.jpg",
       "heroImageAlt": "ArtLoka Modern Alabaster Bathroom Vanity Light | 3-Light Brushed Brass Wall Sconce (ALK-035) - image 1",
       "galleryImages": [
@@ -4861,6 +4861,2338 @@
       "featured": false,
       "bestseller": false,
       "sortOrder": 30
+    },
+    {
+      "sku": "ALK-053",
+      "slug": "handcrafted-brass-wall-sconce-mid-century-modern-cone-shade-light-alk-053",
+      "title": "Handcrafted Brass Wall Sconce, Mid Century Modern Cone Shade Light",
+      "originalTitle": "Handcrafted Brass Wall Sconce, Mid Century Modern Cone Shade Light",
+      "metaDescription": "A handcrafted antique brass wall sconce with a beautifully perforated cone shade that casts a warm, patterned ambient glow. Mid-Century Modern meets Scandina...",
+      "description": "A handcrafted antique brass wall sconce with a beautifully perforated cone shade that casts a warm, patterned ambient glow. Mid-Century Modern meets Scandinavian simplicity.",
+      "etsyUrl": "https://www.etsy.com/in-en/listing/4547942362/handcrafted-brass-wall-sconce-mid",
+      "priceUsd": 561,
+      "materials": [
+        "Brass"
+      ],
+      "dimensions": {
+        "widthIn": 6,
+        "heightIn": 8,
+        "depthIn": null
+      },
+      "finishes": [
+        "Raw brass / Antique brass / Brushed brass (confirm options)"
+      ],
+      "bulbUs": "E12 / E26 (confirm)",
+      "bulbInternational": "E14 / E27 (confirm)",
+      "primaryCategory": "Lighting",
+      "styles": [
+        "Mid Century Modern"
+      ],
+      "rooms": [
+        "Bedroom",
+        "Hallway",
+        "Study"
+      ],
+      "features": [
+        "Handmade",
+        "natural materials"
+      ],
+      "handmadeNote": "Handmade to order",
+      "tags": [
+        "brass wall sconce",
+        "cone sconce",
+        "mid century light",
+        "perforated shade",
+        "bedside wall lamp",
+        "handmade lighting",
+        "scandinavian light",
+        "hallway sconce",
+        "reading light",
+        "brass wall light"
+      ],
+      "seoKeywords": [
+        "brass wall sconce",
+        "cone sconce",
+        "mid century light",
+        "perforated shade",
+        "bedside wall lamp",
+        "handmade lighting",
+        "scandinavian light",
+        "hallway sconce",
+        "reading light",
+        "brass wall light"
+      ],
+      "imageStatus": "Ready (Etsy live)",
+      "heroImage": "/assets/products/alk-053/alk-053-01-hero.webp",
+      "heroImageAlt": "Handcrafted brass mid century cone-shade wall sconce (ALK-053) - image 1",
+      "galleryImages": [
+        {
+          "url": "/assets/products/alk-053/alk-053-01-hero.webp",
+          "type": "Hero",
+          "alt": "Handcrafted brass mid century cone-shade wall sconce (ALK-053) - image 1",
+          "sortOrder": 1,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-053/alk-053-02-gallery.webp",
+          "type": "Gallery",
+          "alt": "Handcrafted brass mid century cone-shade wall sconce (ALK-053) - image 2",
+          "sortOrder": 2,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-053/alk-053-03-gallery.webp",
+          "type": "Gallery",
+          "alt": "Handcrafted brass mid century cone-shade wall sconce (ALK-053) - image 3",
+          "sortOrder": 3,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-053/alk-053-04-gallery.webp",
+          "type": "Gallery",
+          "alt": "Handcrafted brass mid century cone-shade wall sconce (ALK-053) - image 4",
+          "sortOrder": 4,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-053/alk-053-05-gallery.webp",
+          "type": "Gallery",
+          "alt": "Handcrafted brass mid century cone-shade wall sconce (ALK-053) - image 5",
+          "sortOrder": 5,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-053/alk-053-06-gallery.webp",
+          "type": "Gallery",
+          "alt": "Handcrafted brass mid century cone-shade wall sconce (ALK-053) - image 6",
+          "sortOrder": 6,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-053/alk-053-07-gallery.webp",
+          "type": "Gallery",
+          "alt": "Handcrafted brass mid century cone-shade wall sconce (ALK-053) - image 7",
+          "sortOrder": 7,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-053/alk-053-08-gallery.webp",
+          "type": "Gallery",
+          "alt": "Handcrafted brass mid century cone-shade wall sconce (ALK-053) - image 8",
+          "sortOrder": 8,
+          "aspectRatio": "1 / 1"
+        }
+      ],
+      "qaNotes": "New listing (Aug 2026); INR 49331 (orig); USD approx; verify dims",
+      "status": "approved",
+      "featured": false,
+      "bestseller": false,
+      "sortOrder": 31
+    },
+    {
+      "sku": "ALK-054",
+      "slug": "antique-brass-double-sconce-mauve-metal-shade-mid-century-modern-wall-lamp-alk-054",
+      "title": "Antique Brass Double Sconce, Mauve Metal Shade, Mid Century Modern Wall Lamp",
+      "originalTitle": "Antique Brass Double Sconce, Mauve Metal Shade, Mid Century Modern Wall Lamp",
+      "metaDescription": "A Stilnovo-inspired double wall sconce with twin mauve metal flower shades on an antique brass frame. Timeless mid-century elegance with a soft, warm spread ...",
+      "description": "A Stilnovo-inspired double wall sconce with twin mauve metal flower shades on an antique brass frame. Timeless mid-century elegance with a soft, warm spread of light.",
+      "etsyUrl": "https://www.etsy.com/in-en/listing/4547932536/antique-brass-double-sconce-mauve-metal",
+      "priceUsd": 674,
+      "materials": [
+        "Brass",
+        "Metal"
+      ],
+      "dimensions": {
+        "widthIn": 15,
+        "heightIn": 9.5,
+        "depthIn": 8
+      },
+      "finishes": [
+        "Raw brass / Antique brass / Brushed brass (confirm options)"
+      ],
+      "bulbUs": "E12 / E26 (confirm)",
+      "bulbInternational": "E14 / E27 (confirm)",
+      "primaryCategory": "Lighting",
+      "styles": [
+        "Mid Century Modern"
+      ],
+      "rooms": [
+        "Living room",
+        "Bedroom",
+        "Hallway"
+      ],
+      "features": [
+        "Handmade",
+        "natural materials"
+      ],
+      "handmadeNote": "Handmade to order",
+      "tags": [
+        "double wall sconce",
+        "brass sconce",
+        "mauve shade",
+        "stilnovo light",
+        "mid century light",
+        "flower shade lamp",
+        "vanity light",
+        "handmade lighting",
+        "wall lamp",
+        "antique brass light"
+      ],
+      "seoKeywords": [
+        "double wall sconce",
+        "brass sconce",
+        "mauve shade",
+        "stilnovo light",
+        "mid century light",
+        "flower shade lamp",
+        "vanity light",
+        "handmade lighting",
+        "wall lamp",
+        "antique brass light"
+      ],
+      "imageStatus": "Ready (Etsy live)",
+      "heroImage": "/assets/products/alk-054/alk-054-01-hero.webp",
+      "heroImageAlt": "Antique brass double sconce with mauve metal shades (ALK-054) - image 1",
+      "galleryImages": [
+        {
+          "url": "/assets/products/alk-054/alk-054-01-hero.webp",
+          "type": "Hero",
+          "alt": "Antique brass double sconce with mauve metal shades (ALK-054) - image 1",
+          "sortOrder": 1,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-054/alk-054-02-gallery.jpg",
+          "type": "Gallery",
+          "alt": "Antique brass double sconce with mauve metal shades (ALK-054) - image 2",
+          "sortOrder": 2,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-054/alk-054-03-gallery.jpg",
+          "type": "Gallery",
+          "alt": "Antique brass double sconce with mauve metal shades (ALK-054) - image 3",
+          "sortOrder": 3,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-054/alk-054-04-gallery.jpg",
+          "type": "Gallery",
+          "alt": "Antique brass double sconce with mauve metal shades (ALK-054) - image 4",
+          "sortOrder": 4,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-054/alk-054-05-gallery.jpg",
+          "type": "Gallery",
+          "alt": "Antique brass double sconce with mauve metal shades (ALK-054) - image 5",
+          "sortOrder": 5,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-054/alk-054-06-gallery.jpg",
+          "type": "Gallery",
+          "alt": "Antique brass double sconce with mauve metal shades (ALK-054) - image 6",
+          "sortOrder": 6,
+          "aspectRatio": "1 / 1"
+        }
+      ],
+      "qaNotes": "New listing (Aug 2026); INR 59331 (orig); USD approx; verify dims",
+      "status": "approved",
+      "featured": false,
+      "bestseller": false,
+      "sortOrder": 32
+    },
+    {
+      "sku": "ALK-055",
+      "slug": "5-light-alabaster-vanity-sconce-antique-brass-bathroom-light-fluted-stone-fixture-alk-055",
+      "title": "5-light Alabaster Vanity Sconce, Antique Brass Bathroom Light, Fluted Stone Fixture",
+      "originalTitle": "5-light Alabaster Vanity Sconce, Antique Brass Bathroom Light, Fluted Stone Fixture",
+      "metaDescription": "A statement 5-light vanity sconce with fluted alabaster stone shades on a solid antique brass bar. Handcrafted for bathrooms, powder rooms and dressing areas...",
+      "description": "A statement 5-light vanity sconce with fluted alabaster stone shades on a solid antique brass bar. Handcrafted for bathrooms, powder rooms and dressing areas that want real luxury.",
+      "etsyUrl": "https://www.etsy.com/in-en/listing/4547904421/5-light-alabaster-vanity-sconce-antique",
+      "priceUsd": 1015,
+      "materials": [
+        "Alabaster",
+        "Brass"
+      ],
+      "dimensions": {
+        "widthIn": 24,
+        "heightIn": 6,
+        "depthIn": 6
+      },
+      "finishes": [
+        "Raw brass / Antique brass / Brushed brass (confirm options)"
+      ],
+      "bulbUs": "E12 / E26 (confirm)",
+      "bulbInternational": "E14 / E27 (confirm)",
+      "primaryCategory": "Lighting",
+      "styles": [
+        "Mid Century Modern"
+      ],
+      "rooms": [
+        "Bathroom",
+        "Vanity",
+        "Powder room"
+      ],
+      "features": [
+        "Handmade",
+        "natural materials"
+      ],
+      "handmadeNote": "Handmade to order",
+      "tags": [
+        "5 light vanity",
+        "alabaster sconce",
+        "bathroom vanity light",
+        "fluted stone light",
+        "antique brass light",
+        "brass vanity bar",
+        "luxury lighting",
+        "handmade lighting",
+        "powder room light",
+        "wall sconce"
+      ],
+      "seoKeywords": [
+        "5 light vanity",
+        "alabaster sconce",
+        "bathroom vanity light",
+        "fluted stone light",
+        "antique brass light",
+        "brass vanity bar",
+        "luxury lighting",
+        "handmade lighting",
+        "powder room light",
+        "wall sconce"
+      ],
+      "imageStatus": "Ready (Etsy live)",
+      "heroImage": "/assets/products/alk-055/alk-055-01-hero.jpg",
+      "heroImageAlt": "5-light alabaster antique brass vanity sconce (ALK-055) - image 1",
+      "galleryImages": [
+        {
+          "url": "/assets/products/alk-055/alk-055-01-hero.jpg",
+          "type": "Hero",
+          "alt": "5-light alabaster antique brass vanity sconce (ALK-055) - image 1",
+          "sortOrder": 1,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-055/alk-055-02-gallery.jpg",
+          "type": "Gallery",
+          "alt": "5-light alabaster antique brass vanity sconce (ALK-055) - image 2",
+          "sortOrder": 2,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-055/alk-055-03-gallery.jpg",
+          "type": "Gallery",
+          "alt": "5-light alabaster antique brass vanity sconce (ALK-055) - image 3",
+          "sortOrder": 3,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-055/alk-055-04-gallery.jpg",
+          "type": "Gallery",
+          "alt": "5-light alabaster antique brass vanity sconce (ALK-055) - image 4",
+          "sortOrder": 4,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-055/alk-055-05-gallery.jpg",
+          "type": "Gallery",
+          "alt": "5-light alabaster antique brass vanity sconce (ALK-055) - image 5",
+          "sortOrder": 5,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-055/alk-055-06-gallery.jpg",
+          "type": "Gallery",
+          "alt": "5-light alabaster antique brass vanity sconce (ALK-055) - image 6",
+          "sortOrder": 6,
+          "aspectRatio": "1 / 1"
+        }
+      ],
+      "qaNotes": "New listing (Aug 2026); INR 89331 (orig); USD approx; verify dims",
+      "status": "approved",
+      "featured": false,
+      "bestseller": false,
+      "sortOrder": 33
+    },
+    {
+      "sku": "ALK-056",
+      "slug": "black-and-gold-globe-with-wooden-tripod-stand-vintage-nautical-explorer-decor-alk-056",
+      "title": "Black and Gold Globe With Wooden Tripod Stand, Vintage Nautical Explorer Decor",
+      "originalTitle": "Black and Gold Globe With Wooden Tripod Stand, Vintage Nautical Explorer Decor",
+      "metaDescription": "A decorative black-and-gold world globe on a handcrafted wooden tripod stand. A vintage nautical, explorer-style statement piece for studies, offices and liv...",
+      "description": "A decorative black-and-gold world globe on a handcrafted wooden tripod stand. A vintage nautical, explorer-style statement piece for studies, offices and living rooms. (Decor object, not a light.)",
+      "etsyUrl": "https://www.etsy.com/in-en/listing/4545588253/black-and-gold-globe-with-wooden-tripod",
+      "priceUsd": 895,
+      "materials": [
+        "Metal",
+        "Wood"
+      ],
+      "dimensions": {
+        "widthIn": 12,
+        "heightIn": 60,
+        "depthIn": null
+      },
+      "finishes": [],
+      "primaryCategory": "Decorative Objects",
+      "styles": [
+        "Mid Century Modern"
+      ],
+      "rooms": [
+        "Study",
+        "Office",
+        "Living room"
+      ],
+      "features": [
+        "Decorative globe on tripod stand (not a light)"
+      ],
+      "handmadeNote": "Handmade to order",
+      "tags": [
+        "world globe",
+        "tripod globe",
+        "nautical decor",
+        "explorer decor",
+        "vintage globe",
+        "desk globe",
+        "black gold globe",
+        "office decor",
+        "study decor",
+        "statement decor"
+      ],
+      "seoKeywords": [
+        "world globe",
+        "tripod globe",
+        "nautical decor",
+        "explorer decor",
+        "vintage globe",
+        "desk globe",
+        "black gold globe",
+        "office decor",
+        "study decor",
+        "statement decor"
+      ],
+      "imageStatus": "Ready (Etsy live)",
+      "heroImage": "/assets/products/alk-056/alk-056-01-hero.jpg",
+      "heroImageAlt": "Black and gold world globe on wooden tripod stand (ALK-056) - image 1",
+      "galleryImages": [
+        {
+          "url": "/assets/products/alk-056/alk-056-01-hero.jpg",
+          "type": "Hero",
+          "alt": "Black and gold world globe on wooden tripod stand (ALK-056) - image 1",
+          "sortOrder": 1,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-056/alk-056-02-gallery.jpg",
+          "type": "Gallery",
+          "alt": "Black and gold world globe on wooden tripod stand (ALK-056) - image 2",
+          "sortOrder": 2,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-056/alk-056-03-gallery.jpg",
+          "type": "Gallery",
+          "alt": "Black and gold world globe on wooden tripod stand (ALK-056) - image 3",
+          "sortOrder": 3,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-056/alk-056-04-gallery.jpg",
+          "type": "Gallery",
+          "alt": "Black and gold world globe on wooden tripod stand (ALK-056) - image 4",
+          "sortOrder": 4,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-056/alk-056-05-gallery.jpg",
+          "type": "Gallery",
+          "alt": "Black and gold world globe on wooden tripod stand (ALK-056) - image 5",
+          "sortOrder": 5,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-056/alk-056-06-gallery.jpg",
+          "type": "Gallery",
+          "alt": "Black and gold world globe on wooden tripod stand (ALK-056) - image 6",
+          "sortOrder": 6,
+          "aspectRatio": "1 / 1"
+        }
+      ],
+      "qaNotes": "New listing (Aug 2026); INR 78757 (orig); USD approx; verify dims",
+      "status": "approved",
+      "featured": false,
+      "bestseller": false,
+      "sortOrder": 34
+    },
+    {
+      "sku": "ALK-036",
+      "slug": "3-light-alabaster-vanity-sconce-modern-brass-wall-light-natural-stone-bathroom-fixture-alk",
+      "title": "3-light Alabaster Vanity Sconce, Modern Brass Wall Light, Natural Stone Bathroom Fixture",
+      "originalTitle": "3-light Alabaster Vanity Sconce, Modern Brass Wall Light, Natural Stone Bathroom Fixture",
+      "metaDescription": "A modern 3-light vanity sconce with natural alabaster stone shades on a solid brass bar. Soft, even light for bathrooms, powder rooms and vanities.",
+      "description": "A modern 3-light vanity sconce with natural alabaster stone shades on a solid brass bar. Soft, even light for bathrooms, powder rooms and vanities.",
+      "etsyUrl": "https://www.etsy.com/in-en/listing/4547276751/3-light-alabaster-vanity-sconce-modern",
+      "priceUsd": 674,
+      "materials": [
+        "Alabaster",
+        "Brass"
+      ],
+      "dimensions": {
+        "widthIn": 24,
+        "heightIn": 6,
+        "depthIn": 6
+      },
+      "finishes": [
+        "Raw brass / Antique brass / Brushed brass (confirm options)"
+      ],
+      "bulbUs": "E12 / E26 (confirm)",
+      "bulbInternational": "E14 / E27 (confirm)",
+      "primaryCategory": "Lighting",
+      "styles": [
+        "Mid Century Modern"
+      ],
+      "rooms": [
+        "Bathroom",
+        "Vanity",
+        "Bedroom"
+      ],
+      "features": [
+        "Handmade",
+        "natural materials"
+      ],
+      "handmadeNote": "Handmade to order",
+      "tags": [
+        "3 light vanity",
+        "alabaster sconce",
+        "bathroom vanity light",
+        "natural stone light",
+        "modern brass light",
+        "brass vanity bar",
+        "handmade lighting",
+        "powder room light",
+        "wall sconce",
+        "luxury lighting"
+      ],
+      "seoKeywords": [
+        "3 light vanity",
+        "alabaster sconce",
+        "bathroom vanity light",
+        "natural stone light",
+        "modern brass light",
+        "brass vanity bar",
+        "handmade lighting",
+        "powder room light",
+        "wall sconce",
+        "luxury lighting"
+      ],
+      "imageStatus": "Ready (Etsy live)",
+      "heroImage": "/assets/products/alk-036/alk-036-01-hero.jpg",
+      "heroImageAlt": "3-light alabaster modern brass vanity sconce (ALK-036) - image 1",
+      "galleryImages": [
+        {
+          "url": "/assets/products/alk-036/alk-036-01-hero.jpg",
+          "type": "Hero",
+          "alt": "3-light alabaster modern brass vanity sconce (ALK-036) - image 1",
+          "sortOrder": 1,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-036/alk-036-02-gallery.jpg",
+          "type": "Gallery",
+          "alt": "3-light alabaster modern brass vanity sconce (ALK-036) - image 2",
+          "sortOrder": 2,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-036/alk-036-03-gallery.jpg",
+          "type": "Gallery",
+          "alt": "3-light alabaster modern brass vanity sconce (ALK-036) - image 3",
+          "sortOrder": 3,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-036/alk-036-04-gallery.jpg",
+          "type": "Gallery",
+          "alt": "3-light alabaster modern brass vanity sconce (ALK-036) - image 4",
+          "sortOrder": 4,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-036/alk-036-05-gallery.jpg",
+          "type": "Gallery",
+          "alt": "3-light alabaster modern brass vanity sconce (ALK-036) - image 5",
+          "sortOrder": 5,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-036/alk-036-06-gallery.jpg",
+          "type": "Gallery",
+          "alt": "3-light alabaster modern brass vanity sconce (ALK-036) - image 6",
+          "sortOrder": 6,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-036/alk-036-07-gallery.jpg",
+          "type": "Gallery",
+          "alt": "3-light alabaster modern brass vanity sconce (ALK-036) - image 7",
+          "sortOrder": 7,
+          "aspectRatio": "1 / 1"
+        }
+      ],
+      "qaNotes": "New listing (Aug 2026); INR 59331 (orig); USD approx; verify dims",
+      "status": "approved",
+      "featured": false,
+      "bestseller": false,
+      "sortOrder": 35
+    },
+    {
+      "sku": "ALK-037",
+      "slug": "modern-brass-fluted-alabaster-wall-sconce-handmade-vanity-light-fixture-alk-037",
+      "title": "Modern Brass Fluted Alabaster Wall Sconce, Handmade Vanity Light Fixture",
+      "originalTitle": "Modern Brass Fluted Alabaster Wall Sconce, Handmade Vanity Light Fixture",
+      "metaDescription": "A modern wall sconce with a fluted alabaster stone shade on a solid brass fixture. A compact, sculptural vanity and bedside light with a warm glow.",
+      "description": "A modern wall sconce with a fluted alabaster stone shade on a solid brass fixture. A compact, sculptural vanity and bedside light with a warm glow.",
+      "etsyUrl": "https://www.etsy.com/in-en/listing/4547268929/modern-brass-fluted-alabaster-wall",
+      "priceUsd": 640,
+      "materials": [
+        "Alabaster",
+        "Brass"
+      ],
+      "dimensions": {
+        "widthIn": 5,
+        "heightIn": 10,
+        "depthIn": 5
+      },
+      "finishes": [
+        "Raw brass / Antique brass / Brushed brass (confirm options)"
+      ],
+      "bulbUs": "E12 / E26 (confirm)",
+      "bulbInternational": "E14 / E27 (confirm)",
+      "primaryCategory": "Lighting",
+      "styles": [
+        "Mid Century Modern"
+      ],
+      "rooms": [
+        "Bathroom",
+        "Bedroom",
+        "Hallway"
+      ],
+      "features": [
+        "Handmade",
+        "natural materials"
+      ],
+      "handmadeNote": "Handmade to order",
+      "tags": [
+        "fluted alabaster",
+        "brass wall sconce",
+        "alabaster sconce",
+        "vanity light",
+        "modern wall light",
+        "bedside wall lamp",
+        "natural stone light",
+        "handmade lighting",
+        "hallway sconce",
+        "brass wall light"
+      ],
+      "seoKeywords": [
+        "fluted alabaster",
+        "brass wall sconce",
+        "alabaster sconce",
+        "vanity light",
+        "modern wall light",
+        "bedside wall lamp",
+        "natural stone light",
+        "handmade lighting",
+        "hallway sconce",
+        "brass wall light"
+      ],
+      "imageStatus": "Ready (Etsy live)",
+      "heroImage": "/assets/products/alk-037/alk-037-01-hero.jpg",
+      "heroImageAlt": "Modern brass fluted alabaster wall sconce (ALK-037) - image 1",
+      "galleryImages": [
+        {
+          "url": "/assets/products/alk-037/alk-037-01-hero.jpg",
+          "type": "Hero",
+          "alt": "Modern brass fluted alabaster wall sconce (ALK-037) - image 1",
+          "sortOrder": 1,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-037/alk-037-02-gallery.jpg",
+          "type": "Gallery",
+          "alt": "Modern brass fluted alabaster wall sconce (ALK-037) - image 2",
+          "sortOrder": 2,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-037/alk-037-03-gallery.jpg",
+          "type": "Gallery",
+          "alt": "Modern brass fluted alabaster wall sconce (ALK-037) - image 3",
+          "sortOrder": 3,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-037/alk-037-04-gallery.jpg",
+          "type": "Gallery",
+          "alt": "Modern brass fluted alabaster wall sconce (ALK-037) - image 4",
+          "sortOrder": 4,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-037/alk-037-05-gallery.jpg",
+          "type": "Gallery",
+          "alt": "Modern brass fluted alabaster wall sconce (ALK-037) - image 5",
+          "sortOrder": 5,
+          "aspectRatio": "1 / 1"
+        }
+      ],
+      "qaNotes": "New listing (Aug 2026); INR 56331 (orig); USD approx; verify dims",
+      "status": "approved",
+      "featured": false,
+      "bestseller": false,
+      "sortOrder": 36
+    },
+    {
+      "sku": "ALK-038",
+      "slug": "mid-century-modern-handmade-brass-stilnovo-3-light-chandelier-designer-ceiling-light-alk-0",
+      "title": "Mid Century Modern Handmade Brass Stilnovo 3-light Chandelier, Designer Ceiling Light",
+      "originalTitle": "Mid Century Modern Handmade Brass Stilnovo 3-light Chandelier, Designer Ceiling Light",
+      "metaDescription": "A Stilnovo-inspired handmade brass 3-light chandelier. A designer mid-century ceiling fixture that brings sculptural warmth to dining rooms, entryways and li...",
+      "description": "A Stilnovo-inspired handmade brass 3-light chandelier. A designer mid-century ceiling fixture that brings sculptural warmth to dining rooms, entryways and living spaces.",
+      "etsyUrl": "https://www.etsy.com/in-en/listing/4546630051/mid-century-modern-handmade-brass",
+      "priceUsd": 1009,
+      "materials": [
+        "Brass"
+      ],
+      "dimensions": {
+        "widthIn": 32,
+        "heightIn": 36,
+        "depthIn": null
+      },
+      "finishes": [
+        "Raw brass / Antique brass / Brushed brass (confirm options)"
+      ],
+      "bulbUs": "E12 / E26 (confirm)",
+      "bulbInternational": "E14 / E27 (confirm)",
+      "primaryCategory": "Lighting",
+      "styles": [
+        "Mid Century Modern"
+      ],
+      "rooms": [
+        "Dining room",
+        "Entryway",
+        "Living room"
+      ],
+      "features": [
+        "Handmade",
+        "natural materials"
+      ],
+      "handmadeNote": "Handmade to order",
+      "tags": [
+        "brass chandelier",
+        "stilnovo light",
+        "3 light chandelier",
+        "mid century chandelier",
+        "designer ceiling light",
+        "handmade lighting",
+        "brass ceiling light",
+        "dining light",
+        "entryway light",
+        "sputnik style"
+      ],
+      "seoKeywords": [
+        "brass chandelier",
+        "stilnovo light",
+        "3 light chandelier",
+        "mid century chandelier",
+        "designer ceiling light",
+        "handmade lighting",
+        "brass ceiling light",
+        "dining light",
+        "entryway light",
+        "sputnik style"
+      ],
+      "imageStatus": "Ready (Etsy live)",
+      "heroImage": "/assets/products/alk-038/alk-038-01-hero.jpg",
+      "heroImageAlt": "Mid century brass Stilnovo 3-light chandelier (ALK-038) - image 1",
+      "galleryImages": [
+        {
+          "url": "/assets/products/alk-038/alk-038-01-hero.jpg",
+          "type": "Hero",
+          "alt": "Mid century brass Stilnovo 3-light chandelier (ALK-038) - image 1",
+          "sortOrder": 1,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-038/alk-038-02-gallery.jpg",
+          "type": "Gallery",
+          "alt": "Mid century brass Stilnovo 3-light chandelier (ALK-038) - image 2",
+          "sortOrder": 2,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-038/alk-038-03-gallery.jpg",
+          "type": "Gallery",
+          "alt": "Mid century brass Stilnovo 3-light chandelier (ALK-038) - image 3",
+          "sortOrder": 3,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-038/alk-038-04-gallery.jpg",
+          "type": "Gallery",
+          "alt": "Mid century brass Stilnovo 3-light chandelier (ALK-038) - image 4",
+          "sortOrder": 4,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-038/alk-038-05-gallery.jpg",
+          "type": "Gallery",
+          "alt": "Mid century brass Stilnovo 3-light chandelier (ALK-038) - image 5",
+          "sortOrder": 5,
+          "aspectRatio": "1 / 1"
+        }
+      ],
+      "qaNotes": "New listing (Aug 2026); INR 88787 (orig); USD approx; verify dims",
+      "status": "approved",
+      "featured": false,
+      "bestseller": false,
+      "sortOrder": 37
+    },
+    {
+      "sku": "ALK-039",
+      "slug": "handmade-solid-brass-dome-pendant-light-mid-century-modern-scandinavian-globe-chandelier-a",
+      "title": "Handmade Solid Brass Dome Pendant Light, Mid Century Modern Scandinavian Globe Chandelier",
+      "originalTitle": "Handmade Solid Brass Dome Pendant Light, Mid Century Modern Scandinavian Globe Chandelier",
+      "metaDescription": "A handmade solid brass dome pendant light with clean Scandinavian mid-century lines. A warm, sculptural hanging fixture for kitchens, dining tables and entry...",
+      "description": "A handmade solid brass dome pendant light with clean Scandinavian mid-century lines. A warm, sculptural hanging fixture for kitchens, dining tables and entryways.",
+      "etsyUrl": "https://www.etsy.com/in-en/listing/4546618651/handmade-solid-brass-dome-pendant-light",
+      "priceUsd": 674,
+      "materials": [
+        "Brass"
+      ],
+      "dimensions": {
+        "widthIn": 12,
+        "heightIn": 20,
+        "depthIn": null
+      },
+      "finishes": [
+        "Raw brass / Antique brass / Brushed brass (confirm options)"
+      ],
+      "bulbUs": "E12 / E26 (confirm)",
+      "bulbInternational": "E14 / E27 (confirm)",
+      "primaryCategory": "Lighting",
+      "styles": [
+        "Mid Century Modern"
+      ],
+      "rooms": [
+        "Kitchen",
+        "Dining room",
+        "Entryway"
+      ],
+      "features": [
+        "Handmade",
+        "natural materials"
+      ],
+      "handmadeNote": "Handmade to order",
+      "tags": [
+        "brass pendant light",
+        "dome pendant",
+        "mid century pendant",
+        "scandinavian light",
+        "hanging lamp",
+        "handmade lighting",
+        "kitchen island light",
+        "dining pendant",
+        "brass ceiling light",
+        "globe chandelier"
+      ],
+      "seoKeywords": [
+        "brass pendant light",
+        "dome pendant",
+        "mid century pendant",
+        "scandinavian light",
+        "hanging lamp",
+        "handmade lighting",
+        "kitchen island light",
+        "dining pendant",
+        "brass ceiling light",
+        "globe chandelier"
+      ],
+      "imageStatus": "Ready (Etsy live)",
+      "heroImage": "/assets/products/alk-039/alk-039-01-hero.webp",
+      "heroImageAlt": "Handmade solid brass dome pendant light (ALK-039) - image 1",
+      "galleryImages": [
+        {
+          "url": "/assets/products/alk-039/alk-039-01-hero.webp",
+          "type": "Hero",
+          "alt": "Handmade solid brass dome pendant light (ALK-039) - image 1",
+          "sortOrder": 1,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-039/alk-039-02-gallery.webp",
+          "type": "Gallery",
+          "alt": "Handmade solid brass dome pendant light (ALK-039) - image 2",
+          "sortOrder": 2,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-039/alk-039-03-gallery.webp",
+          "type": "Gallery",
+          "alt": "Handmade solid brass dome pendant light (ALK-039) - image 3",
+          "sortOrder": 3,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-039/alk-039-04-gallery.webp",
+          "type": "Gallery",
+          "alt": "Handmade solid brass dome pendant light (ALK-039) - image 4",
+          "sortOrder": 4,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-039/alk-039-05-gallery.webp",
+          "type": "Gallery",
+          "alt": "Handmade solid brass dome pendant light (ALK-039) - image 5",
+          "sortOrder": 5,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-039/alk-039-06-gallery.webp",
+          "type": "Gallery",
+          "alt": "Handmade solid brass dome pendant light (ALK-039) - image 6",
+          "sortOrder": 6,
+          "aspectRatio": "1 / 1"
+        }
+      ],
+      "qaNotes": "New listing (Aug 2026); INR 59331 (orig); USD approx; verify dims",
+      "status": "approved",
+      "featured": false,
+      "bestseller": false,
+      "sortOrder": 38
+    },
+    {
+      "sku": "ALK-040",
+      "slug": "handcrafted-solid-brass-disc-pendant-light-scandinavian-modern-hanging-ceiling-fixture-alk",
+      "title": "Handcrafted Solid Brass Disc Pendant Light, Scandinavian Modern Hanging Ceiling Fixture",
+      "originalTitle": "Handcrafted Solid Brass Disc Pendant Light, Scandinavian Modern Hanging Ceiling Fixture",
+      "metaDescription": "A handcrafted 100% solid brass disc pendant light in a luxury Scandinavian modern style. A bold, sculptural hanging fixture for dining rooms and open living ...",
+      "description": "A handcrafted 100% solid brass disc pendant light in a luxury Scandinavian modern style. A bold, sculptural hanging fixture for dining rooms and open living spaces.",
+      "etsyUrl": "https://www.etsy.com/in-en/listing/4546357568/handcrafted-solid-brass-disc-pendant",
+      "priceUsd": 970,
+      "materials": [
+        "Brass"
+      ],
+      "dimensions": {
+        "widthIn": 24,
+        "heightIn": 25,
+        "depthIn": 24
+      },
+      "finishes": [
+        "Raw brass / Antique brass / Brushed brass (confirm options)"
+      ],
+      "bulbUs": "E12 / E26 (confirm)",
+      "bulbInternational": "E14 / E27 (confirm)",
+      "primaryCategory": "Lighting",
+      "styles": [
+        "Mid Century Modern"
+      ],
+      "rooms": [
+        "Dining room",
+        "Living room",
+        "Kitchen"
+      ],
+      "features": [
+        "Handmade",
+        "natural materials"
+      ],
+      "handmadeNote": "Handmade to order",
+      "tags": [
+        "brass disc pendant",
+        "disc pendant light",
+        "scandinavian light",
+        "modern pendant",
+        "hanging lamp",
+        "handmade lighting",
+        "dining pendant",
+        "brass ceiling light",
+        "statement light",
+        "luxury lighting"
+      ],
+      "seoKeywords": [
+        "brass disc pendant",
+        "disc pendant light",
+        "scandinavian light",
+        "modern pendant",
+        "hanging lamp",
+        "handmade lighting",
+        "dining pendant",
+        "brass ceiling light",
+        "statement light",
+        "luxury lighting"
+      ],
+      "imageStatus": "Ready (Etsy live)",
+      "heroImage": "/assets/products/alk-040/alk-040-01-hero.webp",
+      "heroImageAlt": "Handcrafted solid brass disc pendant light (ALK-040) - image 1",
+      "galleryImages": [
+        {
+          "url": "/assets/products/alk-040/alk-040-01-hero.webp",
+          "type": "Hero",
+          "alt": "Handcrafted solid brass disc pendant light (ALK-040) - image 1",
+          "sortOrder": 1,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-040/alk-040-02-gallery.webp",
+          "type": "Gallery",
+          "alt": "Handcrafted solid brass disc pendant light (ALK-040) - image 2",
+          "sortOrder": 2,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-040/alk-040-03-gallery.webp",
+          "type": "Gallery",
+          "alt": "Handcrafted solid brass disc pendant light (ALK-040) - image 3",
+          "sortOrder": 3,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-040/alk-040-04-gallery.webp",
+          "type": "Gallery",
+          "alt": "Handcrafted solid brass disc pendant light (ALK-040) - image 4",
+          "sortOrder": 4,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-040/alk-040-05-gallery.webp",
+          "type": "Gallery",
+          "alt": "Handcrafted solid brass disc pendant light (ALK-040) - image 5",
+          "sortOrder": 5,
+          "aspectRatio": "1 / 1"
+        }
+      ],
+      "qaNotes": "New listing (Aug 2026); INR 85331 (orig); USD approx; verify dims",
+      "status": "approved",
+      "featured": false,
+      "bestseller": false,
+      "sortOrder": 39
+    },
+    {
+      "sku": "ALK-041",
+      "slug": "mid-century-modern-handmade-brass-flush-mount-ceiling-light-with-globe-shade-alk-041",
+      "title": "Mid Century Modern Handmade Brass Flush Mount Ceiling Light With Globe Shade",
+      "originalTitle": "Mid Century Modern Handmade Brass Flush Mount Ceiling Light With Globe Shade",
+      "metaDescription": "A handmade brass flush mount ceiling light with a frosted globe shade. A compact mid-century fixture for hallways, bedrooms and low ceilings.",
+      "description": "A handmade brass flush mount ceiling light with a frosted globe shade. A compact mid-century fixture for hallways, bedrooms and low ceilings.",
+      "etsyUrl": "https://www.etsy.com/in-en/listing/4546282718/mid-century-modern-handmade-brass-flush",
+      "priceUsd": 436,
+      "materials": [
+        "Brass",
+        "Glass"
+      ],
+      "dimensions": {
+        "widthIn": 12,
+        "heightIn": 8,
+        "depthIn": 12
+      },
+      "finishes": [
+        "Raw brass / Antique brass / Brushed brass (confirm options)"
+      ],
+      "bulbUs": "E12 / E26 (confirm)",
+      "bulbInternational": "E14 / E27 (confirm)",
+      "primaryCategory": "Lighting",
+      "styles": [
+        "Mid Century Modern"
+      ],
+      "rooms": [
+        "Hallway",
+        "Bedroom",
+        "Entryway"
+      ],
+      "features": [
+        "Handmade",
+        "natural materials"
+      ],
+      "handmadeNote": "Handmade to order",
+      "tags": [
+        "brass flush mount",
+        "globe ceiling light",
+        "flush mount light",
+        "mid century light",
+        "hallway light",
+        "handmade lighting",
+        "bedroom ceiling light",
+        "frosted globe",
+        "brass ceiling light",
+        "low ceiling light"
+      ],
+      "seoKeywords": [
+        "brass flush mount",
+        "globe ceiling light",
+        "flush mount light",
+        "mid century light",
+        "hallway light",
+        "handmade lighting",
+        "bedroom ceiling light",
+        "frosted globe",
+        "brass ceiling light",
+        "low ceiling light"
+      ],
+      "imageStatus": "Ready (Etsy live)",
+      "heroImage": "/assets/products/alk-041/alk-041-01-hero.webp",
+      "heroImageAlt": "Brass flush mount ceiling light with globe shade (ALK-041) - image 1",
+      "galleryImages": [
+        {
+          "url": "/assets/products/alk-041/alk-041-01-hero.webp",
+          "type": "Hero",
+          "alt": "Brass flush mount ceiling light with globe shade (ALK-041) - image 1",
+          "sortOrder": 1,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-041/alk-041-02-gallery.webp",
+          "type": "Gallery",
+          "alt": "Brass flush mount ceiling light with globe shade (ALK-041) - image 2",
+          "sortOrder": 2,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-041/alk-041-03-gallery.webp",
+          "type": "Gallery",
+          "alt": "Brass flush mount ceiling light with globe shade (ALK-041) - image 3",
+          "sortOrder": 3,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-041/alk-041-04-gallery.webp",
+          "type": "Gallery",
+          "alt": "Brass flush mount ceiling light with globe shade (ALK-041) - image 4",
+          "sortOrder": 4,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-041/alk-041-05-gallery.webp",
+          "type": "Gallery",
+          "alt": "Brass flush mount ceiling light with globe shade (ALK-041) - image 5",
+          "sortOrder": 5,
+          "aspectRatio": "1 / 1"
+        }
+      ],
+      "qaNotes": "New listing (Aug 2026); INR 38331 (orig); USD approx; verify dims",
+      "status": "approved",
+      "featured": false,
+      "bestseller": false,
+      "sortOrder": 40
+    },
+    {
+      "sku": "ALK-042",
+      "slug": "3-light-brass-vanity-wall-sconce-mid-century-modern-ruffle-shade-bathroom-wall-lamp-alk-04",
+      "title": "3-light Brass Vanity Wall Sconce, Mid Century Modern Ruffle Shade Bathroom Wall Lamp",
+      "originalTitle": "3-light Brass Vanity Wall Sconce, Mid Century Modern Ruffle Shade Bathroom Wall Lamp",
+      "metaDescription": "A mid-century 3-light vanity wall sconce with ruffled flower shades on a solid brass bar. Elegant, warm lighting for bathrooms and vanities.",
+      "description": "A mid-century 3-light vanity wall sconce with ruffled flower shades on a solid brass bar. Elegant, warm lighting for bathrooms and vanities.",
+      "etsyUrl": "https://www.etsy.com/in-en/listing/4546135933/3-light-brass-vanity-wall-sconce-mid",
+      "priceUsd": 617,
+      "materials": [
+        "Brass"
+      ],
+      "dimensions": {
+        "widthIn": 23,
+        "heightIn": 9,
+        "depthIn": 8
+      },
+      "finishes": [
+        "Raw brass / Antique brass / Brushed brass (confirm options)"
+      ],
+      "bulbUs": "E12 / E26 (confirm)",
+      "bulbInternational": "E14 / E27 (confirm)",
+      "primaryCategory": "Lighting",
+      "styles": [
+        "Mid Century Modern"
+      ],
+      "rooms": [
+        "Bathroom",
+        "Vanity",
+        "Bedroom"
+      ],
+      "features": [
+        "Handmade",
+        "natural materials"
+      ],
+      "handmadeNote": "Handmade to order",
+      "tags": [
+        "3 light vanity",
+        "brass vanity light",
+        "ruffle shade light",
+        "mid century light",
+        "bathroom sconce",
+        "flower shade lamp",
+        "brass wall sconce",
+        "handmade lighting",
+        "vanity bar",
+        "wall lamp"
+      ],
+      "seoKeywords": [
+        "3 light vanity",
+        "brass vanity light",
+        "ruffle shade light",
+        "mid century light",
+        "bathroom sconce",
+        "flower shade lamp",
+        "brass wall sconce",
+        "handmade lighting",
+        "vanity bar",
+        "wall lamp"
+      ],
+      "imageStatus": "Ready (Etsy live)",
+      "heroImage": "/assets/products/alk-042/alk-042-01-hero.webp",
+      "heroImageAlt": "3-light brass ruffle-shade vanity wall sconce (ALK-042) - image 1",
+      "galleryImages": [
+        {
+          "url": "/assets/products/alk-042/alk-042-01-hero.webp",
+          "type": "Hero",
+          "alt": "3-light brass ruffle-shade vanity wall sconce (ALK-042) - image 1",
+          "sortOrder": 1,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-042/alk-042-02-gallery.webp",
+          "type": "Gallery",
+          "alt": "3-light brass ruffle-shade vanity wall sconce (ALK-042) - image 2",
+          "sortOrder": 2,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-042/alk-042-03-gallery.webp",
+          "type": "Gallery",
+          "alt": "3-light brass ruffle-shade vanity wall sconce (ALK-042) - image 3",
+          "sortOrder": 3,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-042/alk-042-04-gallery.webp",
+          "type": "Gallery",
+          "alt": "3-light brass ruffle-shade vanity wall sconce (ALK-042) - image 4",
+          "sortOrder": 4,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-042/alk-042-05-gallery.webp",
+          "type": "Gallery",
+          "alt": "3-light brass ruffle-shade vanity wall sconce (ALK-042) - image 5",
+          "sortOrder": 5,
+          "aspectRatio": "1 / 1"
+        }
+      ],
+      "qaNotes": "New listing (Aug 2026); INR 54331 (orig); USD approx; verify dims",
+      "status": "approved",
+      "featured": false,
+      "bestseller": false,
+      "sortOrder": 41
+    },
+    {
+      "sku": "ALK-043",
+      "slug": "handmade-industrial-wall-fan-black-metal-cage-brass-arm-oscillating-breeze-alk-043",
+      "title": "Handmade Industrial Wall Fan, Black Metal Cage, Brass Arm, Oscillating Breeze",
+      "originalTitle": "Handmade Industrial Wall Fan, Black Metal Cage, Brass Arm, Oscillating Breeze",
+      "metaDescription": "A handmade industrial wall fan with a black metal cage and brass arm, delivering a real oscillating breeze. A functional vintage-nautical statement piece for...",
+      "description": "A handmade industrial wall fan with a black metal cage and brass arm, delivering a real oscillating breeze. A functional vintage-nautical statement piece for living spaces and workshops.",
+      "etsyUrl": "https://www.etsy.com/in-en/listing/4544828818/handmade-industrial-wall-fan-black-metal",
+      "priceUsd": 759,
+      "materials": [
+        "Metal",
+        "Brass"
+      ],
+      "dimensions": {
+        "widthIn": 14,
+        "heightIn": 18,
+        "depthIn": null
+      },
+      "finishes": [
+        "Raw brass / Antique brass / Brushed brass (confirm options)"
+      ],
+      "primaryCategory": "Decorative Objects",
+      "styles": [
+        "Mid Century Modern"
+      ],
+      "rooms": [
+        "Living room",
+        "Study",
+        "Patio"
+      ],
+      "features": [
+        "Handmade",
+        "oscillating wall fan"
+      ],
+      "handmadeNote": "Handmade to order",
+      "tags": [
+        "wall fan",
+        "industrial fan",
+        "black metal fan",
+        "brass fan",
+        "nautical decor",
+        "oscillating fan",
+        "vintage fan",
+        "handmade decor",
+        "home decor",
+        "statement piece"
+      ],
+      "seoKeywords": [
+        "wall fan",
+        "industrial fan",
+        "black metal fan",
+        "brass fan",
+        "nautical decor",
+        "oscillating fan",
+        "vintage fan",
+        "handmade decor",
+        "home decor",
+        "statement piece"
+      ],
+      "imageStatus": "Ready (Etsy live)",
+      "heroImage": "/assets/products/alk-043/alk-043-01-hero.webp",
+      "heroImageAlt": "Handmade industrial black metal and brass wall fan (ALK-043) - image 1",
+      "galleryImages": [
+        {
+          "url": "/assets/products/alk-043/alk-043-01-hero.webp",
+          "type": "Hero",
+          "alt": "Handmade industrial black metal and brass wall fan (ALK-043) - image 1",
+          "sortOrder": 1,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-043/alk-043-02-gallery.webp",
+          "type": "Gallery",
+          "alt": "Handmade industrial black metal and brass wall fan (ALK-043) - image 2",
+          "sortOrder": 2,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-043/alk-043-03-gallery.webp",
+          "type": "Gallery",
+          "alt": "Handmade industrial black metal and brass wall fan (ALK-043) - image 3",
+          "sortOrder": 3,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-043/alk-043-04-gallery.webp",
+          "type": "Gallery",
+          "alt": "Handmade industrial black metal and brass wall fan (ALK-043) - image 4",
+          "sortOrder": 4,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-043/alk-043-05-gallery.webp",
+          "type": "Gallery",
+          "alt": "Handmade industrial black metal and brass wall fan (ALK-043) - image 5",
+          "sortOrder": 5,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-043/alk-043-06-gallery.webp",
+          "type": "Gallery",
+          "alt": "Handmade industrial black metal and brass wall fan (ALK-043) - image 6",
+          "sortOrder": 6,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-043/alk-043-07-gallery.webp",
+          "type": "Gallery",
+          "alt": "Handmade industrial black metal and brass wall fan (ALK-043) - image 7",
+          "sortOrder": 7,
+          "aspectRatio": "1 / 1"
+        }
+      ],
+      "qaNotes": "New listing (Aug 2026); INR 66790 (orig); USD approx; verify dims",
+      "status": "approved",
+      "featured": false,
+      "bestseller": false,
+      "sortOrder": 42
+    },
+    {
+      "sku": "ALK-044",
+      "slug": "2-light-alabaster-cone-sconce-solid-brass-modern-vanity-lighting-fixture-alk-044",
+      "title": "2-light Alabaster Cone Sconce, Solid Brass Modern Vanity Lighting Fixture",
+      "originalTitle": "2-light Alabaster Cone Sconce, Solid Brass Modern Vanity Lighting Fixture",
+      "metaDescription": "A compact 2-light alabaster cone sconce on a solid brass fixture. Twin natural-stone cone shades give a soft, layered glow for vanities and bedsides.",
+      "description": "A compact 2-light alabaster cone sconce on a solid brass fixture. Twin natural-stone cone shades give a soft, layered glow for vanities and bedsides.",
+      "etsyUrl": "https://www.etsy.com/in-en/listing/4546104363/2-light-alabaster-cone-sconce-solid",
+      "priceUsd": 674,
+      "materials": [
+        "Alabaster",
+        "Brass",
+        "Marble"
+      ],
+      "dimensions": {
+        "widthIn": 4.7,
+        "heightIn": 2.4,
+        "depthIn": 1.2
+      },
+      "finishes": [
+        "Raw brass / Antique brass / Brushed brass (confirm options)"
+      ],
+      "bulbUs": "E12 / E26 (confirm)",
+      "bulbInternational": "E14 / E27 (confirm)",
+      "primaryCategory": "Lighting",
+      "styles": [
+        "Mid Century Modern"
+      ],
+      "rooms": [
+        "Bathroom",
+        "Bedroom",
+        "Hallway"
+      ],
+      "features": [
+        "Handmade",
+        "natural materials"
+      ],
+      "handmadeNote": "Handmade to order",
+      "tags": [
+        "2 light sconce",
+        "alabaster cone sconce",
+        "brass vanity light",
+        "alabaster sconce",
+        "modern wall light",
+        "natural stone light",
+        "bedside wall lamp",
+        "handmade lighting",
+        "bathroom sconce",
+        "wall sconce"
+      ],
+      "seoKeywords": [
+        "2 light sconce",
+        "alabaster cone sconce",
+        "brass vanity light",
+        "alabaster sconce",
+        "modern wall light",
+        "natural stone light",
+        "bedside wall lamp",
+        "handmade lighting",
+        "bathroom sconce",
+        "wall sconce"
+      ],
+      "imageStatus": "Ready (Etsy live)",
+      "heroImage": "/assets/products/alk-044/alk-044-01-hero.webp",
+      "heroImageAlt": "2-light alabaster cone sconce in solid brass (ALK-044) - image 1",
+      "galleryImages": [
+        {
+          "url": "/assets/products/alk-044/alk-044-01-hero.webp",
+          "type": "Hero",
+          "alt": "2-light alabaster cone sconce in solid brass (ALK-044) - image 1",
+          "sortOrder": 1,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-044/alk-044-02-gallery.webp",
+          "type": "Gallery",
+          "alt": "2-light alabaster cone sconce in solid brass (ALK-044) - image 2",
+          "sortOrder": 2,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-044/alk-044-03-gallery.webp",
+          "type": "Gallery",
+          "alt": "2-light alabaster cone sconce in solid brass (ALK-044) - image 3",
+          "sortOrder": 3,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-044/alk-044-04-gallery.webp",
+          "type": "Gallery",
+          "alt": "2-light alabaster cone sconce in solid brass (ALK-044) - image 4",
+          "sortOrder": 4,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-044/alk-044-05-gallery.webp",
+          "type": "Gallery",
+          "alt": "2-light alabaster cone sconce in solid brass (ALK-044) - image 5",
+          "sortOrder": 5,
+          "aspectRatio": "1 / 1"
+        }
+      ],
+      "qaNotes": "New listing (Aug 2026); INR 59331 (orig); USD approx; verify dims",
+      "status": "approved",
+      "featured": false,
+      "bestseller": false,
+      "sortOrder": 43
+    },
+    {
+      "sku": "ALK-045",
+      "slug": "world-map-globe-12-inch-diameter-black-tripod-stand-classic-educational-desk-globe-alk-045",
+      "title": "World Map Globe, 12-inch Diameter, Black Tripod Stand, Classic Educational Desk Globe",
+      "originalTitle": "World Map Globe, 12-inch Diameter, Black Tripod Stand, Classic Educational Desk Globe",
+      "metaDescription": "A classic 12-inch world map desk globe on a black tripod stand. An educational, decorative statement piece for studies, offices and children's rooms. (Decor ...",
+      "description": "A classic 12-inch world map desk globe on a black tripod stand. An educational, decorative statement piece for studies, offices and children's rooms. (Decor object, not a light.)",
+      "etsyUrl": "https://www.etsy.com/in-en/listing/4546101796/world-map-globe-12-inch-diameter-black",
+      "priceUsd": 895,
+      "materials": [
+        "Metal",
+        "Wood"
+      ],
+      "dimensions": {
+        "widthIn": 12,
+        "heightIn": 60,
+        "depthIn": null
+      },
+      "finishes": [],
+      "primaryCategory": "Decorative Objects",
+      "styles": [
+        "Mid Century Modern"
+      ],
+      "rooms": [
+        "Study",
+        "Office",
+        "Kids room"
+      ],
+      "features": [
+        "Decorative globe on tripod stand (not a light)"
+      ],
+      "handmadeNote": "Handmade to order",
+      "tags": [
+        "world map globe",
+        "desk globe",
+        "12 inch globe",
+        "tripod globe",
+        "educational globe",
+        "black globe",
+        "office decor",
+        "study decor",
+        "vintage globe",
+        "statement decor"
+      ],
+      "seoKeywords": [
+        "world map globe",
+        "desk globe",
+        "12 inch globe",
+        "tripod globe",
+        "educational globe",
+        "black globe",
+        "office decor",
+        "study decor",
+        "vintage globe",
+        "statement decor"
+      ],
+      "imageStatus": "Ready (Etsy live)",
+      "heroImage": "/assets/products/alk-045/alk-045-01-hero.webp",
+      "heroImageAlt": "World map desk globe on black tripod stand (ALK-045) - image 1",
+      "galleryImages": [
+        {
+          "url": "/assets/products/alk-045/alk-045-01-hero.webp",
+          "type": "Hero",
+          "alt": "World map desk globe on black tripod stand (ALK-045) - image 1",
+          "sortOrder": 1,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-045/alk-045-02-gallery.webp",
+          "type": "Gallery",
+          "alt": "World map desk globe on black tripod stand (ALK-045) - image 2",
+          "sortOrder": 2,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-045/alk-045-03-gallery.webp",
+          "type": "Gallery",
+          "alt": "World map desk globe on black tripod stand (ALK-045) - image 3",
+          "sortOrder": 3,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-045/alk-045-04-gallery.webp",
+          "type": "Gallery",
+          "alt": "World map desk globe on black tripod stand (ALK-045) - image 4",
+          "sortOrder": 4,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-045/alk-045-05-gallery.webp",
+          "type": "Gallery",
+          "alt": "World map desk globe on black tripod stand (ALK-045) - image 5",
+          "sortOrder": 5,
+          "aspectRatio": "1 / 1"
+        }
+      ],
+      "qaNotes": "New listing (Aug 2026); INR 78757 (orig); USD approx; verify dims",
+      "status": "approved",
+      "featured": false,
+      "bestseller": false,
+      "sortOrder": 44
+    },
+    {
+      "sku": "ALK-046",
+      "slug": "brass-dome-pendant-light-mid-century-globe-ceiling-lamp-handmade-lighting-alk-046",
+      "title": "Brass Dome Pendant Light, Mid Century Globe Ceiling Lamp, Handmade Lighting",
+      "originalTitle": "Brass Dome Pendant Light, Mid Century Globe Ceiling Lamp, Handmade Lighting",
+      "metaDescription": "A handmade heavy-duty brass dome pendant light with a mid-century globe silhouette. A warm, sculptural hanging fixture for kitchens and dining spaces.",
+      "description": "A handmade heavy-duty brass dome pendant light with a mid-century globe silhouette. A warm, sculptural hanging fixture for kitchens and dining spaces.",
+      "etsyUrl": "https://www.etsy.com/in-en/listing/4544891954/brass-dome-pendant-light-mid-century",
+      "priceUsd": 1000,
+      "materials": [
+        "Brass"
+      ],
+      "dimensions": {
+        "widthIn": 12,
+        "heightIn": 20,
+        "depthIn": null
+      },
+      "finishes": [
+        "Raw brass / Antique brass / Brushed brass (confirm options)"
+      ],
+      "bulbUs": "E12 / E26 (confirm)",
+      "bulbInternational": "E14 / E27 (confirm)",
+      "primaryCategory": "Lighting",
+      "styles": [
+        "Mid Century Modern"
+      ],
+      "rooms": [
+        "Kitchen",
+        "Dining room",
+        "Entryway"
+      ],
+      "features": [
+        "Handmade",
+        "natural materials"
+      ],
+      "handmadeNote": "Handmade to order",
+      "tags": [
+        "brass pendant light",
+        "dome pendant",
+        "mid century pendant",
+        "globe ceiling lamp",
+        "hanging lamp",
+        "handmade lighting",
+        "kitchen island light",
+        "dining pendant",
+        "brass ceiling light",
+        "statement light"
+      ],
+      "seoKeywords": [
+        "brass pendant light",
+        "dome pendant",
+        "mid century pendant",
+        "globe ceiling lamp",
+        "hanging lamp",
+        "handmade lighting",
+        "kitchen island light",
+        "dining pendant",
+        "brass ceiling light",
+        "statement light"
+      ],
+      "imageStatus": "Ready (Etsy live)",
+      "heroImage": "/assets/products/alk-046/alk-046-01-hero.webp",
+      "heroImageAlt": "Brass dome pendant light, mid century globe lamp (ALK-046) - image 1",
+      "galleryImages": [
+        {
+          "url": "/assets/products/alk-046/alk-046-01-hero.webp",
+          "type": "Hero",
+          "alt": "Brass dome pendant light, mid century globe lamp (ALK-046) - image 1",
+          "sortOrder": 1,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-046/alk-046-02-gallery.webp",
+          "type": "Gallery",
+          "alt": "Brass dome pendant light, mid century globe lamp (ALK-046) - image 2",
+          "sortOrder": 2,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-046/alk-046-03-gallery.webp",
+          "type": "Gallery",
+          "alt": "Brass dome pendant light, mid century globe lamp (ALK-046) - image 3",
+          "sortOrder": 3,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-046/alk-046-04-gallery.webp",
+          "type": "Gallery",
+          "alt": "Brass dome pendant light, mid century globe lamp (ALK-046) - image 4",
+          "sortOrder": 4,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-046/alk-046-05-gallery.webp",
+          "type": "Gallery",
+          "alt": "Brass dome pendant light, mid century globe lamp (ALK-046) - image 5",
+          "sortOrder": 5,
+          "aspectRatio": "1 / 1"
+        }
+      ],
+      "qaNotes": "New listing (Aug 2026); INR 87988 (orig); USD approx; verify dims",
+      "status": "approved",
+      "featured": false,
+      "bestseller": false,
+      "sortOrder": 45
+    },
+    {
+      "sku": "ALK-047",
+      "slug": "handmade-brass-globe-pendant-light-mid-century-frosted-glass-chandelier-alk-047",
+      "title": "Handmade Brass Globe Pendant Light, Mid Century Frosted Glass Chandelier",
+      "originalTitle": "Handmade Brass Globe Pendant Light, Mid Century Frosted Glass Chandelier",
+      "metaDescription": "A handmade brass globe pendant light with frosted glass shades, in a mid-century chandelier style. A soft, elegant hanging fixture for dining rooms and entry...",
+      "description": "A handmade brass globe pendant light with frosted glass shades, in a mid-century chandelier style. A soft, elegant hanging fixture for dining rooms and entryways.",
+      "etsyUrl": "https://www.etsy.com/in-en/listing/4544880248/handmade-brass-globe-pendant-light-mid",
+      "priceUsd": 976,
+      "materials": [
+        "Brass",
+        "Glass"
+      ],
+      "dimensions": {
+        "widthIn": 15,
+        "heightIn": 25,
+        "depthIn": null
+      },
+      "finishes": [
+        "Raw brass / Antique brass / Brushed brass (confirm options)"
+      ],
+      "bulbUs": "E12 / E26 (confirm)",
+      "bulbInternational": "E14 / E27 (confirm)",
+      "primaryCategory": "Lighting",
+      "styles": [
+        "Mid Century Modern"
+      ],
+      "rooms": [
+        "Dining room",
+        "Entryway",
+        "Living room"
+      ],
+      "features": [
+        "Handmade",
+        "natural materials"
+      ],
+      "handmadeNote": "Handmade to order",
+      "tags": [
+        "brass globe pendant",
+        "frosted glass light",
+        "mid century chandelier",
+        "globe pendant light",
+        "hanging lamp",
+        "handmade lighting",
+        "dining pendant",
+        "brass ceiling light",
+        "glass chandelier",
+        "statement light"
+      ],
+      "seoKeywords": [
+        "brass globe pendant",
+        "frosted glass light",
+        "mid century chandelier",
+        "globe pendant light",
+        "hanging lamp",
+        "handmade lighting",
+        "dining pendant",
+        "brass ceiling light",
+        "glass chandelier",
+        "statement light"
+      ],
+      "imageStatus": "Ready (Etsy live)",
+      "heroImage": "/assets/products/alk-047/alk-047-01-hero.webp",
+      "heroImageAlt": "Handmade brass globe pendant, frosted glass (ALK-047) - image 1",
+      "galleryImages": [
+        {
+          "url": "/assets/products/alk-047/alk-047-01-hero.webp",
+          "type": "Hero",
+          "alt": "Handmade brass globe pendant, frosted glass (ALK-047) - image 1",
+          "sortOrder": 1,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-047/alk-047-02-gallery.webp",
+          "type": "Gallery",
+          "alt": "Handmade brass globe pendant, frosted glass (ALK-047) - image 2",
+          "sortOrder": 2,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-047/alk-047-03-gallery.webp",
+          "type": "Gallery",
+          "alt": "Handmade brass globe pendant, frosted glass (ALK-047) - image 3",
+          "sortOrder": 3,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-047/alk-047-04-gallery.webp",
+          "type": "Gallery",
+          "alt": "Handmade brass globe pendant, frosted glass (ALK-047) - image 4",
+          "sortOrder": 4,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-047/alk-047-05-gallery.webp",
+          "type": "Gallery",
+          "alt": "Handmade brass globe pendant, frosted glass (ALK-047) - image 5",
+          "sortOrder": 5,
+          "aspectRatio": "1 / 1"
+        }
+      ],
+      "qaNotes": "New listing (Aug 2026); INR 85898 (orig); USD approx; verify dims",
+      "status": "approved",
+      "featured": false,
+      "bestseller": false,
+      "sortOrder": 46
+    },
+    {
+      "sku": "ALK-048",
+      "slug": "handmade-brass-dome-pendant-light-industrial-mid-century-hanging-lamp-alk-048",
+      "title": "Handmade Brass Dome Pendant Light, Industrial Mid Century Hanging Lamp",
+      "originalTitle": "Handmade Brass Dome Pendant Light, Industrial Mid Century Hanging Lamp",
+      "metaDescription": "A handmade solid brass dome pendant light with an industrial mid-century feel. A clean, warm hanging fixture for kitchens, islands and dining tables.",
+      "description": "A handmade solid brass dome pendant light with an industrial mid-century feel. A clean, warm hanging fixture for kitchens, islands and dining tables.",
+      "etsyUrl": "https://www.etsy.com/in-en/listing/4544839025/handmade-brass-dome-pendant-light",
+      "priceUsd": 749,
+      "materials": [
+        "Brass"
+      ],
+      "dimensions": {
+        "widthIn": 12,
+        "heightIn": 20,
+        "depthIn": null
+      },
+      "finishes": [
+        "Raw brass / Antique brass / Brushed brass (confirm options)"
+      ],
+      "bulbUs": "E12 / E26 (confirm)",
+      "bulbInternational": "E14 / E27 (confirm)",
+      "primaryCategory": "Lighting",
+      "styles": [
+        "Mid Century Modern"
+      ],
+      "rooms": [
+        "Kitchen",
+        "Dining room",
+        "Entryway"
+      ],
+      "features": [
+        "Handmade",
+        "natural materials"
+      ],
+      "handmadeNote": "Handmade to order",
+      "tags": [
+        "brass pendant light",
+        "dome pendant",
+        "industrial pendant",
+        "mid century pendant",
+        "hanging lamp",
+        "handmade lighting",
+        "kitchen island light",
+        "dining pendant",
+        "brass ceiling light",
+        "statement light"
+      ],
+      "seoKeywords": [
+        "brass pendant light",
+        "dome pendant",
+        "industrial pendant",
+        "mid century pendant",
+        "hanging lamp",
+        "handmade lighting",
+        "kitchen island light",
+        "dining pendant",
+        "brass ceiling light",
+        "statement light"
+      ],
+      "imageStatus": "Ready (Etsy live)",
+      "heroImage": "/assets/products/alk-048/alk-048-01-hero.webp",
+      "heroImageAlt": "Handmade brass dome pendant, industrial hanging lamp (ALK-048) - image 1",
+      "galleryImages": [
+        {
+          "url": "/assets/products/alk-048/alk-048-01-hero.webp",
+          "type": "Hero",
+          "alt": "Handmade brass dome pendant, industrial hanging lamp (ALK-048) - image 1",
+          "sortOrder": 1,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-048/alk-048-02-gallery.webp",
+          "type": "Gallery",
+          "alt": "Handmade brass dome pendant, industrial hanging lamp (ALK-048) - image 2",
+          "sortOrder": 2,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-048/alk-048-03-gallery.webp",
+          "type": "Gallery",
+          "alt": "Handmade brass dome pendant, industrial hanging lamp (ALK-048) - image 3",
+          "sortOrder": 3,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-048/alk-048-04-gallery.webp",
+          "type": "Gallery",
+          "alt": "Handmade brass dome pendant, industrial hanging lamp (ALK-048) - image 4",
+          "sortOrder": 4,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-048/alk-048-05-gallery.webp",
+          "type": "Gallery",
+          "alt": "Handmade brass dome pendant, industrial hanging lamp (ALK-048) - image 5",
+          "sortOrder": 5,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-048/alk-048-06-gallery.webp",
+          "type": "Gallery",
+          "alt": "Handmade brass dome pendant, industrial hanging lamp (ALK-048) - image 6",
+          "sortOrder": 6,
+          "aspectRatio": "1 / 1"
+        }
+      ],
+      "qaNotes": "New listing (Aug 2026); INR 65898 (orig); USD approx; verify dims",
+      "status": "approved",
+      "featured": false,
+      "bestseller": false,
+      "sortOrder": 47
+    },
+    {
+      "sku": "ALK-049",
+      "slug": "14-inch-brass-wall-fan-vintage-nautical-industrial-home-decor-alk-049",
+      "title": "14-inch Brass Wall Fan, Vintage Nautical Industrial Home Decor",
+      "originalTitle": "14-inch Brass Wall Fan, Vintage Nautical Industrial Home Decor",
+      "metaDescription": "A 14-inch brass-finish wall fan with vintage nautical, industrial styling. A stylish, functional statement piece that brings a warm, breezy touch to any space.",
+      "description": "A 14-inch brass-finish wall fan with vintage nautical, industrial styling. A stylish, functional statement piece that brings a warm, breezy touch to any space.",
+      "etsyUrl": "https://www.etsy.com/in-en/listing/4544820335/14-inch-brass-wall-fan-vintage-nautical",
+      "priceUsd": 667,
+      "materials": [
+        "Brass",
+        "Metal"
+      ],
+      "dimensions": {
+        "widthIn": 14,
+        "heightIn": null,
+        "depthIn": null
+      },
+      "finishes": [
+        "Raw brass / Antique brass / Brushed brass (confirm options)"
+      ],
+      "primaryCategory": "Decorative Objects",
+      "styles": [
+        "Mid Century Modern"
+      ],
+      "rooms": [
+        "Living room",
+        "Study",
+        "Patio"
+      ],
+      "features": [
+        "Handmade",
+        "oscillating wall fan"
+      ],
+      "handmadeNote": "Handmade to order",
+      "tags": [
+        "brass wall fan",
+        "wall fan",
+        "nautical fan",
+        "industrial fan",
+        "vintage fan",
+        "14 inch fan",
+        "home decor",
+        "brass decor",
+        "statement piece",
+        "handmade decor"
+      ],
+      "seoKeywords": [
+        "brass wall fan",
+        "wall fan",
+        "nautical fan",
+        "industrial fan",
+        "vintage fan",
+        "14 inch fan",
+        "home decor",
+        "brass decor",
+        "statement piece",
+        "handmade decor"
+      ],
+      "imageStatus": "Ready (Etsy live)",
+      "heroImage": "/assets/products/alk-049/alk-049-01-hero.webp",
+      "heroImageAlt": "14-inch brass vintage nautical wall fan (ALK-049) - image 1",
+      "galleryImages": [
+        {
+          "url": "/assets/products/alk-049/alk-049-01-hero.webp",
+          "type": "Hero",
+          "alt": "14-inch brass vintage nautical wall fan (ALK-049) - image 1",
+          "sortOrder": 1,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-049/alk-049-02-gallery.webp",
+          "type": "Gallery",
+          "alt": "14-inch brass vintage nautical wall fan (ALK-049) - image 2",
+          "sortOrder": 2,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-049/alk-049-03-gallery.webp",
+          "type": "Gallery",
+          "alt": "14-inch brass vintage nautical wall fan (ALK-049) - image 3",
+          "sortOrder": 3,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-049/alk-049-04-gallery.webp",
+          "type": "Gallery",
+          "alt": "14-inch brass vintage nautical wall fan (ALK-049) - image 4",
+          "sortOrder": 4,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-049/alk-049-05-gallery.webp",
+          "type": "Gallery",
+          "alt": "14-inch brass vintage nautical wall fan (ALK-049) - image 5",
+          "sortOrder": 5,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-049/alk-049-06-gallery.webp",
+          "type": "Gallery",
+          "alt": "14-inch brass vintage nautical wall fan (ALK-049) - image 6",
+          "sortOrder": 6,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-049/alk-049-07-gallery.webp",
+          "type": "Gallery",
+          "alt": "14-inch brass vintage nautical wall fan (ALK-049) - image 7",
+          "sortOrder": 7,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-049/alk-049-08-gallery.webp",
+          "type": "Gallery",
+          "alt": "14-inch brass vintage nautical wall fan (ALK-049) - image 8",
+          "sortOrder": 8,
+          "aspectRatio": "1 / 1"
+        }
+      ],
+      "qaNotes": "New listing (Aug 2026); INR 58679 (orig); USD approx; verify dims",
+      "status": "approved",
+      "featured": false,
+      "bestseller": false,
+      "sortOrder": 48
+    },
+    {
+      "sku": "ALK-050",
+      "slug": "raw-brass-alabaster-wall-sconce-handmade-modern-bathroom-vanity-light-fixture-alk-050",
+      "title": "Raw Brass Alabaster Wall Sconce, Handmade Modern Bathroom Vanity Light Fixture",
+      "originalTitle": "Raw Brass Alabaster Wall Sconce, Handmade Modern Bathroom Vanity Light Fixture",
+      "metaDescription": "A handmade wall sconce in raw solid brass with a genuine natural alabaster stone shade. A warm, modern vanity and bedside light that develops a living patina...",
+      "description": "A handmade wall sconce in raw solid brass with a genuine natural alabaster stone shade. A warm, modern vanity and bedside light that develops a living patina over time.",
+      "etsyUrl": "https://www.etsy.com/in-en/listing/4544758760/raw-brass-alabaster-wall-sconce-handmade",
+      "priceUsd": 634,
+      "materials": [
+        "Alabaster",
+        "Brass"
+      ],
+      "dimensions": {
+        "widthIn": 5,
+        "heightIn": 9.5,
+        "depthIn": null
+      },
+      "finishes": [
+        "Raw brass / Antique brass / Brushed brass (confirm options)"
+      ],
+      "bulbUs": "E12 / E26 (confirm)",
+      "bulbInternational": "E14 / E27 (confirm)",
+      "primaryCategory": "Lighting",
+      "styles": [
+        "Mid Century Modern"
+      ],
+      "rooms": [
+        "Bathroom",
+        "Bedroom",
+        "Hallway"
+      ],
+      "features": [
+        "Handmade",
+        "natural materials"
+      ],
+      "handmadeNote": "Handmade to order",
+      "tags": [
+        "raw brass sconce",
+        "alabaster sconce",
+        "brass wall sconce",
+        "bathroom vanity light",
+        "alabaster wall light",
+        "modern wall light",
+        "bedside wall lamp",
+        "handmade lighting",
+        "natural stone light",
+        "wall sconce"
+      ],
+      "seoKeywords": [
+        "raw brass sconce",
+        "alabaster sconce",
+        "brass wall sconce",
+        "bathroom vanity light",
+        "alabaster wall light",
+        "modern wall light",
+        "bedside wall lamp",
+        "handmade lighting",
+        "natural stone light",
+        "wall sconce"
+      ],
+      "imageStatus": "Ready (Etsy live)",
+      "heroImage": "/assets/products/alk-050/alk-050-01-hero.jpg",
+      "heroImageAlt": "Raw brass alabaster handmade wall sconce (ALK-050) - image 1",
+      "galleryImages": [
+        {
+          "url": "/assets/products/alk-050/alk-050-01-hero.jpg",
+          "type": "Hero",
+          "alt": "Raw brass alabaster handmade wall sconce (ALK-050) - image 1",
+          "sortOrder": 1,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-050/alk-050-02-gallery.jpg",
+          "type": "Gallery",
+          "alt": "Raw brass alabaster handmade wall sconce (ALK-050) - image 2",
+          "sortOrder": 2,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-050/alk-050-03-gallery.jpg",
+          "type": "Gallery",
+          "alt": "Raw brass alabaster handmade wall sconce (ALK-050) - image 3",
+          "sortOrder": 3,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-050/alk-050-04-gallery.jpg",
+          "type": "Gallery",
+          "alt": "Raw brass alabaster handmade wall sconce (ALK-050) - image 4",
+          "sortOrder": 4,
+          "aspectRatio": "1 / 1"
+        }
+      ],
+      "qaNotes": "New listing (Aug 2026); INR 55790 (orig); USD approx; verify dims",
+      "status": "approved",
+      "featured": false,
+      "bestseller": false,
+      "sortOrder": 49
+    },
+    {
+      "sku": "ALK-051",
+      "slug": "handmade-white-dome-pendant-light-antique-brass-finish-minimalist-hanging-lamp-alk-051",
+      "title": "Handmade White Dome Pendant Light, Antique Brass Finish, Minimalist Hanging Lamp",
+      "originalTitle": "Handmade White Dome Pendant Light, Antique Brass Finish, Minimalist Hanging Lamp",
+      "metaDescription": "A handmade white dome pendant light paired with an antique brass finish for a minimalist, timeless look. A soft, clean hanging fixture for kitchens and dinin...",
+      "description": "A handmade white dome pendant light paired with an antique brass finish for a minimalist, timeless look. A soft, clean hanging fixture for kitchens and dining spaces.",
+      "etsyUrl": "https://www.etsy.com/in-en/listing/4544326540/handmade-white-dome-pendant-light",
+      "priceUsd": 556,
+      "materials": [
+        "Brass",
+        "Metal"
+      ],
+      "dimensions": {
+        "widthIn": 14,
+        "heightIn": 22,
+        "depthIn": null
+      },
+      "finishes": [
+        "Raw brass / Antique brass / Brushed brass (confirm options)"
+      ],
+      "bulbUs": "E12 / E26 (confirm)",
+      "bulbInternational": "E14 / E27 (confirm)",
+      "primaryCategory": "Lighting",
+      "styles": [
+        "Mid Century Modern"
+      ],
+      "rooms": [
+        "Kitchen",
+        "Dining room",
+        "Bedroom"
+      ],
+      "features": [
+        "Handmade",
+        "natural materials"
+      ],
+      "handmadeNote": "Handmade to order",
+      "tags": [
+        "white dome pendant",
+        "pendant light",
+        "antique brass light",
+        "minimalist pendant",
+        "hanging lamp",
+        "handmade lighting",
+        "kitchen island light",
+        "dining pendant",
+        "white ceiling light",
+        "mid century pendant"
+      ],
+      "seoKeywords": [
+        "white dome pendant",
+        "pendant light",
+        "antique brass light",
+        "minimalist pendant",
+        "hanging lamp",
+        "handmade lighting",
+        "kitchen island light",
+        "dining pendant",
+        "white ceiling light",
+        "mid century pendant"
+      ],
+      "imageStatus": "Ready (Etsy live)",
+      "heroImage": "/assets/products/alk-051/alk-051-01-hero.jpg",
+      "heroImageAlt": "White dome pendant light with antique brass finish (ALK-051) - image 1",
+      "galleryImages": [
+        {
+          "url": "/assets/products/alk-051/alk-051-01-hero.jpg",
+          "type": "Hero",
+          "alt": "White dome pendant light with antique brass finish (ALK-051) - image 1",
+          "sortOrder": 1,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-051/alk-051-02-gallery.jpg",
+          "type": "Gallery",
+          "alt": "White dome pendant light with antique brass finish (ALK-051) - image 2",
+          "sortOrder": 2,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-051/alk-051-03-gallery.jpg",
+          "type": "Gallery",
+          "alt": "White dome pendant light with antique brass finish (ALK-051) - image 3",
+          "sortOrder": 3,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-051/alk-051-04-gallery.jpg",
+          "type": "Gallery",
+          "alt": "White dome pendant light with antique brass finish (ALK-051) - image 4",
+          "sortOrder": 4,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-051/alk-051-05-gallery.jpg",
+          "type": "Gallery",
+          "alt": "White dome pendant light with antique brass finish (ALK-051) - image 5",
+          "sortOrder": 5,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-051/alk-051-06-gallery.jpg",
+          "type": "Gallery",
+          "alt": "White dome pendant light with antique brass finish (ALK-051) - image 6",
+          "sortOrder": 6,
+          "aspectRatio": "1 / 1"
+        }
+      ],
+      "qaNotes": "New listing (Aug 2026); INR 48899 (orig); USD approx; verify dims",
+      "status": "approved",
+      "featured": false,
+      "bestseller": false,
+      "sortOrder": 50
+    },
+    {
+      "sku": "ALK-052",
+      "slug": "industrial-yellow-enamel-sconce-antique-brass-farmhouse-wall-light-alk-052",
+      "title": "Industrial Yellow Enamel Sconce, Antique Brass Farmhouse Wall Light",
+      "originalTitle": "Industrial Yellow Enamel Sconce, Antique Brass Farmhouse Wall Light",
+      "metaDescription": "A handcrafted industrial wall sconce with a yellow enamel shade and antique brass fittings. A cheerful farmhouse-industrial accent for kitchens, entryways an...",
+      "description": "A handcrafted industrial wall sconce with a yellow enamel shade and antique brass fittings. A cheerful farmhouse-industrial accent for kitchens, entryways and workshops.",
+      "etsyUrl": "https://www.etsy.com/in-en/listing/4544296599/industrial-yellow-enamel-sconce-antique",
+      "priceUsd": 441,
+      "materials": [
+        "Brass",
+        "Enamel"
+      ],
+      "dimensions": {
+        "widthIn": 10,
+        "heightIn": 12,
+        "depthIn": null
+      },
+      "finishes": [
+        "Raw brass / Antique brass / Brushed brass (confirm options)"
+      ],
+      "bulbUs": "E12 / E26 (confirm)",
+      "bulbInternational": "E14 / E27 (confirm)",
+      "primaryCategory": "Lighting",
+      "styles": [
+        "Mid Century Modern"
+      ],
+      "rooms": [
+        "Kitchen",
+        "Entryway",
+        "Hallway"
+      ],
+      "features": [
+        "Handmade",
+        "natural materials"
+      ],
+      "handmadeNote": "Handmade to order",
+      "tags": [
+        "yellow enamel sconce",
+        "enamel wall light",
+        "industrial sconce",
+        "farmhouse light",
+        "antique brass sconce",
+        "brass wall light",
+        "vintage sconce",
+        "handmade lighting",
+        "kitchen sconce",
+        "wall lamp"
+      ],
+      "seoKeywords": [
+        "yellow enamel sconce",
+        "enamel wall light",
+        "industrial sconce",
+        "farmhouse light",
+        "antique brass sconce",
+        "brass wall light",
+        "vintage sconce",
+        "handmade lighting",
+        "kitchen sconce",
+        "wall lamp"
+      ],
+      "imageStatus": "Ready (Etsy live)",
+      "heroImage": "/assets/products/alk-052/alk-052-01-hero.jpg",
+      "heroImageAlt": "Industrial yellow enamel antique brass wall sconce (ALK-052) - image 1",
+      "galleryImages": [
+        {
+          "url": "/assets/products/alk-052/alk-052-01-hero.jpg",
+          "type": "Hero",
+          "alt": "Industrial yellow enamel antique brass wall sconce (ALK-052) - image 1",
+          "sortOrder": 1,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-052/alk-052-02-gallery.jpg",
+          "type": "Gallery",
+          "alt": "Industrial yellow enamel antique brass wall sconce (ALK-052) - image 2",
+          "sortOrder": 2,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-052/alk-052-03-gallery.jpg",
+          "type": "Gallery",
+          "alt": "Industrial yellow enamel antique brass wall sconce (ALK-052) - image 3",
+          "sortOrder": 3,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-052/alk-052-04-gallery.jpg",
+          "type": "Gallery",
+          "alt": "Industrial yellow enamel antique brass wall sconce (ALK-052) - image 4",
+          "sortOrder": 4,
+          "aspectRatio": "1 / 1"
+        },
+        {
+          "url": "/assets/products/alk-052/alk-052-05-gallery.jpg",
+          "type": "Gallery",
+          "alt": "Industrial yellow enamel antique brass wall sconce (ALK-052) - image 5",
+          "sortOrder": 5,
+          "aspectRatio": "1 / 1"
+        }
+      ],
+      "qaNotes": "New listing (Aug 2026); INR 38798 (orig); USD approx; verify dims",
+      "status": "approved",
+      "featured": false,
+      "bestseller": false,
+      "sortOrder": 51
     }
   ],
   "warnings": []

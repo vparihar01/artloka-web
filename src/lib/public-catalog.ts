@@ -1,12 +1,13 @@
 import type { Product } from "@/lib/catalog/schema";
-import { absoluteUrl, etsyUrlWithTracking, productPath } from "@/lib/seo";
+import { absoluteUrl, cleanProductTitle, etsyUrlWithTracking, productPath, productSearchPhrase } from "@/lib/seo";
 
 export function publicProduct(product: Product) {
   return {
     sku: product.sku,
-    name: product.title,
+    name: cleanProductTitle(product.title),
     url: absoluteUrl(productPath(product)),
     description: product.description,
+    discoveryPhrase: productSearchPhrase(product),
     category: product.primaryCategory,
     materials: product.materials,
     dimensionsInches: product.dimensions,

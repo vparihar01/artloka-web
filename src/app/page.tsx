@@ -3,8 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { ProductCard } from "@/components/product-card";
 import { getAllProducts, getFeaturedProducts } from "@/lib/catalog/load";
-import { absoluteUrl, pageMetadata } from "@/lib/seo";
-import { graphSchema, itemListSchema, organizationSchema, serializeJsonLd, websiteSchema } from "@/lib/schema";
+import { absoluteUrl, pageMetadata, slugifySegment } from "@/lib/seo";
+import { graphSchema, itemListSchema, organizationSchema, serializeJsonLd, webPageSchema, websiteSchema } from "@/lib/schema";
 
 export const metadata: Metadata = pageMetadata({
   title: "Handcrafted Indian Lighting and Decor for Modern Homes",
@@ -31,6 +31,11 @@ export default function HomePage() {
   const homeJsonLd = graphSchema([
       organizationSchema(),
       websiteSchema(),
+      webPageSchema({
+        path: "/",
+        name: "ArtLoka handcrafted lighting and decor",
+        description: "Product-led discovery for artisan-made lighting and decor with Etsy purchase routing and structured enquiries."
+      }),
       {
         "@type": "CollectionPage",
         "@id": absoluteUrl("/#home"),
@@ -106,7 +111,7 @@ export default function HomePage() {
         </div>
         <div className="grid gap-3 sm:grid-cols-2">
           {rooms.map((room) => (
-            <Link key={room} href={`/collections/${room.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`} className="group border border-[var(--border)] bg-[var(--surface)] px-5 py-5 transition hover:border-[var(--accent-dark)]">
+            <Link key={room} href={`/collections/${slugifySegment(room)}`} className="group border border-[var(--border)] bg-[var(--surface)] px-5 py-5 transition hover:border-[var(--accent-dark)]">
               <span className="text-sm uppercase tracking-[.12em] text-[var(--muted)]">Shop by room</span>
               <span className="display-font mt-2 block text-2xl capitalize group-hover:text-[var(--accent-dark)]">{room}</span>
             </Link>

@@ -7,7 +7,7 @@ import { ProductCard } from "@/components/product-card";
 import { getAllProducts, getProductBySlug } from "@/lib/catalog/load";
 import type { Product } from "@/lib/catalog/schema";
 import { etsyUrlWithTracking, productMetadata } from "@/lib/seo";
-import { breadcrumbSchema, graphSchema, organizationSchema, productSchema, serializeJsonLd } from "@/lib/schema";
+import { breadcrumbSchema, graphSchema, organizationSchema, productSchema, serializeJsonLd, webPageSchema, websiteSchema } from "@/lib/schema";
 
 export function generateStaticParams() {
   return getAllProducts({ includeReview: true }).map((product) => ({ slug: product.slug }));
@@ -44,6 +44,12 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
   const gallery = product.galleryImages.length ? product.galleryImages : [{ url: product.heroImage, alt: product.heroImageAlt ?? product.title, type: "Hero", sortOrder: 1, aspectRatio: "4 / 5" }];
   const productJsonLd = graphSchema([
     organizationSchema(),
+    websiteSchema(),
+    webPageSchema({
+      path: `/shop/${product.slug}`,
+      name: product.title,
+      description: product.metaDescription ?? product.description
+    }),
     breadcrumbSchema([
       { name: "Home", path: "/" },
       { name: "Shop", path: "/shop" },

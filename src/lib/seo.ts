@@ -15,6 +15,18 @@ export const siteConfig = {
   socialImage: "/images/artloka-logo-bg-w.png"
 };
 
+export const priorityMarkets = [
+  "United States",
+  "Canada",
+  "United Kingdom",
+  "Germany",
+  "France",
+  "Netherlands",
+  "Italy",
+  "Spain",
+  "Europe"
+] as const;
+
 export const productPath = (product: Pick<Product, "slug">) => `/shop/${product.slug}`;
 
 export function cleanProductTitle(title: string): string {
@@ -24,6 +36,54 @@ export function cleanProductTitle(title: string): string {
 export function absoluteUrl(path = ""): string {
   if (path.startsWith("http")) return path;
   return `${siteConfig.url}${path.startsWith("/") ? path : `/${path}`}`;
+}
+
+export function slugifySegment(value: string): string {
+  return value
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+export function titleCase(value: string): string {
+  return value.replace(/\b\w/g, (letter) => letter.toUpperCase());
+}
+
+export function excerpt(value: string, maxLength = 155): string {
+  const normalized = value.replace(/\s+/g, " ").trim();
+  if (normalized.length <= maxLength) return normalized;
+  const trimmed = normalized.slice(0, maxLength - 1);
+  const boundary = trimmed.lastIndexOf(" ");
+  return `${trimmed.slice(0, boundary > 80 ? boundary : trimmed.length)}...`;
+}
+
+export function productSearchPhrase(product: Product): string {
+  const material = product.materials[0];
+  const room = product.rooms[0];
+  return [material, room, product.primaryCategory.toLowerCase(), cleanProductTitle(product.title)].filter(Boolean).join(" ");
+}
+
+export function collectionMetadataText(label: string, products: Product[]): { title: string; description: string; keywords: string[] } {
+  const formatted = titleCase(label);
+  const materials = [...new Set(products.flatMap((product) => product.materials))].slice(0, 4);
+  const rooms = [...new Set(products.flatMap((product) => product.rooms))].slice(0, 4);
+  const categories = [...new Set(products.map((product) => product.primaryCategory))].slice(0, 3);
+  const detail = [materials.join(", "), rooms.join(", ")].filter(Boolean).join(" for ");
+
+  return {
+    title: `${formatted} Collection`,
+    description: excerpt(`Explore ArtLoka ${label} pieces${detail ? ` including ${detail}` : ""}. Compare handcrafted materials, dimensions, styling context and official Etsy purchase links.`),
+    keywords: [
+      `ArtLoka ${label}`,
+      `handcrafted ${label}`,
+      ...categories.map((category) => `${label} ${category}`),
+      ...materials.map((material) => `${material} ${label}`),
+      ...rooms.map((room) => `${label} for ${room}`)
+    ].filter(Boolean).slice(0, 18)
+  };
 }
 
 export function pageMetadata({
@@ -65,12 +125,13 @@ export function pageMetadata({
 
 export function productMetadata(product: Product): Metadata {
   const title = cleanProductTitle(product.title);
-  const description = product.metaDescription?.trim() || product.description.slice(0, 157).trim();
+  const description = product.metaDescription?.trim() || excerpt(product.description);
   const path = productPath(product);
   const image = product.galleryImages[0];
   const keywords = [
     title,
     product.sku,
+    productSearchPhrase(product),
     product.primaryCategory,
     ...product.materials,
     ...product.styles,
@@ -92,6 +153,10 @@ export function productMetadata(product: Product): Metadata {
       }],
       locale: "en_US",
       alternateLocale: ["en_GB", "en_CA"]
+    },
+    other: {
+      "product:retailer_item_id": product.sku,
+      "product:category": product.primaryCategory
     }
   };
 }
@@ -115,17 +180,7 @@ export function organizationJsonLd() {
     logo: absoluteUrl(siteConfig.logo),
     slogan: siteConfig.tagline,
     description: siteConfig.description,
-    areaServed: [
-      { "@type": "Country", name: "United States" },
-      { "@type": "Country", name: "Canada" },
-      { "@type": "Country", name: "United Kingdom" },
-      { "@type": "Country", name: "Germany" },
-      { "@type": "Country", name: "France" },
-      { "@type": "Country", name: "Netherlands" },
-      { "@type": "Country", name: "Italy" },
-      { "@type": "Country", name: "Spain" },
-      { "@type": "Continent", name: "Europe" }
-    ],
+    areaServed: priorityMarkets.map((name) => ({ "@type": name === "Europe" ? "Continent" : "Country", name })),
     knowsAbout: [
       "Indian craftsmanship",
       "handcrafted lighting",

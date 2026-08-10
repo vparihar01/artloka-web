@@ -14,6 +14,12 @@ test("catalog contains valid unique products", () => {
   assert.equal(new Set(catalog.products.map((product) => product.slug)).size, catalog.products.length);
 });
 
+test("product slugs preserve the SKU for stable search URLs", () => {
+  for (const product of catalog.products) {
+    assert.ok(product.slug.endsWith(product.sku.toLowerCase()), `${product.sku} slug should end with SKU`);
+  }
+});
+
 test("all products link to Etsy over HTTPS", () => {
   for (const product of catalog.products) {
     const url = new URL(product.etsyUrl);

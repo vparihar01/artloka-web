@@ -98,6 +98,12 @@ function slugify(value: string): string {
     .slice(0, 90);
 }
 
+function productSlug(title: string, sku: string): string {
+  const skuSegment = slugify(sku);
+  const titleSegment = slugify(title.replace(/\s*[–—|-]\s*ArtLoka\s*$/i, "")).slice(0, Math.max(30, 89 - skuSegment.length));
+  return `${titleSegment.replace(/-+$/g, "")}-${skuSegment}`;
+}
+
 function primaryCategory(title: string, style: string): string {
   const value = `${title} ${style}`.toLowerCase();
   if (/sconce|lamp|light|lighting|chandelier|pendant/.test(value)) return "Lighting";
@@ -239,7 +245,7 @@ async function main(): Promise<void> {
     if (!sku) return;
 
     const title = text((record["SEO Website Title"] || record["Original Etsy Title"] || sku) as SheetCell);
-    let slug = slugify(`${title.replace(/\s*[–—|-]\s*ArtLoka\s*$/i, "")} ${sku}`);
+    let slug = productSlug(title, sku);
     if (seenSlugs.has(slug)) slug = `${slug}-${rowNumber}`;
 
     const qaNotes = text(record["QA Notes / Flags"] as SheetCell);

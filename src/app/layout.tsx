@@ -72,6 +72,9 @@ export const metadata: Metadata = {
     title: "ArtLoka | Heritage Craftsmanship. Styled for Modern Living.",
     description: siteConfig.description,
     images: [absoluteUrl(siteConfig.socialImage)]
+  },
+  other: {
+    "p:domain_verify": "b97d8795c2b0fa0b15031fb574ef2f38"
   }
 };
 

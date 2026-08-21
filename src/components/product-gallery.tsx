@@ -25,7 +25,7 @@ export function ProductGallery({ images }: { images: GalleryImage[] }) {
           : "border-[var(--border)] hover:border-[var(--accent-dark)]"
       }`}
     >
-      <Image src={image.url} alt="" fill className="object-cover" sizes="80px" />
+      <Image src={image.url} alt="" fill className="object-cover" sizes="80px" quality={60} />
     </button>
   ));
 
@@ -49,7 +49,7 @@ export function ProductGallery({ images }: { images: GalleryImage[] }) {
           fill
           className="object-contain"
           priority
-          sizes="(max-width: 1024px) 100vw, 58vw"
+          sizes="(max-width: 767px) calc(100vw - 32px), (max-width: 1023px) calc(100vw - 64px), 760px"
         />
       </div>
 

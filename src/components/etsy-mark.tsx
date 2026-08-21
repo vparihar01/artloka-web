@@ -8,6 +8,7 @@ export function EtsyMark({ className = "h-5 w-5" }: { className?: string }) {
       aria-hidden="true"
       width={148}
       height={148}
+      unoptimized
       className={`${className} shrink-0 rounded-[3px] object-contain`}
     />
   );
